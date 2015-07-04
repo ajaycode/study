@@ -1,4 +1,6 @@
-__author__ = 'agummadi'
+__author__ = 'ajay'
+
+'''revision_class_4.py: generates problems corresponding to class 4 (CBSE) curriculum'''
 
 import random
 from fractions import Fraction
