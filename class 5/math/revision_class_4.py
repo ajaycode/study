@@ -1,6 +1,9 @@
 __author__ = 'ajay'
 
 '''revision_class_4.py: generates problems corresponding to class 4 (CBSE) curriculum'''
+"""This file generates a set of questions that serve as a revision of class 4 material"""
+"""Run python <filename.py> to get a list of questions and answers"."""
+"""Subsequent runs should result in newer questions"""
 
 import random
 from fractions import Fraction
