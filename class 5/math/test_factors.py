@@ -13,3 +13,7 @@ class TestFactors(TestCase):
         self.assertEqual(False,  is_prime(6))
         self.assertEqual(True,  is_prime(11))
         self.assertEqual(False, is_prime(4))
+        self.assertEqual([2, 19, 23], all_factors(874))
+        self.assertEqual([2, 2, 103], all_factors(412))
+        self.assertEqual(("Factors = [17, 19, 23, 29]. Product = 215441"), consecutive_primes(17, 4))
+        self.assertEqual(("Factors = [11, 13]. Product = 143"), consecutive_primes(11, 2))
