@@ -129,14 +129,37 @@ def multiples (number=0, number_of_multiples=0):
     return (multiple_list)
 
 def highest_common_factor (number_list=[]):
+    list_length  = len (number_list)
     if (len(number_list) == 0):
         list_length = random.randint(2,3)
+        logging.info ("list_length = {}.".format(list_length))
+        hcf = random.randint (5, 12)
         for i in range (0, list_length):
-            number_list[i] = random.randint (5, 100)
-    ordered_list = number_list.sort()
-    pass
+            logging.info ("index i : {}".format (i))
+            number_list.append(hcf * random.randint (2, 25))
+        logging.info ("Number_list = {}".format (number_list))
+    ordered_list = list(number_list)
+    ordered_list.sort()
+    logging.info ("ordered_list = {}".format (ordered_list))
+    numerator, denominator = ordered_list.pop (list_length -1), ordered_list.pop (list_length -2)
+    num_iterations = len (number_list) -1
 
-functions = [nearest_primes, list_primes, twin_primes, factors,  multiples, all_factors, consecutive_primes]
+    while (num_iterations > 0):
+        while (numerator % denominator != 0):
+            numerator, denominator = denominator, numerator % denominator
+            logging.info ("numerator = {}, denominator = {}, remainder = {}".format (numerator, denominator, numerator%denominator))
+        if (len(ordered_list) > 0):
+            numerator = ordered_list.pop ()
+        num_iterations = num_iterations - 1
+    print ("The HCF of {} is _____.".format (number_list))
+    answers.append (denominator)
+    return (denominator)
+
+
+
+
+functions = [nearest_primes, list_primes, twin_primes, factors,  multiples, all_factors, consecutive_primes, \
+             highest_common_factor]
 
 def squat ():
     print ("hello world")

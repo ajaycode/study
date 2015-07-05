@@ -17,3 +17,7 @@ class TestFactors(TestCase):
         self.assertEqual([2, 2, 103], all_factors(412))
         self.assertEqual(("Factors = [17, 19, 23, 29]. Product = 215441"), consecutive_primes(17, 4))
         self.assertEqual(("Factors = [11, 13]. Product = 143"), consecutive_primes(11, 2))
+        self.assertEqual(12, highest_common_factor([36, 48]))
+        self.assertEqual(6, highest_common_factor([24, 30, 90]))
+        self.assertEqual(1, highest_common_factor([13, 21, 17]))
+        self.assertEqual(4, highest_common_factor([72, 104, 92]))
