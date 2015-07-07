@@ -1,5 +1,6 @@
-__author__ = 'ajay'
+__author__ = 'Ajay'
 '''factors.py: Generates fractions related mathematical problems'''
+'''python <filename.py> will print all the questions, followed by a list of answers'''
 
 import random
 import logging
@@ -155,7 +156,16 @@ def highest_common_factor (number_list=[]):
     answers.append (denominator)
     return (denominator)
 
-
+def lcf_and_hcf (number_list=[]):
+    if (len(number_list) <= 3):
+        hcf = random.randint (7, 20)
+        for i in range (3):
+            number_list [i] = random.randint (30, 200)
+    lcm = _lowest_common_multiple (number_list)
+    hcf = _highest_common_factor (number_list)
+    print ("The LCM and HCF of {} are _____ and _______ respectively.".format (number_list))
+    answers.append ([lcm, hcf])
+    return (lcm, hcf)
 
 
 functions = [nearest_primes, list_primes, twin_primes, factors,  multiples, all_factors, consecutive_primes, \
