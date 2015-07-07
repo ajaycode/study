@@ -152,20 +152,31 @@ def _highest_common_factor (number_list=[]):
         if (len(ordered_list) > 0):
             numerator = ordered_list.pop ()
         num_iterations = num_iterations - 1
-    print ("The HCF of {} is _____.".format (number_list))
-    answers.append (denominator)
-    return (denominator)
+    #print ("The HCF of {} is _____.".format (number_list))
+    #answers.append (denominator)
+    return (number_list, denominator)
 
-def lcf_and_hcf (number_list=[]):
-    if (len(number_list) <= 3):
+def highest_common_factor (number_list=[]):
+    number_list, hcf = _highest_common_factor(number_list)
+    print ("The HCF of {} is ______.".format (number_list))
+    answers.append (hcf)
+    return (hcf)
+
+def _lowest_common_multiple (number_list=[]):
+    #TODO
+    pass
+
+def lcm_and_hcf (number_list=[]):
+    if (len(number_list) < 3):
         hcf = random.randint (7, 20)
         for i in range (3):
             number_list [i] = random.randint (30, 200)
-    lcm = _lowest_common_multiple (number_list)
-    hcf = _highest_common_factor (number_list)
+    #lcm = _lowest_common_multiple (number_list)
+    number_list, hcf = _highest_common_factor (number_list)
     print ("The LCM and HCF of {} are _____ and _______ respectively.".format (number_list))
-    answers.append ([lcm, hcf])
-    return (lcm, hcf)
+    answers.append (hcf)
+    #TODO
+    return (hcf)
 
 
 functions = [nearest_primes, list_primes, twin_primes, factors,  multiples, all_factors, consecutive_primes, \

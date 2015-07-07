@@ -21,3 +21,4 @@ class TestFactors(TestCase):
         self.assertEqual(6, highest_common_factor([24, 30, 90]))
         self.assertEqual(1, highest_common_factor([13, 21, 17]))
         self.assertEqual(4, highest_common_factor([72, 104, 92]))
+        self.assertEqual(4, lcm_and_hcf([72, 104, 92]))
