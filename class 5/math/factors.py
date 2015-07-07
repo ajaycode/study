@@ -128,7 +128,7 @@ def multiples (number=0, number_of_multiples=0):
     print ("The first {number_of_multiples} multiples of {number} are ____________".format (number_of_multiples=number_of_multiples, number=number))
     return (multiple_list)
 
-def highest_common_factor (number_list=[]):
+def _highest_common_factor (number_list=[]):
     list_length  = len (number_list)
     if (len(number_list) == 0):
         list_length = random.randint(2,3)
