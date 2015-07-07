@@ -26,3 +26,4 @@ class TestFactors(TestCase):
         self.assertEqual(1440, least_common_multiple([45,32,16]))
         self.assertEqual(5208, least_common_multiple([31,24,14]))
         self.assertEqual((1530, 34), lcm_and_hcf([306, 170, 170]))
+        self.assertEqual((6930, 9), lcm_and_hcf([90, 126, 99]))

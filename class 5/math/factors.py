@@ -186,8 +186,13 @@ def least_common_multiple (number_list=[]):
 def lcm_and_hcf (number_list=[]):
     if (len(number_list) < 3):
         hcf = random.randint (7, 20)
-        for i in range (3):
-            number_list.append(random.randint (9, 25) * hcf)
+        i = 0
+        while (i < 3):
+            number = random.randint (9, 25) * hcf
+            if (number not in number_list):
+                number_list.append(number)
+                i += 1
+
     number_list, lcm = _least_common_multiple (number_list)
     number_list, hcf = _highest_common_factor (number_list)
     print ("The LCM and HCF of {} are _____ and _______ respectively.".format (number_list))
