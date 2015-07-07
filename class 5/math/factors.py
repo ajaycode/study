@@ -162,7 +162,7 @@ def highest_common_factor (number_list=[]):
     answers.append (hcf)
     return (hcf)
 
-def _lowest_common_multiple (number_list=[]):
+def _least_common_multiple (number_list=[]):
     #TODO
     pass
 
@@ -171,7 +171,7 @@ def lcm_and_hcf (number_list=[]):
         hcf = random.randint (7, 20)
         for i in range (3):
             number_list [i] = random.randint (30, 200)
-    #lcm = _lowest_common_multiple (number_list)
+    #lcm = _least_common_multiple (number_list)
     number_list, hcf = _highest_common_factor (number_list)
     print ("The LCM and HCF of {} are _____ and _______ respectively.".format (number_list))
     answers.append (hcf)
