@@ -131,7 +131,7 @@ def multiples (number=0, number_of_multiples=0):
 
 def _highest_common_factor (number_list=[]):
     list_length  = len (number_list)
-    if (len(number_list) == 0):
+    if (len(number_list) <= 1):
         list_length = random.randint(2,3)
         logging.info ("list_length = {}.".format(list_length))
         hcf = random.randint (5, 12)
@@ -163,24 +163,40 @@ def highest_common_factor (number_list=[]):
     return (hcf)
 
 def _least_common_multiple (number_list=[]):
-    #TODO
-    pass
+    list_length = len (number_list)
+    if list_length <= 2:
+        list_length = 3
+        for i in range (3):
+            number_list.append(random.randint(11,50))
+    greatest = max (number_list)
+    while (True):
+        if (greatest % number_list[0] == 0) and (greatest % number_list [1] == 0) and (greatest % number_list[2] == 0):
+            lcm = greatest
+            break
+        greatest += 1
+    return (number_list, lcm)
+
+def least_common_multiple (number_list=[]):
+    number_list, lcm = _least_common_multiple(number_list)
+    print ("The LCM of {} is ____.".format (number_list))
+    answers.append(lcm)
+    return lcm
+
 
 def lcm_and_hcf (number_list=[]):
     if (len(number_list) < 3):
         hcf = random.randint (7, 20)
         for i in range (3):
-            number_list [i] = random.randint (30, 200)
-    #lcm = _least_common_multiple (number_list)
+            number_list.append(random.randint (9, 25) * hcf)
+    number_list, lcm = _least_common_multiple (number_list)
     number_list, hcf = _highest_common_factor (number_list)
     print ("The LCM and HCF of {} are _____ and _______ respectively.".format (number_list))
-    answers.append (hcf)
-    #TODO
-    return (hcf)
+    answers.append ([lcm,hcf])
+    return (lcm, hcf)
 
 
 functions = [nearest_primes, list_primes, twin_primes, factors,  multiples, all_factors, consecutive_primes, \
-             highest_common_factor]
+             highest_common_factor, least_common_multiple, lcm_and_hcf]
 
 def squat ():
     print ("hello world")
