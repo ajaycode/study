@@ -1,4 +1,4 @@
-# Practice Test Generator
+# Math Practice Test Generator
 
 The python files generate math related practice tests.  They are
 geared towards class 5 students in the CBSE system.
