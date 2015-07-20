@@ -12,7 +12,9 @@ from fractions import Fraction
 questions = []
 answers = []
 
-html_pre_context = r'<html> <head> <title> Quiz on fractions </title><script type="text/javascript" src = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" ></script> </head > <body> '
+html_pre_context = r'<html> <head> <title> Quiz on fractions </title>' + r'<script type="text/x-mathjax-config">MathJax.Hub.Config({' + \
+  r'tex2jax: {' + r"inlineMath: [ ['$','$'], ['\\(','\\)'] ]" + \
+  r'}' + r'})'+ r'</script><script type="text/javascript" src = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" ></script> </head > <body> '
 html_post_content = r'</body></html>'
 
 
@@ -23,7 +25,7 @@ def fractions_sum():
     fraction2_denominator = random.randint(1, 9) + fraction2_numerator
     answer = Fraction(fraction1_numerator, fraction1_denominator) + Fraction(fraction2_numerator, fraction2_denominator)
     #answers.append (answer)
-    question = "The sum of {}/{} and {}/{} is __________".format(fraction1_numerator, fraction1_denominator,
+    question = "The sum of {} and {}/{} is __________".format(r'$\frac {2}{9}$',
                                                                  fraction2_numerator, fraction2_denominator)
     return (question, answer)
 
@@ -45,11 +47,11 @@ def main():
 
     html_text = r'<ul>'
     for i in range(0, len(questions)):
-        html = "<li> {} </li>".format (question)
+        html = "<li> {} is {} </li>".format (question, r'$\frac {2}{9}$')
         html_text += html
 
         #print(answer)
-    html_text += r'$$\frac {2}{9}$$'
+    #html_text += r'$\frac {2}{9}$'
     html_text += r'</ul>'
     print ("{} {} {}".format(html_pre_context, html_text, html_post_content))
         #primes = [ _is_prime(x) for x in range (100)]
