@@ -5,6 +5,7 @@ __author__ = 'Ajay'
 import random
 import logging
 import os
+import uuid
 
 answers = []
 
@@ -93,7 +94,7 @@ def all_factors (number=0):
     question = "___"
     for i in range (0, len (factor_list) -1):
         question = "{} X ___ ".format (question)
-    question = "{} = {}, where each ____ is a prime number".format (question, input)
+    question = "{} = {}, where each number is a prime number".format (question, input)
     print (question)
     answers.append (factor_list)
     return (factor_list)
@@ -210,13 +211,16 @@ def squat ():
 
 
 def main ():
-    logging.basicConfig (format = '%(asctime)s - %(levelname)s - %(message)s', datefmt= '%Y%m%d %I:%M:%S %p',filename='class.log', level=logging.INFO)
+    logging.basicConfig (format = '%(asctime)s:%(levelname)s:%(funcName)s:%(message)s', datefmt= '%Y%m%d %I:%M:%S %p',filename='class.log', level=logging.INFO)
+    unique_id = uuid.uuid1(1)
+    print ("Question Paper # {}".format (str(unique_id)))
     #random.seed (os.urandom(5))
     for i in range (0, len(functions)):
         logging.info('Function : %s'%functions [i])
         f = functions [i]
         f ()
 
+    print ("Answer Key # {}".format (str(unique_id)))
     for i in range (0, len (answers)):
         print (i+1, answers[i])
     #primes = [ _is_prime(x) for x in range (100)]
