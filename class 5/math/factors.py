@@ -213,9 +213,38 @@ def lcm_and_hcf(number_list=[]):
     answers.append([lcm, hcf])
     return (lcm, hcf)
 
+def pole_spacing (triangle_lengths=[]):
+    if (len (triangle_lengths) < 3):
+        i = 0;
+        distance_between_poles = random.randint (5,12)
+        while i < 3:
+            triangle_lengths.append(random.randint(3,7) * distance_between_poles)
+            i += 1
+    triangle_lengths, distance_between_poles = _highest_common_factor(triangle_lengths)
+    print ("A triangular plot of land is being fenced.  The sides of the plot are {}m, {}m and {}m long."\
+           .format (triangle_lengths[0], triangle_lengths[1], triangle_lengths[2]),\
+            "What is the greatest whole number of meters apart the fence (poles) posts can be placed and equally spaced.")
+    answers.append ("{}m apart".format (distance_between_poles))
+    return (distance_between_poles)
+
+def stamp_distribution (stamp_count=[]):
+    if len(stamp_count) != 2:
+        number_of_members = random.randint (4, 9)
+        for i in range (0, 2):
+            stamp_count.append(number_of_members * random.randint(3, 8))
+    stamp_count, number_of_members = _highest_common_factor(stamp_count)
+    stamps_per_member_from_first_set = stamp_count[0]//number_of_members
+    stamps_per_member_from_second_set = stamp_count[1]//number_of_members
+    print ("Suppose a stamp club president equally distributes two different sets of stamps among club members.",\
+           "One set contains {} stamps and the other set contains {} stamps.".format (stamp_count[0], stamp_count[1]), \
+           "There are no stamps left undistributed.", "1. What is the greatest possible number of club members?", \
+           "2. How many stamps from each set will each person receive?")
+    answers.append ("1) {} members, 2) {} stamps from 1st set and {} stamps from 2nd set".format (number_of_members, stamps_per_member_from_first_set, stamps_per_member_from_second_set))
+    return (number_of_members, stamps_per_member_from_first_set, stamps_per_member_from_second_set)
+
 
 functions = [nearest_primes, list_primes, twin_primes, factors, multiples, all_factors, consecutive_primes, \
-             highest_common_factor, least_common_multiple, lcm_and_hcf]
+             highest_common_factor, least_common_multiple, lcm_and_hcf, pole_spacing, stamp_distribution]
 
 
 def squat():

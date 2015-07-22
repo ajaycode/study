@@ -28,3 +28,5 @@ class TestFactors(TestCase):
         self.assertEqual(46512, least_common_multiple([323,272,153]))
         self.assertEqual((1530, 34), lcm_and_hcf([306, 170, 170]))
         self.assertEqual((6930, 9), lcm_and_hcf([90, 126, 99]))
+        self.assertEqual(12, pole_spacing([60,36,84]))
+        self.assertEqual((8,3,2), stamp_distribution([24,16]))
