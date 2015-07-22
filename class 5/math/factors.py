@@ -242,9 +242,29 @@ def stamp_distribution (stamp_count=[]):
     answers.append ("1) {} members, 2) {} stamps from 1st set and {} stamps from 2nd set".format (number_of_members, stamps_per_member_from_first_set, stamps_per_member_from_second_set))
     return (number_of_members, stamps_per_member_from_first_set, stamps_per_member_from_second_set)
 
+def march_past (team_size=[]):
+    if len (team_size) != 2 or 0 in team_size:
+        people_per_row = random.randint(5,9)
+        for i in range (0,2):
+            team_size.append(people_per_row * random.randint(4,8))
+    print ("Two gymnastic teams are marching at an event. There are {} members on one team and {} on the other"\
+        .format (team_size[0], team_size[1]), "They are marching in rows of equal size that are as wide as possible.",\
+           "How many people are in each row?")
+    team_size, people_per_row = _highest_common_factor(team_size)
+    answers.append (people_per_row)
+    return people_per_row
+
+def building_age (age_last_year=5,age_this_year=3):
+    if 0 in (age_last_year, age_this_year):
+        pass
+    #TODO: Complete this
+    print ("A building\'s age this year is a multiple of {}. Last year ut ws a multiple of {}.".format(age_this_year, age_last_year),\
+           "It is less than {} years but more than {} years old.  What is the age of the building?".format (lower_limit, upper_limit))
+
 
 functions = [nearest_primes, list_primes, twin_primes, factors, multiples, all_factors, consecutive_primes, \
-             highest_common_factor, least_common_multiple, lcm_and_hcf, pole_spacing, stamp_distribution]
+             highest_common_factor, least_common_multiple, lcm_and_hcf, pole_spacing, stamp_distribution,\
+             march_past]
 
 
 def squat():

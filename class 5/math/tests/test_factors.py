@@ -30,3 +30,5 @@ class TestFactors(TestCase):
         self.assertEqual((6930, 9), lcm_and_hcf([90, 126, 99]))
         self.assertEqual(12, pole_spacing([60,36,84]))
         self.assertEqual((8,3,2), stamp_distribution([24,16]))
+        self.assertEqual((6,3,5), stamp_distribution([18,30]))
+        self.assertEqual(8, march_past([32, 40]))
