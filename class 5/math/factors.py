@@ -232,6 +232,7 @@ def main():
     # random.seed (os.urandom(5))
     for i in range(0, len(functions)):
         logging.info('Function : %s' % functions[i])
+        print ("{i}) ".format(i=i+1), end="")
         f = functions[i]
         f()
 
