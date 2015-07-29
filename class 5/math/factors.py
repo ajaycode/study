@@ -254,17 +254,29 @@ def march_past (team_size=[]):
     answers.append (people_per_row)
     return people_per_row
 
-def building_age (age_last_year=5,age_this_year=3):
-    if 0 in (age_last_year, age_this_year):
-        pass
+def building_age (age_this_year=0):
+    if age_this_year == 0:
+        non_primes = [x for x in range (50, 70) if not _is_prime(x) ]
+        #print (non_primes)
+        age_this_year = non_primes[random.randint (0, len(non_primes) -1)]
+        age_last_year = age_this_year - 1
+
+    #print ("Age this year = {}".format(age_this_year))
+    factors_age_this_year = all_factors(age_this_year)
+    factors_age_last_year = all_factors (age_last_year)
+    #print ("Factors: {} {}".format (factors_age_this_year, factors_age_last_year))
+    number_list, lcm = _least_common_multiple([age_this_year, age_last_year])
+    age_range = random.randint (5, 10)
     #TODO: Complete this
-    print ("A building\'s age this year is a multiple of {}. Last year ut ws a multiple of {}.".format(age_this_year, age_last_year),\
-           "It is less than {} years but more than {} years old.  What is the age of the building?".format (lower_limit, upper_limit))
+    print ("A building\'s age this year is a multiple of {}. Last year it was a multiple of {}.".format(factors_age_this_year[1], factors_age_last_year[1]),\
+           "It is less than {} years but more than {} years old.  What is the age of the building?".format (age_this_year + age_range, age_this_year - age_range))
+    answers.append (age_this_year)
+    return (age_this_year)
 
 
 functions = [nearest_primes, list_primes, twin_primes, factors, multiples, all_factors, consecutive_primes, \
              highest_common_factor, least_common_multiple, lcm_and_hcf, pole_spacing, stamp_distribution,\
-             march_past]
+             march_past, building_age]
 
 
 def squat():
