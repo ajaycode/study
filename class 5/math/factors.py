@@ -6,6 +6,7 @@ import random
 import logging
 import os
 import uuid
+from fractions import gcd
 
 answers = []
 names = ['Rahul', 'Ganpat', 'Gaurav', 'Gautam','Girish']
@@ -176,6 +177,11 @@ def highest_common_factor(number_list=[]):
 
 
 def _least_common_multiple(number_list=[]):
+    '''
+
+    :param number_list - finds the LCM of three numbers:
+    :return: the list of numbers and the LCM
+    '''
     list_length = len(number_list)
     if list_length <= 2:
         list_length = 3
@@ -255,16 +261,21 @@ def march_past (team_size=[]):
     return people_per_row
 
 def building_age (age_this_year=0):
+    age_last_year = age_this_year - 1
     if age_this_year == 0:
         non_primes = [x for x in range (50, 70) if not _is_prime(x) ]
-        #print (non_primes)
+        logging.info (non_primes)
         age_this_year = non_primes[random.randint (0, len(non_primes) -1)]
         age_last_year = age_this_year - 1
 
-    #print ("Age this year = {}".format(age_this_year))
+        while _is_prime(age_last_year):
+            age_this_year = non_primes[random.randint (0, len(non_primes) -1)]
+            age_last_year = age_this_year - 1
+
+    logging.info ("Age this year = {}".format(age_this_year))
     factors_age_this_year = all_factors(age_this_year)
     factors_age_last_year = all_factors (age_last_year)
-    #print ("Factors: {} {}".format (factors_age_this_year, factors_age_last_year))
+    logging.info ("Factors: {} {}".format (factors_age_this_year, factors_age_last_year))
     number_list, lcm = _least_common_multiple([age_this_year, age_last_year])
     age_range = random.randint (5, 10)
     #TODO: Complete this
@@ -275,7 +286,7 @@ def building_age (age_this_year=0):
 
 
 def _generate_unique_random_numbers (start=0, end=100, count=5):
-    if start >= end or count <= 1 or count > (end - start):
+    if (start >= end) or (count <= 1) or (count > (end - start)):
         return ()
     random_number_set = set()
     while count > 0:
@@ -284,18 +295,13 @@ def _generate_unique_random_numbers (start=0, end=100, count=5):
             random_number_set.add (element)
             count -= 1
     logging.info ("Set of random numbers: {}".format (random_number_set))
-    return random_number_set
+    return sorted (random_number_set)
 
 def chocolate_distribution (chocolates_per_friend = [], extra_chocolates=-1):
     person = names[random.randint(0,  len(names) -1)]
     if len (chocolates_per_friend) <3:
         chocolates_per_friend = list(_generate_unique_random_numbers(5, 10, 3))
-        '''
-        for i in range (3):
-            chocolates = random.randint (5, 10)
-            if (chocolates not in chocolates_per_friend):
-                chocolates_per_friend.append (random.randint (5,10))
-                '''
+
     logging.info ("Chocolates per friend {}".format (chocolates_per_friend))
     if extra_chocolates < 0:
         extra_chocolates = random.randint (4, 9)
@@ -304,16 +310,39 @@ def chocolate_distribution (chocolates_per_friend = [], extra_chocolates=-1):
         .format (person=person,choc1=chocolates_per_friend[0], choc2=chocolates_per_friend[1], choc3=chocolates_per_friend[2],\
                  extra=extra_chocolates))
     chocs, lcm = _least_common_multiple(chocolates_per_friend)
-    answers.append (lcm + extra_chocolates)
-    return (lcm + extra_chocolates)
+    num_friends = []
+    for i in range (len(chocolates_per_friend)):
+        num_friends.append(lcm // chocolates_per_friend[i])
+    answers.append ("Total chocolates : {}, number of friends: {}".format (lcm + extra_chocolates, num_friends))
+    return (lcm + extra_chocolates, chocolates_per_friend)
 
 
+def students_in_class (students_per_row=[]):
+    if len(students_per_row) < 4:
+        students_per_row = _generate_unique_random_numbers(5,18,4)
+    print ("Students in a class are made to stand in complete rows of {}, {}, {} or {} each.  What is the minimum number"\
+            " of students in that class?".format (students_per_row[0], students_per_row[1], students_per_row[2], students_per_row[3]))
+    students, lcm = _least_common_multiple(students_per_row)
+    answers.append(lcm)
+    return (lcm)
 
+def students_running_circles (circling_time=[]):
+    if len (circling_time) < 2:
+        circling_time = _generate_unique_random_numbers(7, 15, 2)
+    print ("Two boys run around a circular field. They can complete one circle in {} and {} seconds respectively.".format (circling_time[0], circling_time[1]),\
+            "If they start from a point together, find after what time will they be together again at the same point."\
+            "Also find how many rounds each of them will have completed by that time?")
+    lcm = (circling_time[0] * circling_time[1])//gcd(circling_time[0], circling_time[1])
+    rounds = []
+    for i in range (len(circling_time)):
+        rounds.append (lcm//circling_time[i])
+    answers.append("They meet at {} seconds.  They complete {} and {} rounds respectively.".format(lcm, rounds[0], rounds[1]))
+    return (lcm, rounds)
 
 
 functions = [nearest_primes, list_primes, twin_primes, factors, multiples, all_factors, consecutive_primes, \
              highest_common_factor, least_common_multiple, lcm_and_hcf, pole_spacing, stamp_distribution,\
-             march_past, building_age, chocolate_distribution]
+             march_past, building_age, chocolate_distribution, students_in_class, students_running_circles]
 
 
 def squat():
