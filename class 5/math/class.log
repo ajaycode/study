@@ -1,0 +1,2267 @@
+20150704 05:01:02 PM - INFO - Function : <function nearest_primes at 0x0237DA08>
+20150704 05:01:02 PM - INFO - Function : <function list_primes at 0x0237DB28>
+20150704 05:01:02 PM - INFO - Function : <function twin_primes at 0x0237DDF8>
+20150704 05:01:02 PM - INFO - Function : <function factors at 0x023DEDB0>
+20150704 05:01:02 PM - INFO - Function : <function multiples at 0x023DEDF8>
+20150704 05:04:18 PM - INFO - Function : <function nearest_primes at 0x022FDA08>
+20150704 05:04:18 PM - INFO - Function : <function list_primes at 0x022FDB28>
+20150704 05:04:18 PM - INFO - Function : <function twin_primes at 0x022FDDF8>
+20150704 05:04:18 PM - INFO - Function : <function factors at 0x0235CDB0>
+20150704 05:04:18 PM - INFO - Function : <function multiples at 0x0235CDF8>
+20150704 05:12:38 PM - INFO - Function : <function nearest_primes at 0x022949C0>
+20150704 05:12:38 PM - INFO - Function : <function list_primes at 0x02294AE0>
+20150704 05:12:38 PM - INFO - Function : <function twin_primes at 0x02294DB0>
+20150704 05:12:38 PM - INFO - Function : <function factors at 0x022EBD68>
+20150704 05:12:38 PM - INFO - Function : <function multiples at 0x022EBDB0>
+20150704 05:15:02 PM - INFO - Function : <function nearest_primes at 0x0240D9C0>
+20150704 05:15:10 PM - INFO - Function : <function nearest_primes at 0x0237D9C0>
+20150704 05:15:41 PM - INFO - Function : <function nearest_primes at 0x0239D9C0>
+20150704 05:15:52 PM - INFO - Function : <function nearest_primes at 0x0229D9C0>
+20150704 05:16:02 PM - INFO - Function : <function nearest_primes at 0x022CD9C0>
+20150704 05:16:13 PM - INFO - Function : <function nearest_primes at 0x0228D9C0>
+20150704 05:16:30 PM - INFO - Function : <function nearest_primes at 0x023149C0>
+20150704 05:16:30 PM - INFO - Function : <function list_primes at 0x02314AE0>
+20150704 05:16:30 PM - INFO - Function : <function twin_primes at 0x02314DB0>
+20150704 05:16:30 PM - INFO - Function : <function factors at 0x0236BD68>
+20150704 05:16:30 PM - INFO - Function : <function multiples at 0x0236BDB0>
+20150704 05:16:58 PM - INFO - Function : <function nearest_primes at 0x0234D9C0>
+20150704 05:24:28 PM - INFO - Function : <function nearest_primes at 0x023AEAE0>
+20150704 05:24:28 PM - INFO - Function : <function list_primes at 0x023AEDB0>
+20150704 05:24:28 PM - INFO - Function : <function twin_primes at 0x0240DD68>
+20150704 05:24:28 PM - INFO - Function : <function factors at 0x0240DDB0>
+20150704 05:24:28 PM - INFO - Function : <function multiples at 0x0240DDF8>
+20150704 05:37:13 PM - INFO - Function : <function nearest_primes at 0x022F2B28>
+20150704 05:37:13 PM - INFO - Function : <function list_primes at 0x022F2DF8>
+20150704 05:37:13 PM - INFO - Function : <function twin_primes at 0x0234EDB0>
+20150704 05:37:13 PM - INFO - Function : <function factors at 0x0234EDF8>
+20150704 05:37:13 PM - INFO - Function : <function multiples at 0x0234EE40>
+20150704 05:38:03 PM - INFO - Function : <function nearest_primes at 0x022ECB28>
+20150704 05:38:03 PM - INFO - Function : <function list_primes at 0x022ECDF8>
+20150704 05:38:03 PM - INFO - Function : <function twin_primes at 0x0234EDB0>
+20150704 05:38:03 PM - INFO - Function : <function factors at 0x0234EDF8>
+20150704 05:38:03 PM - INFO - Function : <function multiples at 0x0234EE40>
+20150704 05:38:11 PM - INFO - Function : <function nearest_primes at 0x023CEB28>
+20150704 05:38:11 PM - INFO - Function : <function list_primes at 0x023CEDF8>
+20150704 05:38:11 PM - INFO - Function : <function twin_primes at 0x0242CDB0>
+20150704 05:38:11 PM - INFO - Function : <function factors at 0x0242CDF8>
+20150704 05:38:11 PM - INFO - Function : <function multiples at 0x0242CE40>
+20150704 05:38:38 PM - INFO - Function : <function nearest_primes at 0x0231EB28>
+20150704 05:38:38 PM - INFO - Function : <function list_primes at 0x0231EDF8>
+20150704 05:38:38 PM - INFO - Function : <function twin_primes at 0x0237BDB0>
+20150704 05:38:38 PM - INFO - Function : <function factors at 0x0237BDF8>
+20150704 05:38:38 PM - INFO - Function : <function multiples at 0x0237BE40>
+20150704 05:53:19 PM - INFO - Question # 438
+20150704 05:53:19 PM - INFO - Question # 419
+20150704 05:53:19 PM - INFO - Question # 434
+20150704 05:53:19 PM - INFO - Question # 434
+20150704 05:53:19 PM - INFO - Question # 417
+20150704 05:53:19 PM - INFO - Question # 409
+20150704 05:53:19 PM - INFO - Question # 437
+20150704 05:53:19 PM - INFO - Question # 434
+20150704 05:53:19 PM - INFO - Question # 402
+20150704 05:53:19 PM - INFO - Question # 411
+20150704 05:53:19 PM - INFO - Question # 405
+20150704 05:53:19 PM - INFO - Question # 417
+20150704 05:53:19 PM - INFO - Question # 423
+20150704 05:53:19 PM - INFO - Question # 442
+20150704 05:53:19 PM - INFO - Question # 401
+20150704 05:53:19 PM - INFO - Question # 406
+20150704 05:53:19 PM - INFO - Question # 441
+20150704 05:53:19 PM - INFO - Question # 405
+20150704 05:53:19 PM - INFO - Question # 416
+20150704 05:53:19 PM - INFO - Question # 432
+20150704 05:53:19 PM - INFO - Question # 444
+20150704 10:26:42 PM - INFO - Function : <function nearest_primes at 0x022DCB28>
+20150704 10:26:42 PM - INFO - Function : <function list_primes at 0x022DCDF8>
+20150704 10:26:42 PM - INFO - Function : <function twin_primes at 0x0233CDB0>
+20150704 10:26:42 PM - INFO - Function : <function factors at 0x0233CDF8>
+20150704 10:26:42 PM - INFO - Function : <function multiples at 0x0233CE88>
+20150704 10:27:35 PM - INFO - Function : <function nearest_primes at 0x0226CB28>
+20150704 10:27:35 PM - INFO - Function : <function list_primes at 0x0226CDF8>
+20150704 10:27:35 PM - INFO - Function : <function twin_primes at 0x022CCDB0>
+20150704 10:27:35 PM - INFO - Function : <function factors at 0x022CCDF8>
+20150704 10:27:35 PM - INFO - Function : <function multiples at 0x022CCE88>
+20150704 10:37:42 PM - INFO - Function : <function nearest_primes at 0x022ECB70>
+20150704 10:37:42 PM - INFO - Function : <function list_primes at 0x022ECE40>
+20150704 10:37:42 PM - INFO - Function : <function twin_primes at 0x0234ADF8>
+20150704 10:37:42 PM - INFO - Function : <function factors at 0x0234AE40>
+20150704 10:37:42 PM - INFO - Function : <function all_factors at 0x0234AE88>
+20150704 10:38:52 PM - INFO - Function : <function nearest_primes at 0x0223DB70>
+20150704 10:38:52 PM - INFO - Function : <function list_primes at 0x0223DE40>
+20150704 10:38:52 PM - INFO - Function : <function twin_primes at 0x0229ADF8>
+20150704 10:38:52 PM - INFO - Function : <function factors at 0x0229AE40>
+20150704 10:38:52 PM - INFO - Function : <function all_factors at 0x0229AE88>
+20150704 10:38:52 PM - INFO - Function : <function multiples at 0x0229AED0>
+20150704 10:39:18 PM - INFO - Function : <function nearest_primes at 0x022A8B70>
+20150704 10:39:18 PM - INFO - Function : <function list_primes at 0x022A8E40>
+20150704 10:39:18 PM - INFO - Function : <function twin_primes at 0x0230ADF8>
+20150704 10:39:18 PM - INFO - Function : <function factors at 0x0230AE40>
+20150704 10:39:18 PM - INFO - Function : <function all_factors at 0x0230AE88>
+20150704 10:39:18 PM - INFO - Function : <function multiples at 0x0230AED0>
+20150704 10:40:47 PM - INFO - Function : <function nearest_primes at 0x02380B70>
+20150704 10:40:47 PM - INFO - Function : <function list_primes at 0x02380E40>
+20150704 10:40:47 PM - INFO - Function : <function twin_primes at 0x023DADF8>
+20150704 10:40:47 PM - INFO - Function : <function factors at 0x023DAE40>
+20150704 10:40:47 PM - INFO - Function : <function all_factors at 0x023DAE88>
+20150704 10:40:47 PM - INFO - Function : <function multiples at 0x023DAED0>
+20150704 10:43:40 PM - INFO - Function : <function nearest_primes at 0x0234BB70>
+20150704 10:43:40 PM - INFO - Function : <function list_primes at 0x0234BE40>
+20150704 10:43:40 PM - INFO - Function : <function twin_primes at 0x023AADF8>
+20150704 10:43:40 PM - INFO - Function : <function factors at 0x023AAE40>
+20150704 10:43:40 PM - INFO - Function : <function all_factors at 0x023AAE88>
+20150704 10:43:40 PM - INFO - Function : <function multiples at 0x023AAED0>
+20150704 10:44:29 PM - INFO - Function : <function nearest_primes at 0x0220BB70>
+20150704 10:44:29 PM - INFO - Function : <function list_primes at 0x0220BE40>
+20150704 10:44:29 PM - INFO - Function : <function twin_primes at 0x0226ADF8>
+20150704 10:44:29 PM - INFO - Function : <function factors at 0x0226AE40>
+20150704 10:44:29 PM - INFO - Function : <function all_factors at 0x0226AE88>
+20150704 10:44:29 PM - INFO - Function : <function multiples at 0x0226AED0>
+20150704 10:49:19 PM - INFO - Function : <function nearest_primes at 0x02348B70>
+20150704 10:49:19 PM - INFO - Function : <function list_primes at 0x02348E40>
+20150704 10:49:19 PM - INFO - Function : <function twin_primes at 0x023ABDF8>
+20150704 10:49:19 PM - INFO - Function : <function factors at 0x023ABE40>
+20150704 10:49:19 PM - INFO - Function : <function all_factors at 0x023ABE88>
+20150704 10:50:51 PM - INFO - Function : <function nearest_primes at 0x02228B70>
+20150704 10:50:51 PM - INFO - Function : <function list_primes at 0x02228E40>
+20150704 10:50:51 PM - INFO - Function : <function twin_primes at 0x0228BDF8>
+20150704 10:50:51 PM - INFO - Function : <function factors at 0x0228BE40>
+20150704 10:50:51 PM - INFO - Function : <function all_factors at 0x0228BE88>
+20150704 10:52:21 PM - INFO - Function : <function nearest_primes at 0x0224EB70>
+20150704 10:52:21 PM - INFO - Function : <function list_primes at 0x0224EE40>
+20150704 10:52:21 PM - INFO - Function : <function twin_primes at 0x022AADF8>
+20150704 10:52:21 PM - INFO - Function : <function factors at 0x022AAE40>
+20150704 10:52:21 PM - INFO - Function : <function all_factors at 0x022AAE88>
+20150704 10:53:40 PM - INFO - Function : <function nearest_primes at 0x022BDBB8>
+20150704 10:53:40 PM - INFO - Function : <function list_primes at 0x022BDE88>
+20150704 10:53:40 PM - INFO - Function : <function twin_primes at 0x0231AE40>
+20150704 10:53:40 PM - INFO - Function : <function factors at 0x0231AE88>
+20150704 10:53:40 PM - INFO - Function : <function all_factors at 0x0231AED0>
+20150704 10:53:40 PM - INFO - Function : <function multiples at 0x0231AF18>
+20150704 10:54:12 PM - INFO - Function : <function nearest_primes at 0x02329BB8>
+20150704 10:54:12 PM - INFO - Function : <function list_primes at 0x02329E88>
+20150704 10:54:12 PM - INFO - Function : <function twin_primes at 0x0238AE40>
+20150704 10:54:12 PM - INFO - Function : <function factors at 0x0238AE88>
+20150704 10:54:12 PM - INFO - Function : <function all_factors at 0x0238AED0>
+20150704 10:54:12 PM - INFO - Function : <function multiples at 0x0238AF18>
+20150704 10:54:25 PM - INFO - Function : <function nearest_primes at 0x022FEBB8>
+20150704 10:54:25 PM - INFO - Function : <function list_primes at 0x022FEE88>
+20150704 10:54:25 PM - INFO - Function : <function twin_primes at 0x0235AE40>
+20150704 10:54:25 PM - INFO - Function : <function factors at 0x0235AE88>
+20150704 10:54:25 PM - INFO - Function : <function all_factors at 0x0235AED0>
+20150704 10:54:25 PM - INFO - Function : <function multiples at 0x0235AF18>
+20150704 10:54:45 PM - INFO - Function : <function nearest_primes at 0x0234EBB8>
+20150704 10:54:45 PM - INFO - Function : <function list_primes at 0x0234EE88>
+20150704 10:54:45 PM - INFO - Function : <function twin_primes at 0x023AAE40>
+20150704 10:54:45 PM - INFO - Function : <function factors at 0x023AAE88>
+20150704 10:54:45 PM - INFO - Function : <function all_factors at 0x023AAED0>
+20150704 10:54:45 PM - INFO - Function : <function multiples at 0x023AAF18>
+20150704 10:55:10 PM - INFO - Function : <function nearest_primes at 0x022DEBB8>
+20150704 10:55:10 PM - INFO - Function : <function list_primes at 0x022DEE88>
+20150704 10:55:10 PM - INFO - Function : <function twin_primes at 0x0233AE40>
+20150704 10:55:10 PM - INFO - Function : <function factors at 0x0233AE88>
+20150704 10:55:10 PM - INFO - Function : <function all_factors at 0x0233AED0>
+20150704 10:55:23 PM - INFO - Function : <function nearest_primes at 0x0225EBB8>
+20150704 10:55:23 PM - INFO - Function : <function list_primes at 0x0225EE88>
+20150704 10:55:23 PM - INFO - Function : <function twin_primes at 0x022BAE40>
+20150704 10:55:23 PM - INFO - Function : <function factors at 0x022BAE88>
+20150704 10:55:23 PM - INFO - Function : <function all_factors at 0x022BAED0>
+20150704 10:55:23 PM - INFO - Function : <function multiples at 0x022BAF18>
+20150704 10:57:48 PM - INFO - Function : <function nearest_primes at 0x022FEBB8>
+20150704 10:57:48 PM - INFO - Function : <function list_primes at 0x022FEE88>
+20150704 10:57:48 PM - INFO - Function : <function twin_primes at 0x0235AE40>
+20150704 10:57:48 PM - INFO - Function : <function factors at 0x0235AE88>
+20150704 10:57:48 PM - INFO - Function : <function all_factors at 0x0235AED0>
+20150704 10:57:48 PM - INFO - Function : <function multiples at 0x0235AF18>
+20150704 10:58:51 PM - INFO - Function : <function nearest_primes at 0x022ADB70>
+20150704 10:58:51 PM - INFO - Function : <function list_primes at 0x022ADE40>
+20150704 10:58:51 PM - INFO - Function : <function twin_primes at 0x0230BDF8>
+20150704 10:58:51 PM - INFO - Function : <function factors at 0x0230BE40>
+20150704 10:58:51 PM - INFO - Function : <function all_factors at 0x0230BE88>
+20150704 10:58:51 PM - INFO - Function : <function multiples at 0x0230BED0>
+20150704 10:59:33 PM - INFO - Function : <function nearest_primes at 0x0233CB70>
+20150704 10:59:33 PM - INFO - Function : <function list_primes at 0x0233CE40>
+20150704 10:59:33 PM - INFO - Function : <function twin_primes at 0x0239BDF8>
+20150704 10:59:33 PM - INFO - Function : <function factors at 0x0239BE40>
+20150704 10:59:33 PM - INFO - Function : <function all_factors at 0x0239BE88>
+20150704 10:59:33 PM - INFO - Function : <function multiples at 0x0239BED0>
+20150704 11:00:28 PM - INFO - Function : <function nearest_primes at 0x02357B70>
+20150704 11:00:28 PM - INFO - Function : <function list_primes at 0x02357E40>
+20150704 11:00:28 PM - INFO - Function : <function twin_primes at 0x023BDDF8>
+20150704 11:00:28 PM - INFO - Function : <function factors at 0x023BDE40>
+20150704 11:00:28 PM - INFO - Function : <function all_factors at 0x023BDE88>
+20150704 11:00:28 PM - INFO - Function : <function multiples at 0x023BDED0>
+20150704 11:00:47 PM - INFO - Function : <function nearest_primes at 0x022ACB70>
+20150704 11:00:47 PM - INFO - Function : <function list_primes at 0x022ACE40>
+20150704 11:00:47 PM - INFO - Function : <function twin_primes at 0x0230BDF8>
+20150704 11:00:47 PM - INFO - Function : <function factors at 0x0230BE40>
+20150704 11:00:47 PM - INFO - Function : <function all_factors at 0x0230BE88>
+20150704 11:00:47 PM - INFO - Function : <function multiples at 0x0230BED0>
+20150704 11:00:59 PM - INFO - Function : <function nearest_primes at 0x0235CB70>
+20150704 11:00:59 PM - INFO - Function : <function list_primes at 0x0235CE40>
+20150704 11:00:59 PM - INFO - Function : <function twin_primes at 0x023BBDF8>
+20150704 11:00:59 PM - INFO - Function : <function factors at 0x023BBE40>
+20150704 11:00:59 PM - INFO - Function : <function all_factors at 0x023BBE88>
+20150704 11:00:59 PM - INFO - Function : <function multiples at 0x023BBED0>
+20150704 11:01:15 PM - INFO - Function : <function nearest_primes at 0x023C7B70>
+20150704 11:01:15 PM - INFO - Function : <function list_primes at 0x023C7E40>
+20150704 11:01:15 PM - INFO - Function : <function twin_primes at 0x0242CDF8>
+20150704 11:01:15 PM - INFO - Function : <function factors at 0x0242CE40>
+20150704 11:01:15 PM - INFO - Function : <function all_factors at 0x0242CE88>
+20150704 11:01:15 PM - INFO - Function : <function multiples at 0x0242CED0>
+20150704 11:01:29 PM - INFO - Function : <function nearest_primes at 0x022F7B70>
+20150704 11:01:29 PM - INFO - Function : <function list_primes at 0x022F7E40>
+20150704 11:01:29 PM - INFO - Function : <function twin_primes at 0x0235CDF8>
+20150704 11:01:29 PM - INFO - Function : <function factors at 0x0235CE40>
+20150704 11:01:29 PM - INFO - Function : <function all_factors at 0x0235CE88>
+20150704 11:01:29 PM - INFO - Function : <function multiples at 0x0235CED0>
+20150704 11:02:02 PM - INFO - Function : <function nearest_primes at 0x023DCB28>
+20150704 11:02:02 PM - INFO - Function : <function list_primes at 0x023DCDF8>
+20150704 11:02:02 PM - INFO - Function : <function twin_primes at 0x0243BDB0>
+20150704 11:02:02 PM - INFO - Function : <function factors at 0x0243BDF8>
+20150704 11:02:02 PM - INFO - Function : <function all_factors at 0x0243BE40>
+20150704 11:02:02 PM - INFO - Function : <function multiples at 0x0243BE88>
+20150704 11:03:40 PM - INFO - Function : <function nearest_primes at 0x021E9BB8>
+20150704 11:03:40 PM - INFO - Function : <function list_primes at 0x021E9E88>
+20150704 11:03:40 PM - INFO - Function : <function twin_primes at 0x0224BE40>
+20150704 11:03:40 PM - INFO - Function : <function factors at 0x0224BE88>
+20150704 11:03:40 PM - INFO - Function : <function all_factors at 0x0224BED0>
+20150704 11:03:40 PM - INFO - Function : <function multiples at 0x0224BF18>
+20150704 11:04:19 PM - INFO - Function : <function nearest_primes at 0x02369BB8>
+20150704 11:04:19 PM - INFO - Function : <function list_primes at 0x02369E88>
+20150704 11:04:19 PM - INFO - Function : <function twin_primes at 0x023CBE40>
+20150704 11:04:19 PM - INFO - Function : <function factors at 0x023CBE88>
+20150704 11:04:19 PM - INFO - Function : <function all_factors at 0x023CBED0>
+20150704 11:04:19 PM - INFO - Function : <function multiples at 0x023CBF18>
+20150704 11:06:56 PM - INFO - Function : <function nearest_primes at 0x0234CBB8>
+20150704 11:06:56 PM - INFO - Function : <function list_primes at 0x0234CE88>
+20150704 11:06:56 PM - INFO - Function : <function twin_primes at 0x023ABE40>
+20150704 11:06:56 PM - INFO - Function : <function factors at 0x023ABE88>
+20150704 11:06:56 PM - INFO - Function : <function all_factors at 0x023ABED0>
+20150704 11:06:56 PM - INFO - Function : <function multiples at 0x023ABF60>
+20150704 11:13:06 PM - INFO - Function : <function nearest_primes at 0x02580B70>
+20150704 11:13:06 PM - INFO - Function : <function list_primes at 0x02580E40>
+20150704 11:13:06 PM - INFO - Function : <function twin_primes at 0x025E0DF8>
+20150704 11:13:06 PM - INFO - Function : <function factors at 0x025E0E40>
+20150704 11:13:06 PM - INFO - Function : <function all_factors at 0x025E0E88>
+20150704 11:13:06 PM - INFO - Function : <function multiples at 0x025E0F18>
+20150704 11:13:35 PM - INFO - Function : <function nearest_primes at 0x022E2B70>
+20150704 11:13:35 PM - INFO - Function : <function list_primes at 0x022E2E40>
+20150704 11:13:35 PM - INFO - Function : <function twin_primes at 0x02342DF8>
+20150704 11:13:35 PM - INFO - Function : <function factors at 0x02342E40>
+20150704 11:13:35 PM - INFO - Function : <function multiples at 0x02342F18>
+20150704 11:13:35 PM - INFO - Function : <function all_factors at 0x02342E88>
+20150704 11:19:48 PM - INFO - Function : <function nearest_primes at 0x022A2B70>
+20150704 11:19:48 PM - INFO - Function : <function list_primes at 0x022A2E40>
+20150704 11:19:48 PM - INFO - Function : <function twin_primes at 0x02307DF8>
+20150704 11:19:48 PM - INFO - Function : <function factors at 0x02307E40>
+20150704 11:19:48 PM - INFO - Function : <function multiples at 0x02307F18>
+20150704 11:19:48 PM - INFO - Function : <function all_factors at 0x02307E88>
+20150704 11:20:11 PM - INFO - Function : <function nearest_primes at 0x0226EB70>
+20150704 11:20:11 PM - INFO - Function : <function list_primes at 0x0226EE40>
+20150704 11:20:11 PM - INFO - Function : <function twin_primes at 0x022CCDF8>
+20150704 11:20:11 PM - INFO - Function : <function factors at 0x022CCE40>
+20150704 11:20:11 PM - INFO - Function : <function multiples at 0x022CCF18>
+20150704 11:20:11 PM - INFO - Function : <function all_factors at 0x022CCE88>
+20150704 11:32:32 PM - INFO - Function : <function nearest_primes at 0x02320BB8>
+20150704 11:32:32 PM - INFO - Function : <function list_primes at 0x02320E88>
+20150704 11:32:32 PM - INFO - Function : <function twin_primes at 0x0237FE40>
+20150704 11:32:32 PM - INFO - Function : <function factors at 0x0237FE88>
+20150704 11:32:32 PM - INFO - Function : <function multiples at 0x0237FF60>
+20150704 11:32:32 PM - INFO - Function : <function all_factors at 0x0237FED0>
+20150704 11:32:32 PM - INFO - Function : <function consecutive_primes at 0x0237FF18>
+20150704 11:32:56 PM - INFO - Function : <function nearest_primes at 0x022A0BB8>
+20150704 11:32:56 PM - INFO - Function : <function list_primes at 0x022A0E88>
+20150704 11:32:56 PM - INFO - Function : <function twin_primes at 0x02302E40>
+20150704 11:32:56 PM - INFO - Function : <function factors at 0x02302E88>
+20150704 11:32:56 PM - INFO - Function : <function multiples at 0x02302F60>
+20150704 11:32:56 PM - INFO - Function : <function all_factors at 0x02302ED0>
+20150704 11:32:56 PM - INFO - Function : <function consecutive_primes at 0x02302F18>
+20150704 11:33:16 PM - INFO - Function : <function nearest_primes at 0x02281BB8>
+20150704 11:33:16 PM - INFO - Function : <function list_primes at 0x02281E88>
+20150704 11:33:16 PM - INFO - Function : <function twin_primes at 0x022E0E40>
+20150704 11:33:16 PM - INFO - Function : <function factors at 0x022E0E88>
+20150704 11:33:16 PM - INFO - Function : <function multiples at 0x022E0F60>
+20150704 11:33:16 PM - INFO - Function : <function all_factors at 0x022E0ED0>
+20150704 11:33:16 PM - INFO - Function : <function consecutive_primes at 0x022E0F18>
+20150704 11:35:10 PM - INFO - Function : <function nearest_primes at 0x022A0BB8>
+20150704 11:35:10 PM - INFO - Function : <function list_primes at 0x022A0E88>
+20150704 11:35:10 PM - INFO - Function : <function twin_primes at 0x022FFE40>
+20150704 11:35:10 PM - INFO - Function : <function factors at 0x022FFE88>
+20150704 11:35:10 PM - INFO - Function : <function multiples at 0x022FFF60>
+20150704 11:35:10 PM - INFO - Function : <function all_factors at 0x022FFED0>
+20150704 11:35:10 PM - INFO - Function : <function consecutive_primes at 0x022FFF18>
+20150704 11:35:28 PM - INFO - Function : <function nearest_primes at 0x02280BB8>
+20150704 11:35:28 PM - INFO - Function : <function list_primes at 0x02280E88>
+20150704 11:35:28 PM - INFO - Function : <function twin_primes at 0x022E2E40>
+20150704 11:35:28 PM - INFO - Function : <function factors at 0x022E2E88>
+20150704 11:35:28 PM - INFO - Function : <function multiples at 0x022E2F60>
+20150704 11:35:28 PM - INFO - Function : <function all_factors at 0x022E2ED0>
+20150704 11:35:28 PM - INFO - Function : <function consecutive_primes at 0x022E2F18>
+20150704 11:37:17 PM - INFO - Function : <function nearest_primes at 0x022F2BB8>
+20150704 11:37:17 PM - INFO - Function : <function list_primes at 0x022F2E88>
+20150704 11:37:17 PM - INFO - Function : <function twin_primes at 0x02351E40>
+20150704 11:37:17 PM - INFO - Function : <function factors at 0x02351E88>
+20150704 11:37:17 PM - INFO - Function : <function multiples at 0x02351F60>
+20150704 11:37:17 PM - INFO - Function : <function all_factors at 0x02351ED0>
+20150704 11:37:17 PM - INFO - Function : <function consecutive_primes at 0x02351F18>
+20150704 11:37:42 PM - INFO - Function : <function nearest_primes at 0x02230BB8>
+20150704 11:37:42 PM - INFO - Function : <function list_primes at 0x02230E88>
+20150704 11:37:42 PM - INFO - Function : <function twin_primes at 0x02292E40>
+20150704 11:37:42 PM - INFO - Function : <function factors at 0x02292E88>
+20150704 11:37:42 PM - INFO - Function : <function multiples at 0x02292F60>
+20150704 11:37:42 PM - INFO - Function : <function all_factors at 0x02292ED0>
+20150704 11:37:42 PM - INFO - Function : <function consecutive_primes at 0x02292F18>
+20150704 11:38:22 PM - INFO - Function : <function nearest_primes at 0x02272BB8>
+20150704 11:38:22 PM - INFO - Function : <function list_primes at 0x02272E88>
+20150704 11:38:22 PM - INFO - Function : <function twin_primes at 0x022CEE40>
+20150704 11:38:22 PM - INFO - Function : <function factors at 0x022CEE88>
+20150704 11:38:22 PM - INFO - Function : <function multiples at 0x022CEF60>
+20150704 11:38:22 PM - INFO - Function : <function all_factors at 0x022CEED0>
+20150704 11:38:22 PM - INFO - Function : <function consecutive_primes at 0x022CEF18>
+20150704 11:39:07 PM - INFO - Function : <function nearest_primes at 0x02370BB8>
+20150704 11:39:07 PM - INFO - Function : <function list_primes at 0x02370E88>
+20150704 11:39:07 PM - INFO - Function : <function twin_primes at 0x023D2E40>
+20150704 11:39:07 PM - INFO - Function : <function factors at 0x023D2E88>
+20150704 11:39:07 PM - INFO - Function : <function multiples at 0x023D2F60>
+20150704 11:39:07 PM - INFO - Function : <function all_factors at 0x023D2ED0>
+20150704 11:39:07 PM - INFO - Function : <function consecutive_primes at 0x023D2F18>
+20150704 11:39:12 PM - INFO - Function : <function nearest_primes at 0x0229CBB8>
+20150704 11:39:12 PM - INFO - Function : <function list_primes at 0x0229CE88>
+20150704 11:39:12 PM - INFO - Function : <function twin_primes at 0x02301E40>
+20150704 11:39:12 PM - INFO - Function : <function factors at 0x02301E88>
+20150704 11:39:12 PM - INFO - Function : <function multiples at 0x02301F60>
+20150704 11:39:12 PM - INFO - Function : <function all_factors at 0x02301ED0>
+20150704 11:39:12 PM - INFO - Function : <function consecutive_primes at 0x02301F18>
+20150705 10:27:03 PM - INFO - Function : <function nearest_primes at 0x023CCC00>
+20150705 10:27:03 PM - INFO - Function : <function list_primes at 0x023CCED0>
+20150705 10:27:03 PM - INFO - Function : <function twin_primes at 0x02403E88>
+20150705 10:27:03 PM - INFO - Function : <function factors at 0x02403ED0>
+20150705 10:27:03 PM - INFO - Function : <function multiples at 0x02403FA8>
+20150705 10:27:03 PM - INFO - Function : <function all_factors at 0x02403F18>
+20150705 10:27:03 PM - INFO - Function : <function consecutive_primes at 0x02403F60>
+20150705 10:27:03 PM - INFO - Function : <function highest_common_factor at 0x023E8030>
+20150705 10:29:24 PM - INFO - Function : <function nearest_primes at 0x02254C48>
+20150705 10:29:24 PM - INFO - Function : <function list_primes at 0x02254F18>
+20150705 10:29:24 PM - INFO - Function : <function twin_primes at 0x02286ED0>
+20150705 10:29:24 PM - INFO - Function : <function factors at 0x02286F18>
+20150705 10:29:24 PM - INFO - Function : <function multiples at 0x0226B030>
+20150705 10:29:24 PM - INFO - Function : <function all_factors at 0x02286F60>
+20150705 10:29:24 PM - INFO - Function : <function consecutive_primes at 0x02286FA8>
+20150705 10:29:24 PM - INFO - Function : <function highest_common_factor at 0x0226B078>
+20150705 10:29:24 PM - INFO - 3
+20150705 10:29:24 PM - INFO - 0
+20150705 10:31:34 PM - INFO - Function : <function nearest_primes at 0x0230DC00>
+20150705 10:31:34 PM - INFO - Function : <function list_primes at 0x0230DED0>
+20150705 10:31:34 PM - INFO - Function : <function twin_primes at 0x02348E88>
+20150705 10:31:34 PM - INFO - Function : <function factors at 0x02348ED0>
+20150705 10:31:34 PM - INFO - Function : <function multiples at 0x02348FA8>
+20150705 10:31:34 PM - INFO - Function : <function all_factors at 0x02348F18>
+20150705 10:31:34 PM - INFO - Function : <function consecutive_primes at 0x02348F60>
+20150705 10:31:34 PM - INFO - Function : <function highest_common_factor at 0x0232C030>
+20150705 10:31:34 PM - INFO - list_length = 2.
+20150705 10:31:34 PM - INFO - index i : 0
+20150705 10:32:45 PM - INFO - Function : <function nearest_primes at 0x022D0C00>
+20150705 10:32:45 PM - INFO - Function : <function list_primes at 0x022D0ED0>
+20150705 10:32:45 PM - INFO - Function : <function twin_primes at 0x02307E88>
+20150705 10:32:45 PM - INFO - Function : <function factors at 0x02307ED0>
+20150705 10:32:45 PM - INFO - Function : <function multiples at 0x02307FA8>
+20150705 10:32:45 PM - INFO - Function : <function all_factors at 0x02307F18>
+20150705 10:32:45 PM - INFO - Function : <function consecutive_primes at 0x02307F60>
+20150705 10:32:45 PM - INFO - Function : <function highest_common_factor at 0x022EC030>
+20150705 10:32:45 PM - INFO - list_length = 2.
+20150705 10:32:45 PM - INFO - index i : 0
+20150705 10:32:45 PM - INFO - index i : 1
+20150705 10:32:45 PM - INFO - Number_list = [70, 29]
+20150705 10:40:35 PM - INFO - Function : <function nearest_primes at 0x0231DC48>
+20150705 10:40:35 PM - INFO - Function : <function list_primes at 0x0231DF18>
+20150705 10:40:35 PM - INFO - Function : <function twin_primes at 0x02358ED0>
+20150705 10:40:35 PM - INFO - Function : <function factors at 0x02358F18>
+20150705 10:40:35 PM - INFO - Function : <function multiples at 0x0233C030>
+20150705 10:40:35 PM - INFO - Function : <function all_factors at 0x02358F60>
+20150705 10:40:35 PM - INFO - Function : <function consecutive_primes at 0x02358FA8>
+20150705 10:40:35 PM - INFO - Function : <function highest_common_factor at 0x0233C078>
+20150705 10:40:35 PM - INFO - list_length = 2.
+20150705 10:40:35 PM - INFO - index i : 0
+20150705 10:40:35 PM - INFO - index i : 1
+20150705 10:40:35 PM - INFO - Number_list = [58, 33]
+20150705 10:41:27 PM - INFO - Function : <function nearest_primes at 0x022F1C00>
+20150705 10:41:27 PM - INFO - Function : <function list_primes at 0x022F1ED0>
+20150705 10:41:27 PM - INFO - Function : <function twin_primes at 0x0232CE88>
+20150705 10:41:27 PM - INFO - Function : <function factors at 0x0232CED0>
+20150705 10:41:27 PM - INFO - Function : <function multiples at 0x0232CFA8>
+20150705 10:41:27 PM - INFO - Function : <function all_factors at 0x0232CF18>
+20150705 10:41:27 PM - INFO - Function : <function consecutive_primes at 0x0232CF60>
+20150705 10:41:27 PM - INFO - Function : <function highest_common_factor at 0x02310030>
+20150705 10:41:27 PM - INFO - list_length = 2.
+20150705 10:41:27 PM - INFO - index i : 0
+20150705 10:41:27 PM - INFO - index i : 1
+20150705 10:41:27 PM - INFO - Number_list = [19, 82]
+20150705 10:41:27 PM - INFO - ordered_list = None
+20150705 10:42:13 PM - INFO - Function : <function nearest_primes at 0x0233DC00>
+20150705 10:42:13 PM - INFO - Function : <function list_primes at 0x0233DED0>
+20150705 10:42:13 PM - INFO - Function : <function twin_primes at 0x02378E88>
+20150705 10:42:13 PM - INFO - Function : <function factors at 0x02378ED0>
+20150705 10:42:13 PM - INFO - Function : <function multiples at 0x02378FA8>
+20150705 10:42:13 PM - INFO - Function : <function all_factors at 0x02378F18>
+20150705 10:42:13 PM - INFO - Function : <function consecutive_primes at 0x02378F60>
+20150705 10:42:13 PM - INFO - Function : <function highest_common_factor at 0x0235C030>
+20150705 10:42:13 PM - INFO - list_length = 2.
+20150705 10:42:13 PM - INFO - index i : 0
+20150705 10:42:13 PM - INFO - index i : 1
+20150705 10:42:13 PM - INFO - Number_list = [26, 8]
+20150705 10:42:13 PM - INFO - ordered_list = [8, 26]
+20150705 10:44:52 PM - INFO - Function : <function nearest_primes at 0x022A1C00>
+20150705 10:44:52 PM - INFO - Function : <function list_primes at 0x022A1ED0>
+20150705 10:44:52 PM - INFO - Function : <function twin_primes at 0x022DCE88>
+20150705 10:44:52 PM - INFO - Function : <function factors at 0x022DCED0>
+20150705 10:44:52 PM - INFO - Function : <function multiples at 0x022DCFA8>
+20150705 10:44:52 PM - INFO - Function : <function all_factors at 0x022DCF18>
+20150705 10:44:52 PM - INFO - Function : <function consecutive_primes at 0x022DCF60>
+20150705 10:44:52 PM - INFO - Function : <function highest_common_factor at 0x022C1030>
+20150705 10:44:52 PM - INFO - list_length = 3.
+20150705 10:44:52 PM - INFO - index i : 0
+20150705 10:44:52 PM - INFO - index i : 1
+20150705 10:44:52 PM - INFO - index i : 2
+20150705 10:44:52 PM - INFO - Number_list = [17, 34, 47]
+20150705 10:44:52 PM - INFO - ordered_list = [17, 34, 47]
+20150705 10:47:06 PM - INFO - Function : <function nearest_primes at 0x022CDC00>
+20150705 10:47:06 PM - INFO - Function : <function list_primes at 0x022CDED0>
+20150705 10:47:06 PM - INFO - Function : <function twin_primes at 0x02308E88>
+20150705 10:47:06 PM - INFO - Function : <function factors at 0x02308ED0>
+20150705 10:47:06 PM - INFO - Function : <function multiples at 0x02308FA8>
+20150705 10:47:06 PM - INFO - Function : <function all_factors at 0x02308F18>
+20150705 10:47:06 PM - INFO - Function : <function consecutive_primes at 0x02308F60>
+20150705 10:47:06 PM - INFO - Function : <function highest_common_factor at 0x022ED030>
+20150705 10:47:06 PM - INFO - list_length = 2.
+20150705 10:47:06 PM - INFO - index i : 0
+20150705 10:47:06 PM - INFO - index i : 1
+20150705 10:47:06 PM - INFO - Number_list = [79, 71]
+20150705 10:47:06 PM - INFO - ordered_list = [71, 79]
+20150705 10:48:00 PM - INFO - Function : <function nearest_primes at 0x029FF150>
+20150705 10:48:00 PM - INFO - Function : <function list_primes at 0x029FF780>
+20150705 10:48:00 PM - INFO - Function : <function twin_primes at 0x02A20FA8>
+20150705 10:48:00 PM - INFO - Function : <function factors at 0x02A21030>
+20150705 10:48:00 PM - INFO - Function : <function multiples at 0x02A21108>
+20150705 10:48:00 PM - INFO - Function : <function all_factors at 0x02A21078>
+20150705 10:48:00 PM - INFO - Function : <function consecutive_primes at 0x02A210C0>
+20150705 10:48:00 PM - INFO - Function : <function highest_common_factor at 0x02A21150>
+20150705 10:48:00 PM - INFO - list_length = 2.
+20150705 10:48:00 PM - INFO - index i : 0
+20150705 10:48:00 PM - INFO - index i : 1
+20150705 10:48:00 PM - INFO - Number_list = [38, 31]
+20150705 10:48:41 PM - INFO - ordered_list = [31, 38]
+20150705 10:50:16 PM - INFO - Function : <function nearest_primes at 0x02ACF228>
+20150705 10:50:16 PM - INFO - Function : <function list_primes at 0x02ACF738>
+20150705 10:50:16 PM - INFO - Function : <function twin_primes at 0x02AF0F60>
+20150705 10:50:16 PM - INFO - Function : <function factors at 0x02AF0FA8>
+20150705 10:50:16 PM - INFO - Function : <function multiples at 0x02AF10C0>
+20150705 10:50:16 PM - INFO - Function : <function all_factors at 0x02AF1030>
+20150705 10:50:16 PM - INFO - Function : <function consecutive_primes at 0x02AF1078>
+20150705 10:50:16 PM - INFO - Function : <function highest_common_factor at 0x02AF1108>
+20150705 10:50:16 PM - INFO - list_length = 3.
+20150705 10:50:16 PM - INFO - index i : 0
+20150705 10:50:16 PM - INFO - index i : 1
+20150705 10:50:16 PM - INFO - index i : 2
+20150705 10:50:16 PM - INFO - Number_list = [50, 71, 43]
+20150705 10:50:26 PM - INFO - ordered_list = [43, 50, 71]
+20150705 10:51:17 PM - INFO - numerator = 50, denominator = 21, remainder = 8
+20150705 10:51:32 PM - INFO - numerator = 21, denominator = 8, remainder = 5
+20150705 10:51:52 PM - INFO - numerator = 8, denominator = 5, remainder = 3
+20150705 10:52:10 PM - INFO - numerator = 5, denominator = 3, remainder = 2
+20150705 10:52:33 PM - INFO - numerator = 3, denominator = 2, remainder = 1
+20150705 10:52:49 PM - INFO - numerator = 2, denominator = 1, remainder = 0
+20150705 10:56:09 PM - INFO - Function : <function nearest_primes at 0x02251BB8>
+20150705 10:56:09 PM - INFO - Function : <function list_primes at 0x02251E88>
+20150705 10:56:09 PM - INFO - Function : <function twin_primes at 0x0228CE40>
+20150705 10:56:09 PM - INFO - Function : <function factors at 0x0228CE88>
+20150705 10:56:09 PM - INFO - Function : <function multiples at 0x0228CF60>
+20150705 10:56:09 PM - INFO - Function : <function all_factors at 0x0228CED0>
+20150705 10:56:09 PM - INFO - Function : <function consecutive_primes at 0x0228CF18>
+20150705 10:56:09 PM - INFO - Function : <function highest_common_factor at 0x0228CFA8>
+20150705 10:56:09 PM - INFO - list_length = 2.
+20150705 10:56:09 PM - INFO - index i : 0
+20150705 10:56:09 PM - INFO - index i : 1
+20150705 10:56:09 PM - INFO - Number_list = [80, 18]
+20150705 10:56:09 PM - INFO - ordered_list = [18, 80]
+20150705 10:56:09 PM - INFO - numerator = 18, denominator = 8, remainder = 2
+20150705 10:56:09 PM - INFO - numerator = 8, denominator = 2, remainder = 0
+20150705 10:59:53 PM - INFO - Function : <function nearest_primes at 0x022ADBB8>
+20150705 10:59:53 PM - INFO - Function : <function list_primes at 0x022ADE88>
+20150705 10:59:53 PM - INFO - Function : <function twin_primes at 0x022E7E40>
+20150705 10:59:53 PM - INFO - Function : <function factors at 0x022E7E88>
+20150705 10:59:53 PM - INFO - Function : <function multiples at 0x022E7F60>
+20150705 10:59:53 PM - INFO - Function : <function all_factors at 0x022E7ED0>
+20150705 10:59:53 PM - INFO - Function : <function consecutive_primes at 0x022E7F18>
+20150705 10:59:53 PM - INFO - Function : <function highest_common_factor at 0x022E7FA8>
+20150705 10:59:53 PM - INFO - list_length = 3.
+20150705 10:59:53 PM - INFO - index i : 0
+20150705 10:59:53 PM - INFO - index i : 1
+20150705 10:59:53 PM - INFO - index i : 2
+20150705 10:59:53 PM - INFO - Number_list = [59, 49, 40]
+20150705 10:59:53 PM - INFO - ordered_list = [40, 49, 59]
+20150705 10:59:53 PM - INFO - numerator = 49, denominator = 10, remainder = 9
+20150705 10:59:53 PM - INFO - numerator = 10, denominator = 9, remainder = 1
+20150705 10:59:53 PM - INFO - numerator = 9, denominator = 1, remainder = 0
+20150705 11:02:19 PM - INFO - Function : <function nearest_primes at 0x0224FBB8>
+20150705 11:02:19 PM - INFO - Function : <function list_primes at 0x0224FE88>
+20150705 11:02:19 PM - INFO - Function : <function twin_primes at 0x02287E40>
+20150705 11:02:19 PM - INFO - Function : <function factors at 0x02287E88>
+20150705 11:02:19 PM - INFO - Function : <function multiples at 0x02287F60>
+20150705 11:02:19 PM - INFO - Function : <function all_factors at 0x02287ED0>
+20150705 11:02:19 PM - INFO - Function : <function consecutive_primes at 0x02287F18>
+20150705 11:02:19 PM - INFO - Function : <function highest_common_factor at 0x02287FA8>
+20150705 11:02:19 PM - INFO - list_length = 3.
+20150705 11:02:19 PM - INFO - index i : 0
+20150705 11:02:19 PM - INFO - index i : 1
+20150705 11:02:19 PM - INFO - index i : 2
+20150705 11:02:19 PM - INFO - Number_list = [84, 83, 92]
+20150705 11:02:19 PM - INFO - ordered_list = [83, 84, 92]
+20150705 11:02:19 PM - INFO - numerator = 84, denominator = 8, remainder = 4
+20150705 11:02:19 PM - INFO - numerator = 8, denominator = 4, remainder = 0
+20150705 11:02:19 PM - INFO - numerator = 4, denominator = 3, remainder = 1
+20150705 11:02:19 PM - INFO - numerator = 3, denominator = 1, remainder = 0
+20150705 11:02:25 PM - INFO - Function : <function nearest_primes at 0x0236FBB8>
+20150705 11:02:25 PM - INFO - Function : <function list_primes at 0x0236FE88>
+20150705 11:02:25 PM - INFO - Function : <function twin_primes at 0x023A8E40>
+20150705 11:02:25 PM - INFO - Function : <function factors at 0x023A8E88>
+20150705 11:02:25 PM - INFO - Function : <function multiples at 0x023A8F60>
+20150705 11:02:25 PM - INFO - Function : <function all_factors at 0x023A8ED0>
+20150705 11:02:25 PM - INFO - Function : <function consecutive_primes at 0x023A8F18>
+20150705 11:02:25 PM - INFO - Function : <function highest_common_factor at 0x023A8FA8>
+20150705 11:02:25 PM - INFO - list_length = 3.
+20150705 11:02:25 PM - INFO - index i : 0
+20150705 11:02:25 PM - INFO - index i : 1
+20150705 11:02:25 PM - INFO - index i : 2
+20150705 11:02:25 PM - INFO - Number_list = [73, 49, 31]
+20150705 11:02:25 PM - INFO - ordered_list = [31, 49, 73]
+20150705 11:02:25 PM - INFO - numerator = 49, denominator = 24, remainder = 1
+20150705 11:02:25 PM - INFO - numerator = 24, denominator = 1, remainder = 0
+20150705 11:02:29 PM - INFO - Function : <function nearest_primes at 0x022AFBB8>
+20150705 11:02:29 PM - INFO - Function : <function list_primes at 0x022AFE88>
+20150705 11:02:29 PM - INFO - Function : <function twin_primes at 0x022E7E40>
+20150705 11:02:29 PM - INFO - Function : <function factors at 0x022E7E88>
+20150705 11:02:29 PM - INFO - Function : <function multiples at 0x022E7F60>
+20150705 11:02:29 PM - INFO - Function : <function all_factors at 0x022E7ED0>
+20150705 11:02:29 PM - INFO - Function : <function consecutive_primes at 0x022E7F18>
+20150705 11:02:29 PM - INFO - Function : <function highest_common_factor at 0x022E7FA8>
+20150705 11:02:29 PM - INFO - list_length = 3.
+20150705 11:02:29 PM - INFO - index i : 0
+20150705 11:02:29 PM - INFO - index i : 1
+20150705 11:02:29 PM - INFO - index i : 2
+20150705 11:02:29 PM - INFO - Number_list = [25, 100, 27]
+20150705 11:02:29 PM - INFO - ordered_list = [25, 27, 100]
+20150705 11:02:29 PM - INFO - numerator = 27, denominator = 19, remainder = 8
+20150705 11:02:29 PM - INFO - numerator = 19, denominator = 8, remainder = 3
+20150705 11:02:29 PM - INFO - numerator = 8, denominator = 3, remainder = 2
+20150705 11:02:29 PM - INFO - numerator = 3, denominator = 2, remainder = 1
+20150705 11:02:29 PM - INFO - numerator = 2, denominator = 1, remainder = 0
+20150705 11:02:36 PM - INFO - Function : <function nearest_primes at 0x02243BB8>
+20150705 11:02:36 PM - INFO - Function : <function list_primes at 0x02243E88>
+20150705 11:02:36 PM - INFO - Function : <function twin_primes at 0x0227CE40>
+20150705 11:02:36 PM - INFO - Function : <function factors at 0x0227CE88>
+20150705 11:02:36 PM - INFO - Function : <function multiples at 0x0227CF60>
+20150705 11:02:36 PM - INFO - Function : <function all_factors at 0x0227CED0>
+20150705 11:02:36 PM - INFO - Function : <function consecutive_primes at 0x0227CF18>
+20150705 11:02:36 PM - INFO - Function : <function highest_common_factor at 0x0227CFA8>
+20150705 11:02:36 PM - INFO - list_length = 3.
+20150705 11:02:36 PM - INFO - index i : 0
+20150705 11:02:36 PM - INFO - index i : 1
+20150705 11:02:36 PM - INFO - index i : 2
+20150705 11:02:36 PM - INFO - Number_list = [68, 20, 97]
+20150705 11:02:36 PM - INFO - ordered_list = [20, 68, 97]
+20150705 11:02:36 PM - INFO - numerator = 68, denominator = 29, remainder = 10
+20150705 11:02:36 PM - INFO - numerator = 29, denominator = 10, remainder = 9
+20150705 11:02:36 PM - INFO - numerator = 10, denominator = 9, remainder = 1
+20150705 11:02:36 PM - INFO - numerator = 9, denominator = 1, remainder = 0
+20150705 11:04:36 PM - INFO - Function : <function nearest_primes at 0x0234FBB8>
+20150705 11:04:36 PM - INFO - Function : <function list_primes at 0x0234FE88>
+20150705 11:04:36 PM - INFO - Function : <function twin_primes at 0x02387E40>
+20150705 11:04:36 PM - INFO - Function : <function factors at 0x02387E88>
+20150705 11:04:36 PM - INFO - Function : <function multiples at 0x02387F60>
+20150705 11:04:36 PM - INFO - Function : <function all_factors at 0x02387ED0>
+20150705 11:04:36 PM - INFO - Function : <function consecutive_primes at 0x02387F18>
+20150705 11:04:36 PM - INFO - Function : <function highest_common_factor at 0x02387FA8>
+20150705 11:04:36 PM - INFO - list_length = 2.
+20150705 11:04:36 PM - INFO - index i : 0
+20150705 11:04:36 PM - INFO - index i : 1
+20150705 11:04:36 PM - INFO - Number_list = [28, 119]
+20150705 11:04:36 PM - INFO - ordered_list = [28, 119]
+20150705 11:04:36 PM - INFO - numerator = 28, denominator = 7, remainder = 0
+20150705 11:04:43 PM - INFO - Function : <function nearest_primes at 0x0223FBB8>
+20150705 11:04:43 PM - INFO - Function : <function list_primes at 0x0223FE88>
+20150705 11:04:43 PM - INFO - Function : <function twin_primes at 0x02277E40>
+20150705 11:04:43 PM - INFO - Function : <function factors at 0x02277E88>
+20150705 11:04:43 PM - INFO - Function : <function multiples at 0x02277F60>
+20150705 11:04:43 PM - INFO - Function : <function all_factors at 0x02277ED0>
+20150705 11:04:43 PM - INFO - Function : <function consecutive_primes at 0x02277F18>
+20150705 11:04:43 PM - INFO - Function : <function highest_common_factor at 0x02277FA8>
+20150705 11:04:43 PM - INFO - list_length = 3.
+20150705 11:04:43 PM - INFO - index i : 0
+20150705 11:04:43 PM - INFO - index i : 1
+20150705 11:04:43 PM - INFO - index i : 2
+20150705 11:04:43 PM - INFO - Number_list = [75, 40, 25]
+20150705 11:04:43 PM - INFO - ordered_list = [25, 40, 75]
+20150705 11:04:43 PM - INFO - numerator = 40, denominator = 35, remainder = 5
+20150705 11:04:43 PM - INFO - numerator = 35, denominator = 5, remainder = 0
+20150705 11:04:50 PM - INFO - Function : <function nearest_primes at 0x023D3BB8>
+20150705 11:04:50 PM - INFO - Function : <function list_primes at 0x023D3E88>
+20150705 11:04:50 PM - INFO - Function : <function twin_primes at 0x0240CE40>
+20150705 11:04:50 PM - INFO - Function : <function factors at 0x0240CE88>
+20150705 11:04:50 PM - INFO - Function : <function multiples at 0x0240CF60>
+20150705 11:04:50 PM - INFO - Function : <function all_factors at 0x0240CED0>
+20150705 11:04:50 PM - INFO - Function : <function consecutive_primes at 0x0240CF18>
+20150705 11:04:50 PM - INFO - Function : <function highest_common_factor at 0x0240CFA8>
+20150705 11:04:50 PM - INFO - list_length = 2.
+20150705 11:04:50 PM - INFO - index i : 0
+20150705 11:04:50 PM - INFO - index i : 1
+20150705 11:04:50 PM - INFO - Number_list = [80, 170]
+20150705 11:04:50 PM - INFO - ordered_list = [80, 170]
+20150705 11:04:50 PM - INFO - numerator = 80, denominator = 10, remainder = 0
+20150705 11:08:29 PM - INFO - Function : <function nearest_primes at 0x022F3C00>
+20150705 11:08:29 PM - INFO - Function : <function list_primes at 0x022F3ED0>
+20150705 11:08:29 PM - INFO - Function : <function twin_primes at 0x0232CE88>
+20150705 11:08:29 PM - INFO - Function : <function factors at 0x0232CED0>
+20150705 11:08:29 PM - INFO - Function : <function multiples at 0x0232CFA8>
+20150705 11:08:29 PM - INFO - Function : <function all_factors at 0x0232CF18>
+20150705 11:08:29 PM - INFO - Function : <function consecutive_primes at 0x0232CF60>
+20150705 11:08:29 PM - INFO - Function : <function highest_common_factor at 0x02311030>
+20150705 11:08:29 PM - INFO - list_length = 3.
+20150705 11:08:29 PM - INFO - index i : 0
+20150705 11:08:29 PM - INFO - index i : 1
+20150705 11:08:29 PM - INFO - index i : 2
+20150705 11:08:29 PM - INFO - Number_list = [125, 125, 35]
+20150705 11:08:29 PM - INFO - ordered_list = [35, 125, 125]
+20150705 11:08:29 PM - INFO - numerator = 125, denominator = 35, remainder = 20
+20150705 11:08:29 PM - INFO - numerator = 35, denominator = 20, remainder = 15
+20150705 11:08:29 PM - INFO - numerator = 20, denominator = 15, remainder = 5
+20150705 11:08:29 PM - INFO - numerator = 15, denominator = 5, remainder = 0
+20150705 11:08:36 PM - INFO - Function : <function nearest_primes at 0x0227FC00>
+20150705 11:08:36 PM - INFO - Function : <function list_primes at 0x0227FED0>
+20150705 11:08:36 PM - INFO - Function : <function twin_primes at 0x022B8E88>
+20150705 11:08:36 PM - INFO - Function : <function factors at 0x022B8ED0>
+20150705 11:08:36 PM - INFO - Function : <function multiples at 0x022B8FA8>
+20150705 11:08:36 PM - INFO - Function : <function all_factors at 0x022B8F18>
+20150705 11:08:36 PM - INFO - Function : <function consecutive_primes at 0x022B8F60>
+20150705 11:08:36 PM - INFO - Function : <function highest_common_factor at 0x0229D030>
+20150705 11:08:36 PM - INFO - list_length = 3.
+20150705 11:08:36 PM - INFO - index i : 0
+20150705 11:08:36 PM - INFO - index i : 1
+20150705 11:08:36 PM - INFO - index i : 2
+20150705 11:08:36 PM - INFO - Number_list = [85, 75, 125]
+20150705 11:08:36 PM - INFO - ordered_list = [75, 85, 125]
+20150705 11:08:36 PM - INFO - numerator = 85, denominator = 40, remainder = 5
+20150705 11:08:36 PM - INFO - numerator = 40, denominator = 5, remainder = 0
+20150705 11:10:58 PM - INFO - Function : <function nearest_primes at 0x0236FC00>
+20150705 11:10:58 PM - INFO - Function : <function list_primes at 0x0236FED0>
+20150705 11:10:58 PM - INFO - Function : <function twin_primes at 0x023A8E88>
+20150705 11:10:58 PM - INFO - Function : <function factors at 0x023A8ED0>
+20150705 11:10:58 PM - INFO - Function : <function multiples at 0x023A8FA8>
+20150705 11:10:58 PM - INFO - Function : <function all_factors at 0x023A8F18>
+20150705 11:10:58 PM - INFO - Function : <function consecutive_primes at 0x023A8F60>
+20150705 11:10:58 PM - INFO - Function : <function highest_common_factor at 0x0238D030>
+20150705 11:10:58 PM - INFO - list_length = 2.
+20150705 11:10:58 PM - INFO - index i : 0
+20150705 11:10:58 PM - INFO - index i : 1
+20150705 11:10:58 PM - INFO - Number_list = [42, 133]
+20150705 11:10:58 PM - INFO - ordered_list = [42, 133]
+20150705 11:10:58 PM - INFO - numerator = 42, denominator = 7, remainder = 0
+20150705 11:11:07 PM - INFO - Function : <function nearest_primes at 0x0230FC00>
+20150705 11:11:07 PM - INFO - Function : <function list_primes at 0x0230FED0>
+20150705 11:11:07 PM - INFO - Function : <function twin_primes at 0x02348E88>
+20150705 11:11:07 PM - INFO - Function : <function factors at 0x02348ED0>
+20150705 11:11:07 PM - INFO - Function : <function multiples at 0x02348FA8>
+20150705 11:11:07 PM - INFO - Function : <function all_factors at 0x02348F18>
+20150705 11:11:07 PM - INFO - Function : <function consecutive_primes at 0x02348F60>
+20150705 11:11:07 PM - INFO - Function : <function highest_common_factor at 0x0232D030>
+20150705 11:11:07 PM - INFO - list_length = 2.
+20150705 11:11:07 PM - INFO - index i : 0
+20150705 11:11:07 PM - INFO - index i : 1
+20150705 11:11:07 PM - INFO - Number_list = [252, 60]
+20150705 11:11:07 PM - INFO - ordered_list = [60, 252]
+20150705 11:11:07 PM - INFO - numerator = 60, denominator = 12, remainder = 0
+20150705 11:11:14 PM - INFO - Function : <function nearest_primes at 0x02313C00>
+20150705 11:11:14 PM - INFO - Function : <function list_primes at 0x02313ED0>
+20150705 11:11:14 PM - INFO - Function : <function twin_primes at 0x0234CE88>
+20150705 11:11:14 PM - INFO - Function : <function factors at 0x0234CED0>
+20150705 11:11:14 PM - INFO - Function : <function multiples at 0x0234CFA8>
+20150705 11:11:14 PM - INFO - Function : <function all_factors at 0x0234CF18>
+20150705 11:11:14 PM - INFO - Function : <function consecutive_primes at 0x0234CF60>
+20150705 11:11:14 PM - INFO - Function : <function highest_common_factor at 0x02331030>
+20150705 11:11:14 PM - INFO - list_length = 3.
+20150705 11:11:14 PM - INFO - index i : 0
+20150705 11:11:14 PM - INFO - index i : 1
+20150705 11:11:14 PM - INFO - index i : 2
+20150705 11:11:14 PM - INFO - Number_list = [77, 176, 99]
+20150705 11:11:14 PM - INFO - ordered_list = [77, 99, 176]
+20150705 11:11:14 PM - INFO - numerator = 99, denominator = 77, remainder = 22
+20150705 11:11:14 PM - INFO - numerator = 77, denominator = 22, remainder = 11
+20150705 11:11:14 PM - INFO - numerator = 22, denominator = 11, remainder = 0
+20150705 11:11:21 PM - INFO - Function : <function nearest_primes at 0x021E3C00>
+20150705 11:11:21 PM - INFO - Function : <function list_primes at 0x021E3ED0>
+20150705 11:11:21 PM - INFO - Function : <function twin_primes at 0x0221CE88>
+20150705 11:11:21 PM - INFO - Function : <function factors at 0x0221CED0>
+20150705 11:11:21 PM - INFO - Function : <function multiples at 0x0221CFA8>
+20150705 11:11:21 PM - INFO - Function : <function all_factors at 0x0221CF18>
+20150705 11:11:21 PM - INFO - Function : <function consecutive_primes at 0x0221CF60>
+20150705 11:11:21 PM - INFO - Function : <function highest_common_factor at 0x02201030>
+20150705 11:11:21 PM - INFO - list_length = 3.
+20150705 11:11:21 PM - INFO - index i : 0
+20150705 11:11:21 PM - INFO - index i : 1
+20150705 11:11:21 PM - INFO - index i : 2
+20150705 11:11:21 PM - INFO - Number_list = [72, 162, 171]
+20150705 11:11:21 PM - INFO - ordered_list = [72, 162, 171]
+20150705 11:11:21 PM - INFO - numerator = 162, denominator = 9, remainder = 0
+20150707 10:29:22 PM - INFO - Function : <function nearest_primes at 0x02451C90>
+20150707 10:29:22 PM - INFO - Function : <function list_primes at 0x02451F60>
+20150707 10:29:22 PM - INFO - Function : <function twin_primes at 0x02483F18>
+20150707 10:29:22 PM - INFO - Function : <function factors at 0x02483F60>
+20150707 10:29:22 PM - INFO - Function : <function multiples at 0x0246A078>
+20150707 10:29:22 PM - INFO - Function : <function all_factors at 0x02483FA8>
+20150707 10:29:22 PM - INFO - Function : <function consecutive_primes at 0x0246A030>
+20150707 10:29:22 PM - INFO - Function : <function highest_common_factor at 0x0246A108>
+20150707 10:29:22 PM - INFO - list_length = 2.
+20150707 10:29:22 PM - INFO - index i : 0
+20150707 10:29:22 PM - INFO - index i : 1
+20150707 10:29:22 PM - INFO - Number_list = [138, 96]
+20150707 10:29:22 PM - INFO - ordered_list = [96, 138]
+20150707 10:29:22 PM - INFO - numerator = 96, denominator = 42, remainder = 12
+20150707 10:29:22 PM - INFO - numerator = 42, denominator = 12, remainder = 6
+20150707 10:29:22 PM - INFO - numerator = 12, denominator = 6, remainder = 0
+20150707 10:36:19 PM - INFO - Function : <function nearest_primes at 0x02293C48>
+20150707 10:36:19 PM - INFO - Function : <function list_primes at 0x02293F18>
+20150707 10:36:19 PM - INFO - Function : <function twin_primes at 0x022C5ED0>
+20150707 10:36:19 PM - INFO - Function : <function factors at 0x022C5F18>
+20150707 10:36:19 PM - INFO - Function : <function multiples at 0x022A8030>
+20150707 10:36:19 PM - INFO - Function : <function all_factors at 0x022C5F60>
+20150707 10:36:19 PM - INFO - Function : <function consecutive_primes at 0x022C5FA8>
+20150707 10:36:19 PM - INFO - Function : <function highest_common_factor at 0x022A80C0>
+20150707 10:36:19 PM - INFO - list_length = 3.
+20150707 10:36:19 PM - INFO - index i : 0
+20150707 10:36:19 PM - INFO - index i : 1
+20150707 10:36:19 PM - INFO - index i : 2
+20150707 10:36:19 PM - INFO - Number_list = [190, 200, 100]
+20150707 10:36:19 PM - INFO - ordered_list = [100, 190, 200]
+20150707 10:36:19 PM - INFO - numerator = 190, denominator = 10, remainder = 0
+20150707 11:10:48 PM - INFO - Function : <function nearest_primes at 0x02226C90>
+20150707 11:10:48 PM - INFO - Function : <function list_primes at 0x02226F60>
+20150707 11:10:48 PM - INFO - Function : <function twin_primes at 0x02254F18>
+20150707 11:10:48 PM - INFO - Function : <function factors at 0x02254F60>
+20150707 11:10:48 PM - INFO - Function : <function multiples at 0x02236078>
+20150707 11:10:48 PM - INFO - Function : <function all_factors at 0x02254FA8>
+20150707 11:10:48 PM - INFO - Function : <function consecutive_primes at 0x02236030>
+20150707 11:10:48 PM - INFO - Function : <function highest_common_factor at 0x02236108>
+20150707 11:10:48 PM - INFO - list_length = 2.
+20150707 11:10:48 PM - INFO - index i : 0
+20150707 11:10:48 PM - INFO - index i : 1
+20150707 11:10:48 PM - INFO - Number_list = [114, 42]
+20150707 11:10:48 PM - INFO - ordered_list = [42, 114]
+20150707 11:10:48 PM - INFO - numerator = 42, denominator = 30, remainder = 12
+20150707 11:10:48 PM - INFO - numerator = 30, denominator = 12, remainder = 6
+20150707 11:10:48 PM - INFO - numerator = 12, denominator = 6, remainder = 0
+20150707 11:11:11 PM - INFO - Function : <function nearest_primes at 0x02242C90>
+20150707 11:11:11 PM - INFO - Function : <function list_primes at 0x02242F60>
+20150707 11:11:11 PM - INFO - Function : <function twin_primes at 0x02271F18>
+20150707 11:11:11 PM - INFO - Function : <function factors at 0x02271F60>
+20150707 11:11:11 PM - INFO - Function : <function multiples at 0x02253078>
+20150707 11:11:11 PM - INFO - Function : <function all_factors at 0x02271FA8>
+20150707 11:11:11 PM - INFO - Function : <function consecutive_primes at 0x02253030>
+20150707 11:11:11 PM - INFO - Function : <function highest_common_factor at 0x02253108>
+20150707 11:11:11 PM - INFO - list_length = 2.
+20150707 11:11:11 PM - INFO - index i : 0
+20150707 11:11:11 PM - INFO - index i : 1
+20150707 11:11:11 PM - INFO - Number_list = [78, 18]
+20150707 11:11:11 PM - INFO - ordered_list = [18, 78]
+20150707 11:11:11 PM - INFO - numerator = 18, denominator = 6, remainder = 0
+20150707 11:11:11 PM - INFO - Function : <function least_common_multiple at 0x02253198>
+20150707 11:11:56 PM - INFO - Function : <function nearest_primes at 0x022E2CD8>
+20150707 11:11:56 PM - INFO - Function : <function list_primes at 0x022E2FA8>
+20150707 11:11:56 PM - INFO - Function : <function twin_primes at 0x02311F60>
+20150707 11:11:56 PM - INFO - Function : <function factors at 0x02311FA8>
+20150707 11:11:56 PM - INFO - Function : <function multiples at 0x022F30C0>
+20150707 11:11:56 PM - INFO - Function : <function all_factors at 0x022F3030>
+20150707 11:11:56 PM - INFO - Function : <function consecutive_primes at 0x022F3078>
+20150707 11:11:56 PM - INFO - Function : <function highest_common_factor at 0x022F3150>
+20150707 11:11:56 PM - INFO - list_length = 2.
+20150707 11:11:56 PM - INFO - index i : 0
+20150707 11:11:56 PM - INFO - index i : 1
+20150707 11:11:56 PM - INFO - Number_list = [36, 225]
+20150707 11:11:56 PM - INFO - ordered_list = [36, 225]
+20150707 11:11:56 PM - INFO - numerator = 36, denominator = 9, remainder = 0
+20150707 11:11:56 PM - INFO - Function : <function least_common_multiple at 0x022F31E0>
+20150707 11:15:32 PM - INFO - Function : <function nearest_primes at 0x02276D20>
+20150707 11:15:32 PM - INFO - Function : <function list_primes at 0x0227A030>
+20150707 11:15:32 PM - INFO - Function : <function twin_primes at 0x022A4FA8>
+20150707 11:15:32 PM - INFO - Function : <function factors at 0x02286030>
+20150707 11:15:32 PM - INFO - Function : <function multiples at 0x02286108>
+20150707 11:15:32 PM - INFO - Function : <function all_factors at 0x02286078>
+20150707 11:15:32 PM - INFO - Function : <function consecutive_primes at 0x022860C0>
+20150707 11:15:32 PM - INFO - Function : <function highest_common_factor at 0x02286198>
+20150707 11:15:32 PM - INFO - list_length = 3.
+20150707 11:15:32 PM - INFO - index i : 0
+20150707 11:15:32 PM - INFO - index i : 1
+20150707 11:15:32 PM - INFO - index i : 2
+20150707 11:15:32 PM - INFO - Number_list = [25, 125, 40]
+20150707 11:15:32 PM - INFO - ordered_list = [25, 40, 125]
+20150707 11:15:32 PM - INFO - numerator = 40, denominator = 5, remainder = 0
+20150707 11:15:32 PM - INFO - Function : <function least_common_multiple at 0x02286228>
+20150707 11:16:06 PM - INFO - Function : <function nearest_primes at 0x02316D20>
+20150707 11:16:06 PM - INFO - Function : <function list_primes at 0x0231A030>
+20150707 11:16:06 PM - INFO - Function : <function twin_primes at 0x02344FA8>
+20150707 11:16:06 PM - INFO - Function : <function factors at 0x02326030>
+20150707 11:16:06 PM - INFO - Function : <function multiples at 0x02326108>
+20150707 11:16:06 PM - INFO - Function : <function all_factors at 0x02326078>
+20150707 11:16:06 PM - INFO - Function : <function consecutive_primes at 0x023260C0>
+20150707 11:16:06 PM - INFO - Function : <function highest_common_factor at 0x02326198>
+20150707 11:16:06 PM - INFO - list_length = 2.
+20150707 11:16:06 PM - INFO - index i : 0
+20150707 11:16:06 PM - INFO - index i : 1
+20150707 11:16:06 PM - INFO - Number_list = [187, 209]
+20150707 11:16:06 PM - INFO - ordered_list = [187, 209]
+20150707 11:16:06 PM - INFO - numerator = 187, denominator = 22, remainder = 11
+20150707 11:16:06 PM - INFO - numerator = 22, denominator = 11, remainder = 0
+20150707 11:16:06 PM - INFO - Function : <function least_common_multiple at 0x02326228>
+20150707 11:16:06 PM - INFO - Function : <function lcm_and_hcf at 0x02326270>
+20150707 11:16:50 PM - INFO - Function : <function nearest_primes at 0x02426D20>
+20150707 11:16:50 PM - INFO - Function : <function list_primes at 0x0242A030>
+20150707 11:16:50 PM - INFO - Function : <function twin_primes at 0x02454FA8>
+20150707 11:16:50 PM - INFO - Function : <function factors at 0x02436030>
+20150707 11:16:50 PM - INFO - Function : <function multiples at 0x02436108>
+20150707 11:16:50 PM - INFO - Function : <function all_factors at 0x02436078>
+20150707 11:16:50 PM - INFO - Function : <function consecutive_primes at 0x024360C0>
+20150707 11:16:50 PM - INFO - Function : <function highest_common_factor at 0x02436198>
+20150707 11:16:50 PM - INFO - list_length = 3.
+20150707 11:16:50 PM - INFO - index i : 0
+20150707 11:16:50 PM - INFO - index i : 1
+20150707 11:16:50 PM - INFO - index i : 2
+20150707 11:16:50 PM - INFO - Number_list = [207, 90, 135]
+20150707 11:16:50 PM - INFO - ordered_list = [90, 135, 207]
+20150707 11:16:50 PM - INFO - numerator = 135, denominator = 72, remainder = 63
+20150707 11:16:50 PM - INFO - numerator = 72, denominator = 63, remainder = 9
+20150707 11:16:50 PM - INFO - numerator = 63, denominator = 9, remainder = 0
+20150707 11:16:50 PM - INFO - Function : <function least_common_multiple at 0x02436228>
+20150707 11:16:50 PM - INFO - Function : <function lcm_and_hcf at 0x02436270>
+20150707 11:17:14 PM - INFO - Function : <function nearest_primes at 0x022C6D20>
+20150707 11:17:14 PM - INFO - Function : <function list_primes at 0x022CA030>
+20150707 11:17:14 PM - INFO - Function : <function twin_primes at 0x022F4FA8>
+20150707 11:17:14 PM - INFO - Function : <function factors at 0x022D6030>
+20150707 11:17:14 PM - INFO - Function : <function multiples at 0x022D6108>
+20150707 11:17:14 PM - INFO - Function : <function all_factors at 0x022D6078>
+20150707 11:17:14 PM - INFO - Function : <function consecutive_primes at 0x022D60C0>
+20150707 11:17:14 PM - INFO - Function : <function highest_common_factor at 0x022D6198>
+20150707 11:17:14 PM - INFO - list_length = 2.
+20150707 11:17:14 PM - INFO - index i : 0
+20150707 11:17:14 PM - INFO - index i : 1
+20150707 11:17:14 PM - INFO - Number_list = [80, 70]
+20150707 11:17:14 PM - INFO - ordered_list = [70, 80]
+20150707 11:17:14 PM - INFO - numerator = 70, denominator = 10, remainder = 0
+20150707 11:17:14 PM - INFO - Function : <function least_common_multiple at 0x022D6228>
+20150707 11:17:14 PM - INFO - Function : <function lcm_and_hcf at 0x022D6270>
+20150707 11:18:38 PM - INFO - Function : <function nearest_primes at 0x022D2D20>
+20150707 11:18:38 PM - INFO - Function : <function list_primes at 0x022D6030>
+20150707 11:18:38 PM - INFO - Function : <function twin_primes at 0x02301FA8>
+20150707 11:18:38 PM - INFO - Function : <function factors at 0x022E3030>
+20150707 11:18:38 PM - INFO - Function : <function multiples at 0x022E3108>
+20150707 11:18:38 PM - INFO - Function : <function all_factors at 0x022E3078>
+20150707 11:18:38 PM - INFO - Function : <function consecutive_primes at 0x022E30C0>
+20150707 11:18:38 PM - INFO - Function : <function highest_common_factor at 0x022E3198>
+20150707 11:18:38 PM - INFO - list_length = 3.
+20150707 11:18:38 PM - INFO - index i : 0
+20150707 11:18:38 PM - INFO - index i : 1
+20150707 11:18:38 PM - INFO - index i : 2
+20150707 11:18:38 PM - INFO - Number_list = [56, 48, 88]
+20150707 11:18:38 PM - INFO - ordered_list = [48, 56, 88]
+20150707 11:18:38 PM - INFO - numerator = 56, denominator = 32, remainder = 24
+20150707 11:18:38 PM - INFO - numerator = 32, denominator = 24, remainder = 8
+20150707 11:18:38 PM - INFO - numerator = 24, denominator = 8, remainder = 0
+20150707 11:18:38 PM - INFO - Function : <function least_common_multiple at 0x022E3228>
+20150707 11:18:38 PM - INFO - Function : <function lcm_and_hcf at 0x022E3270>
+20150707 11:18:59 PM - INFO - Function : <function nearest_primes at 0x02336D20>
+20150707 11:18:59 PM - INFO - Function : <function list_primes at 0x0233A030>
+20150707 11:18:59 PM - INFO - Function : <function twin_primes at 0x02364FA8>
+20150707 11:18:59 PM - INFO - Function : <function factors at 0x02346030>
+20150707 11:18:59 PM - INFO - Function : <function multiples at 0x02346108>
+20150707 11:18:59 PM - INFO - Function : <function all_factors at 0x02346078>
+20150707 11:18:59 PM - INFO - Function : <function consecutive_primes at 0x023460C0>
+20150707 11:18:59 PM - INFO - Function : <function highest_common_factor at 0x02346198>
+20150707 11:18:59 PM - INFO - list_length = 3.
+20150707 11:18:59 PM - INFO - index i : 0
+20150707 11:18:59 PM - INFO - index i : 1
+20150707 11:18:59 PM - INFO - index i : 2
+20150707 11:18:59 PM - INFO - Number_list = [55, 35, 115]
+20150707 11:18:59 PM - INFO - ordered_list = [35, 55, 115]
+20150707 11:18:59 PM - INFO - numerator = 55, denominator = 5, remainder = 0
+20150707 11:18:59 PM - INFO - Function : <function least_common_multiple at 0x02346228>
+20150707 11:18:59 PM - INFO - Function : <function lcm_and_hcf at 0x02346270>
+20150707 11:18:59 PM - INFO - ordered_list = [169, 208, 325]
+20150707 11:18:59 PM - INFO - numerator = 208, denominator = 117, remainder = 91
+20150707 11:18:59 PM - INFO - numerator = 117, denominator = 91, remainder = 26
+20150707 11:18:59 PM - INFO - numerator = 91, denominator = 26, remainder = 13
+20150707 11:18:59 PM - INFO - numerator = 26, denominator = 13, remainder = 0
+20150707 11:19:23 PM - INFO - Function : <function nearest_primes at 0x02356D20>
+20150707 11:19:23 PM - INFO - Function : <function list_primes at 0x0235A030>
+20150707 11:19:23 PM - INFO - Function : <function twin_primes at 0x02384FA8>
+20150707 11:19:23 PM - INFO - Function : <function factors at 0x02366030>
+20150707 11:19:23 PM - INFO - Function : <function multiples at 0x02366108>
+20150707 11:19:23 PM - INFO - Function : <function all_factors at 0x02366078>
+20150707 11:19:23 PM - INFO - Function : <function consecutive_primes at 0x023660C0>
+20150707 11:19:23 PM - INFO - Function : <function highest_common_factor at 0x02366198>
+20150707 11:19:23 PM - INFO - list_length = 3.
+20150707 11:19:23 PM - INFO - index i : 0
+20150707 11:19:23 PM - INFO - index i : 1
+20150707 11:19:23 PM - INFO - index i : 2
+20150707 11:19:23 PM - INFO - Number_list = [220, 253, 187]
+20150707 11:19:23 PM - INFO - ordered_list = [187, 220, 253]
+20150707 11:19:23 PM - INFO - numerator = 220, denominator = 33, remainder = 22
+20150707 11:19:23 PM - INFO - numerator = 33, denominator = 22, remainder = 11
+20150707 11:19:23 PM - INFO - numerator = 22, denominator = 11, remainder = 0
+20150707 11:19:23 PM - INFO - Function : <function least_common_multiple at 0x02366228>
+20150707 11:19:23 PM - INFO - Function : <function lcm_and_hcf at 0x02366270>
+20150707 11:19:23 PM - INFO - ordered_list = [112, 112, 168]
+20150707 11:19:23 PM - INFO - numerator = 112, denominator = 56, remainder = 0
+20150707 11:22:32 PM - INFO - Function : <function nearest_primes at 0x02308D20>
+20150707 11:22:32 PM - INFO - Function : <function list_primes at 0x0230C030>
+20150707 11:22:32 PM - INFO - Function : <function twin_primes at 0x02337FA8>
+20150707 11:22:32 PM - INFO - Function : <function factors at 0x02319030>
+20150707 11:22:32 PM - INFO - Function : <function multiples at 0x02319108>
+20150707 11:22:32 PM - INFO - Function : <function all_factors at 0x02319078>
+20150707 11:22:32 PM - INFO - Function : <function consecutive_primes at 0x023190C0>
+20150707 11:22:32 PM - INFO - Function : <function highest_common_factor at 0x02319198>
+20150707 11:22:32 PM - INFO - list_length = 2.
+20150707 11:22:32 PM - INFO - index i : 0
+20150707 11:22:32 PM - INFO - index i : 1
+20150707 11:22:32 PM - INFO - Number_list = [300, 264]
+20150707 11:22:32 PM - INFO - ordered_list = [264, 300]
+20150707 11:22:32 PM - INFO - numerator = 264, denominator = 36, remainder = 12
+20150707 11:22:32 PM - INFO - numerator = 36, denominator = 12, remainder = 0
+20150707 11:22:32 PM - INFO - Function : <function least_common_multiple at 0x02319228>
+20150707 11:22:32 PM - INFO - Function : <function lcm_and_hcf at 0x02319270>
+20150707 11:22:32 PM - INFO - ordered_list = [170, 170, 306]
+20150707 11:22:32 PM - INFO - numerator = 170, denominator = 136, remainder = 34
+20150707 11:22:32 PM - INFO - numerator = 136, denominator = 34, remainder = 0
+20150707 11:24:07 PM - INFO - Function : <function nearest_primes at 0x02356D20>
+20150707 11:24:07 PM - INFO - Function : <function list_primes at 0x0235A030>
+20150707 11:24:07 PM - INFO - Function : <function twin_primes at 0x02384FA8>
+20150707 11:24:07 PM - INFO - Function : <function factors at 0x02366030>
+20150707 11:24:07 PM - INFO - Function : <function multiples at 0x02366108>
+20150707 11:24:07 PM - INFO - Function : <function all_factors at 0x02366078>
+20150707 11:24:07 PM - INFO - Function : <function consecutive_primes at 0x023660C0>
+20150707 11:24:07 PM - INFO - Function : <function highest_common_factor at 0x02366198>
+20150707 11:24:07 PM - INFO - list_length = 3.
+20150707 11:24:07 PM - INFO - index i : 0
+20150707 11:24:07 PM - INFO - index i : 1
+20150707 11:24:07 PM - INFO - index i : 2
+20150707 11:24:07 PM - INFO - Number_list = [20, 125, 45]
+20150707 11:24:07 PM - INFO - ordered_list = [20, 45, 125]
+20150707 11:24:07 PM - INFO - numerator = 45, denominator = 35, remainder = 10
+20150707 11:24:07 PM - INFO - numerator = 35, denominator = 10, remainder = 5
+20150707 11:24:07 PM - INFO - numerator = 10, denominator = 5, remainder = 0
+20150707 11:24:07 PM - INFO - Function : <function least_common_multiple at 0x02366228>
+20150707 11:24:07 PM - INFO - Function : <function lcm_and_hcf at 0x02366270>
+20150707 11:24:07 PM - INFO - ordered_list = [168, 196, 252]
+20150707 11:24:07 PM - INFO - numerator = 196, denominator = 56, remainder = 28
+20150707 11:24:07 PM - INFO - numerator = 56, denominator = 28, remainder = 0
+20150707 11:30:30 PM - INFO - Function : <function nearest_primes at 0x022A6CD8>
+20150707 11:30:30 PM - INFO - Function : <function list_primes at 0x022A6FA8>
+20150707 11:30:30 PM - INFO - Function : <function twin_primes at 0x022D5F60>
+20150707 11:30:30 PM - INFO - Function : <function factors at 0x022D5FA8>
+20150707 11:30:30 PM - INFO - Function : <function multiples at 0x022B60C0>
+20150707 11:30:30 PM - INFO - Function : <function all_factors at 0x022B6030>
+20150707 11:30:30 PM - INFO - Function : <function consecutive_primes at 0x022B6078>
+20150707 11:30:30 PM - INFO - Function : <function highest_common_factor at 0x022B6150>
+20150707 11:30:30 PM - INFO - list_length = 2.
+20150707 11:30:30 PM - INFO - index i : 0
+20150707 11:30:30 PM - INFO - index i : 1
+20150707 11:30:30 PM - INFO - Number_list = [66, 150]
+20150707 11:30:30 PM - INFO - ordered_list = [66, 150]
+20150707 11:30:30 PM - INFO - numerator = 66, denominator = 18, remainder = 12
+20150707 11:30:30 PM - INFO - numerator = 18, denominator = 12, remainder = 6
+20150707 11:30:30 PM - INFO - numerator = 12, denominator = 6, remainder = 0
+20150707 11:30:30 PM - INFO - Function : <function least_common_multiple at 0x022B61E0>
+20150707 11:30:30 PM - INFO - Function : <function lcm_and_hcf at 0x022B6228>
+20150707 11:30:30 PM - INFO - ordered_list = [80, 88, 192]
+20150707 11:30:30 PM - INFO - numerator = 88, denominator = 16, remainder = 8
+20150707 11:30:30 PM - INFO - numerator = 16, denominator = 8, remainder = 0
+20150707 11:30:40 PM - INFO - Function : <function nearest_primes at 0x02366CD8>
+20150707 11:30:40 PM - INFO - Function : <function list_primes at 0x02366FA8>
+20150707 11:30:40 PM - INFO - Function : <function twin_primes at 0x02395F60>
+20150707 11:30:40 PM - INFO - Function : <function factors at 0x02395FA8>
+20150707 11:30:40 PM - INFO - Function : <function multiples at 0x023760C0>
+20150707 11:30:40 PM - INFO - Function : <function all_factors at 0x02376030>
+20150707 11:30:40 PM - INFO - Function : <function consecutive_primes at 0x02376078>
+20150707 11:30:40 PM - INFO - Function : <function highest_common_factor at 0x02376150>
+20150707 11:30:40 PM - INFO - list_length = 2.
+20150707 11:30:40 PM - INFO - index i : 0
+20150707 11:30:40 PM - INFO - index i : 1
+20150707 11:30:40 PM - INFO - Number_list = [108, 66]
+20150707 11:30:40 PM - INFO - ordered_list = [66, 108]
+20150707 11:30:40 PM - INFO - numerator = 66, denominator = 42, remainder = 24
+20150707 11:30:40 PM - INFO - numerator = 42, denominator = 24, remainder = 18
+20150707 11:30:40 PM - INFO - numerator = 24, denominator = 18, remainder = 6
+20150707 11:30:40 PM - INFO - numerator = 18, denominator = 6, remainder = 0
+20150707 11:30:40 PM - INFO - Function : <function least_common_multiple at 0x023761E0>
+20150707 11:30:40 PM - INFO - Function : <function lcm_and_hcf at 0x02376228>
+20150707 11:30:40 PM - INFO - ordered_list = [90, 190, 200]
+20150707 11:30:40 PM - INFO - numerator = 190, denominator = 10, remainder = 0
+20150707 11:30:43 PM - INFO - Function : <function nearest_primes at 0x022B6CD8>
+20150707 11:30:43 PM - INFO - Function : <function list_primes at 0x022B6FA8>
+20150707 11:30:43 PM - INFO - Function : <function twin_primes at 0x022E5F60>
+20150707 11:30:43 PM - INFO - Function : <function factors at 0x022E5FA8>
+20150707 11:30:43 PM - INFO - Function : <function multiples at 0x022C60C0>
+20150707 11:30:43 PM - INFO - Function : <function all_factors at 0x022C6030>
+20150707 11:30:43 PM - INFO - Function : <function consecutive_primes at 0x022C6078>
+20150707 11:30:43 PM - INFO - Function : <function highest_common_factor at 0x022C6150>
+20150707 11:30:43 PM - INFO - list_length = 3.
+20150707 11:30:43 PM - INFO - index i : 0
+20150707 11:30:43 PM - INFO - index i : 1
+20150707 11:30:43 PM - INFO - index i : 2
+20150707 11:30:43 PM - INFO - Number_list = [252, 240, 300]
+20150707 11:30:43 PM - INFO - ordered_list = [240, 252, 300]
+20150707 11:30:43 PM - INFO - numerator = 252, denominator = 48, remainder = 12
+20150707 11:30:43 PM - INFO - numerator = 48, denominator = 12, remainder = 0
+20150707 11:30:43 PM - INFO - Function : <function least_common_multiple at 0x022C61E0>
+20150707 11:30:43 PM - INFO - Function : <function lcm_and_hcf at 0x022C6228>
+20150707 11:30:43 PM - INFO - ordered_list = [81, 117, 225]
+20150707 11:30:43 PM - INFO - numerator = 117, denominator = 108, remainder = 9
+20150707 11:30:43 PM - INFO - numerator = 108, denominator = 9, remainder = 0
+20150707 11:30:48 PM - INFO - Function : <function nearest_primes at 0x02376CD8>
+20150707 11:30:48 PM - INFO - Function : <function list_primes at 0x02376FA8>
+20150707 11:30:48 PM - INFO - Function : <function twin_primes at 0x023A5F60>
+20150707 11:30:48 PM - INFO - Function : <function factors at 0x023A5FA8>
+20150707 11:30:48 PM - INFO - Function : <function multiples at 0x023860C0>
+20150707 11:30:48 PM - INFO - Function : <function all_factors at 0x02386030>
+20150707 11:30:48 PM - INFO - Function : <function consecutive_primes at 0x02386078>
+20150707 11:30:48 PM - INFO - Function : <function highest_common_factor at 0x02386150>
+20150707 11:30:48 PM - INFO - list_length = 3.
+20150707 11:30:48 PM - INFO - index i : 0
+20150707 11:30:48 PM - INFO - index i : 1
+20150707 11:30:48 PM - INFO - index i : 2
+20150707 11:30:48 PM - INFO - Number_list = [105, 45, 120]
+20150707 11:30:48 PM - INFO - ordered_list = [45, 105, 120]
+20150707 11:30:48 PM - INFO - numerator = 105, denominator = 15, remainder = 0
+20150707 11:30:48 PM - INFO - Function : <function least_common_multiple at 0x023861E0>
+20150707 11:30:48 PM - INFO - Function : <function lcm_and_hcf at 0x02386228>
+20150707 11:30:48 PM - INFO - ordered_list = [198, 209, 275]
+20150707 11:30:48 PM - INFO - numerator = 209, denominator = 66, remainder = 11
+20150707 11:30:48 PM - INFO - numerator = 66, denominator = 11, remainder = 0
+20150707 11:30:54 PM - INFO - Function : <function nearest_primes at 0x02266CD8>
+20150707 11:30:54 PM - INFO - Function : <function list_primes at 0x02266FA8>
+20150707 11:30:54 PM - INFO - Function : <function twin_primes at 0x02295F60>
+20150707 11:30:54 PM - INFO - Function : <function factors at 0x02295FA8>
+20150707 11:30:54 PM - INFO - Function : <function multiples at 0x022760C0>
+20150707 11:30:54 PM - INFO - Function : <function all_factors at 0x02276030>
+20150707 11:30:54 PM - INFO - Function : <function consecutive_primes at 0x02276078>
+20150707 11:30:54 PM - INFO - Function : <function highest_common_factor at 0x02276150>
+20150707 11:30:54 PM - INFO - list_length = 2.
+20150707 11:30:54 PM - INFO - index i : 0
+20150707 11:30:54 PM - INFO - index i : 1
+20150707 11:30:54 PM - INFO - Number_list = [112, 112]
+20150707 11:30:54 PM - INFO - ordered_list = [112, 112]
+20150707 11:30:54 PM - INFO - Function : <function least_common_multiple at 0x022761E0>
+20150707 11:30:54 PM - INFO - Function : <function lcm_and_hcf at 0x02276228>
+20150707 11:30:54 PM - INFO - ordered_list = [90, 99, 126]
+20150707 11:30:54 PM - INFO - numerator = 99, denominator = 27, remainder = 18
+20150707 11:30:54 PM - INFO - numerator = 27, denominator = 18, remainder = 9
+20150707 11:30:54 PM - INFO - numerator = 18, denominator = 9, remainder = 0
+20150707 11:32:16 PM - INFO - Function : <function nearest_primes at 0x02396CD8>
+20150707 11:32:16 PM - INFO - Function : <function list_primes at 0x02396FA8>
+20150707 11:32:16 PM - INFO - Function : <function twin_primes at 0x023C5F60>
+20150707 11:32:16 PM - INFO - Function : <function factors at 0x023C5FA8>
+20150707 11:32:16 PM - INFO - Function : <function multiples at 0x023A60C0>
+20150707 11:32:16 PM - INFO - Function : <function all_factors at 0x023A6030>
+20150707 11:32:16 PM - INFO - Function : <function consecutive_primes at 0x023A6078>
+20150707 11:32:16 PM - INFO - Function : <function highest_common_factor at 0x023A6150>
+20150707 11:32:16 PM - INFO - list_length = 2.
+20150707 11:32:16 PM - INFO - index i : 0
+20150707 11:32:16 PM - INFO - index i : 1
+20150707 11:32:16 PM - INFO - Number_list = [32, 32]
+20150707 11:32:16 PM - INFO - ordered_list = [32, 32]
+20150707 11:32:16 PM - INFO - Function : <function least_common_multiple at 0x023A61E0>
+20150707 11:32:16 PM - INFO - Function : <function lcm_and_hcf at 0x023A6228>
+20150707 11:32:16 PM - INFO - ordered_list = [140, 170, 180]
+20150707 11:32:16 PM - INFO - numerator = 170, denominator = 10, remainder = 0
+20150713 10:09:46 AM - INFO - Function : <function fractions_sum at 0x025706F0>
+20150713 10:44:22 AM - INFO - Function : <function fractions_sum at 0x027106F0>
+20150713 10:50:38 AM - INFO - Function : <function fractions_sum at 0x025406F0>
+20150713 10:56:59 AM - INFO - Function : <function fractions_sum at 0x025906F0>
+20150713 10:57:11 AM - INFO - Function : <function fractions_sum at 0x025B06F0>
+20150713 10:57:20 AM - INFO - Function : <function fractions_sum at 0x025906F0>
+20150713 10:57:27 AM - INFO - Function : <function fractions_sum at 0x025906F0>
+20150713 10:58:58 AM - INFO - Function : <function fractions_sum at 0x025D06F0>
+20150713 11:04:29 AM - INFO - Function : <function fractions_sum at 0x025806F0>
+20150720 09:34:38 PM - INFO - Function : <function fractions_sum at 0x026206F0>
+20150720 09:38:06 PM - INFO - Function : <function fractions_sum at 0x024F0738>
+20150720 09:39:41 PM - INFO - Function : <function fractions_sum at 0x02510738>
+20150720 09:42:54 PM - INFO - Function : <function fractions_sum at 0x026006F0>
+20150720 09:43:48 PM - INFO - Function : <function fractions_sum at 0x025606F0>
+20150722 09:44:14 PM - INFO - Function : <function fractions_sum at 0x025706F0>
+20150722 09:50:44 PM:INFO:main:Function : <function nearest_primes at 0x027C4E40>
+20150722 09:50:44 PM:INFO:main:Function : <function list_primes at 0x027C4E88>
+20150722 09:50:44 PM:INFO:main:Function : <function twin_primes at 0x027C4ED0>
+20150722 09:50:44 PM:INFO:main:Function : <function factors at 0x027C4F18>
+20150722 09:50:44 PM:INFO:main:Function : <function multiples at 0x027CB030>
+20150722 09:50:44 PM:INFO:main:Function : <function all_factors at 0x027C4F60>
+20150722 09:50:44 PM:INFO:main:Function : <function consecutive_primes at 0x027C4FA8>
+20150722 09:50:44 PM:INFO:main:Function : <function highest_common_factor at 0x027CB0C0>
+20150722 09:50:44 PM:INFO:_highest_common_factor:list_length = 2.
+20150722 09:50:44 PM:INFO:_highest_common_factor:index i : 0
+20150722 09:50:44 PM:INFO:_highest_common_factor:index i : 1
+20150722 09:50:44 PM:INFO:_highest_common_factor:Number_list = [80, 128]
+20150722 09:50:44 PM:INFO:_highest_common_factor:ordered_list = [80, 128]
+20150722 09:50:44 PM:INFO:_highest_common_factor:numerator = 80, denominator = 48, remainder = 32
+20150722 09:50:44 PM:INFO:_highest_common_factor:numerator = 48, denominator = 32, remainder = 16
+20150722 09:50:44 PM:INFO:_highest_common_factor:numerator = 32, denominator = 16, remainder = 0
+20150722 09:50:44 PM:INFO:main:Function : <function least_common_multiple at 0x027CB150>
+20150722 09:50:44 PM:INFO:main:Function : <function lcm_and_hcf at 0x027CB198>
+20150722 09:50:44 PM:INFO:_highest_common_factor:ordered_list = [143, 182, 260]
+20150722 09:50:44 PM:INFO:_highest_common_factor:numerator = 182, denominator = 78, remainder = 26
+20150722 09:50:44 PM:INFO:_highest_common_factor:numerator = 78, denominator = 26, remainder = 0
+20150722 09:50:44 PM:INFO:_highest_common_factor:numerator = 26, denominator = 13, remainder = 0
+20150722 10:24:59 PM:INFO:main:Function : <function nearest_primes at 0x029D4E40>
+20150722 10:24:59 PM:INFO:main:Function : <function list_primes at 0x029D4E88>
+20150722 10:24:59 PM:INFO:main:Function : <function twin_primes at 0x029D4ED0>
+20150722 10:24:59 PM:INFO:main:Function : <function factors at 0x029D4F18>
+20150722 10:24:59 PM:INFO:main:Function : <function multiples at 0x029DB030>
+20150722 10:24:59 PM:INFO:main:Function : <function all_factors at 0x029D4F60>
+20150722 10:24:59 PM:INFO:main:Function : <function consecutive_primes at 0x029D4FA8>
+20150722 10:24:59 PM:INFO:main:Function : <function highest_common_factor at 0x029DB0C0>
+20150722 10:24:59 PM:INFO:_highest_common_factor:list_length = 3.
+20150722 10:24:59 PM:INFO:_highest_common_factor:index i : 0
+20150722 10:24:59 PM:INFO:_highest_common_factor:index i : 1
+20150722 10:24:59 PM:INFO:_highest_common_factor:index i : 2
+20150722 10:24:59 PM:INFO:_highest_common_factor:Number_list = [84, 300, 216]
+20150722 10:24:59 PM:INFO:_highest_common_factor:ordered_list = [84, 216, 300]
+20150722 10:24:59 PM:INFO:_highest_common_factor:numerator = 216, denominator = 84, remainder = 48
+20150722 10:24:59 PM:INFO:_highest_common_factor:numerator = 84, denominator = 48, remainder = 36
+20150722 10:24:59 PM:INFO:_highest_common_factor:numerator = 48, denominator = 36, remainder = 12
+20150722 10:24:59 PM:INFO:_highest_common_factor:numerator = 36, denominator = 12, remainder = 0
+20150722 10:24:59 PM:INFO:main:Function : <function least_common_multiple at 0x029DB150>
+20150722 10:24:59 PM:INFO:main:Function : <function lcm_and_hcf at 0x029DB198>
+20150722 10:24:59 PM:INFO:_highest_common_factor:ordered_list = [63, 126, 161]
+20150722 10:24:59 PM:INFO:_highest_common_factor:numerator = 126, denominator = 35, remainder = 21
+20150722 10:24:59 PM:INFO:_highest_common_factor:numerator = 35, denominator = 21, remainder = 14
+20150722 10:24:59 PM:INFO:_highest_common_factor:numerator = 21, denominator = 14, remainder = 7
+20150722 10:24:59 PM:INFO:_highest_common_factor:numerator = 14, denominator = 7, remainder = 0
+20150722 10:28:35 PM:INFO:main:Function : <function nearest_primes at 0x026B6E40>
+20150722 10:28:35 PM:INFO:main:Function : <function list_primes at 0x026B6E88>
+20150722 10:28:35 PM:INFO:main:Function : <function twin_primes at 0x026B6ED0>
+20150722 10:28:35 PM:INFO:main:Function : <function factors at 0x026B6F18>
+20150722 10:28:35 PM:INFO:main:Function : <function multiples at 0x026B8030>
+20150722 10:28:35 PM:INFO:main:Function : <function all_factors at 0x026B6F60>
+20150722 10:28:35 PM:INFO:main:Function : <function consecutive_primes at 0x026B6FA8>
+20150722 10:28:35 PM:INFO:main:Function : <function highest_common_factor at 0x026B80C0>
+20150722 10:28:35 PM:INFO:_highest_common_factor:list_length = 3.
+20150722 10:28:35 PM:INFO:_highest_common_factor:index i : 0
+20150722 10:28:35 PM:INFO:_highest_common_factor:index i : 1
+20150722 10:28:35 PM:INFO:_highest_common_factor:index i : 2
+20150722 10:28:35 PM:INFO:_highest_common_factor:Number_list = [54, 12, 84]
+20150722 10:28:35 PM:INFO:_highest_common_factor:ordered_list = [12, 54, 84]
+20150722 10:28:35 PM:INFO:_highest_common_factor:numerator = 54, denominator = 30, remainder = 24
+20150722 10:28:35 PM:INFO:_highest_common_factor:numerator = 30, denominator = 24, remainder = 6
+20150722 10:28:35 PM:INFO:_highest_common_factor:numerator = 24, denominator = 6, remainder = 0
+20150722 10:28:35 PM:INFO:main:Function : <function least_common_multiple at 0x026B8150>
+20150722 10:28:35 PM:INFO:main:Function : <function lcm_and_hcf at 0x026B8198>
+20150722 10:28:35 PM:INFO:_highest_common_factor:ordered_list = [81, 144, 171]
+20150722 10:28:35 PM:INFO:_highest_common_factor:numerator = 144, denominator = 27, remainder = 9
+20150722 10:28:35 PM:INFO:_highest_common_factor:numerator = 27, denominator = 9, remainder = 0
+20150722 10:35:15 PM:INFO:main:Function : <function nearest_primes at 0x027F5E40>
+20150722 10:35:15 PM:INFO:main:Function : <function list_primes at 0x027F5E88>
+20150722 10:35:15 PM:INFO:main:Function : <function twin_primes at 0x027F5ED0>
+20150722 10:35:15 PM:INFO:main:Function : <function factors at 0x027F5F18>
+20150722 10:35:15 PM:INFO:main:Function : <function multiples at 0x027FB030>
+20150722 10:35:15 PM:INFO:main:Function : <function all_factors at 0x027F5F60>
+20150722 10:35:15 PM:INFO:main:Function : <function consecutive_primes at 0x027F5FA8>
+20150722 10:35:15 PM:INFO:main:Function : <function highest_common_factor at 0x027FB0C0>
+20150722 10:35:15 PM:INFO:_highest_common_factor:list_length = 3.
+20150722 10:35:15 PM:INFO:_highest_common_factor:index i : 0
+20150722 10:35:15 PM:INFO:_highest_common_factor:index i : 1
+20150722 10:35:15 PM:INFO:_highest_common_factor:index i : 2
+20150722 10:35:15 PM:INFO:_highest_common_factor:Number_list = [128, 64, 24]
+20150722 10:35:15 PM:INFO:_highest_common_factor:ordered_list = [24, 64, 128]
+20150722 10:35:15 PM:INFO:_highest_common_factor:numerator = 64, denominator = 24, remainder = 16
+20150722 10:35:15 PM:INFO:_highest_common_factor:numerator = 24, denominator = 16, remainder = 8
+20150722 10:35:15 PM:INFO:_highest_common_factor:numerator = 16, denominator = 8, remainder = 0
+20150722 10:35:15 PM:INFO:main:Function : <function least_common_multiple at 0x027FB150>
+20150722 10:35:15 PM:INFO:main:Function : <function lcm_and_hcf at 0x027FB198>
+20150722 10:35:15 PM:INFO:_highest_common_factor:ordered_list = [153, 221, 374]
+20150722 10:35:15 PM:INFO:_highest_common_factor:numerator = 221, denominator = 153, remainder = 68
+20150722 10:35:15 PM:INFO:_highest_common_factor:numerator = 153, denominator = 68, remainder = 17
+20150722 10:35:15 PM:INFO:_highest_common_factor:numerator = 68, denominator = 17, remainder = 0
+20150722 10:35:28 PM:INFO:main:Function : <function nearest_primes at 0x028A5E40>
+20150722 10:35:28 PM:INFO:main:Function : <function list_primes at 0x028A5E88>
+20150722 10:35:28 PM:INFO:main:Function : <function twin_primes at 0x028A5ED0>
+20150722 10:35:28 PM:INFO:main:Function : <function factors at 0x028A5F18>
+20150722 10:35:28 PM:INFO:main:Function : <function multiples at 0x028AB030>
+20150722 10:35:28 PM:INFO:main:Function : <function all_factors at 0x028A5F60>
+20150722 10:35:28 PM:INFO:main:Function : <function consecutive_primes at 0x028A5FA8>
+20150722 10:35:28 PM:INFO:main:Function : <function highest_common_factor at 0x028AB0C0>
+20150722 10:35:28 PM:INFO:_highest_common_factor:list_length = 3.
+20150722 10:35:28 PM:INFO:_highest_common_factor:index i : 0
+20150722 10:35:28 PM:INFO:_highest_common_factor:index i : 1
+20150722 10:35:28 PM:INFO:_highest_common_factor:index i : 2
+20150722 10:35:28 PM:INFO:_highest_common_factor:Number_list = [120, 20, 90]
+20150722 10:35:28 PM:INFO:_highest_common_factor:ordered_list = [20, 90, 120]
+20150722 10:35:28 PM:INFO:_highest_common_factor:numerator = 90, denominator = 30, remainder = 0
+20150722 10:35:28 PM:INFO:_highest_common_factor:numerator = 30, denominator = 20, remainder = 10
+20150722 10:35:28 PM:INFO:_highest_common_factor:numerator = 20, denominator = 10, remainder = 0
+20150722 10:35:28 PM:INFO:main:Function : <function least_common_multiple at 0x028AB150>
+20150722 10:35:28 PM:INFO:main:Function : <function lcm_and_hcf at 0x028AB198>
+20150722 10:35:28 PM:INFO:_highest_common_factor:ordered_list = [119, 126, 161]
+20150722 10:35:28 PM:INFO:_highest_common_factor:numerator = 126, denominator = 35, remainder = 21
+20150722 10:35:28 PM:INFO:_highest_common_factor:numerator = 35, denominator = 21, remainder = 14
+20150722 10:35:28 PM:INFO:_highest_common_factor:numerator = 21, denominator = 14, remainder = 7
+20150722 10:35:28 PM:INFO:_highest_common_factor:numerator = 14, denominator = 7, remainder = 0
+20150722 10:35:42 PM:INFO:main:Function : <function nearest_primes at 0x02745E40>
+20150722 10:35:42 PM:INFO:main:Function : <function list_primes at 0x02745E88>
+20150722 10:35:42 PM:INFO:main:Function : <function twin_primes at 0x02745ED0>
+20150722 10:35:42 PM:INFO:main:Function : <function factors at 0x02745F18>
+20150722 10:35:42 PM:INFO:main:Function : <function multiples at 0x0274B030>
+20150722 10:35:42 PM:INFO:main:Function : <function all_factors at 0x02745F60>
+20150722 10:35:42 PM:INFO:main:Function : <function consecutive_primes at 0x02745FA8>
+20150722 10:35:42 PM:INFO:main:Function : <function highest_common_factor at 0x0274B0C0>
+20150722 10:35:42 PM:INFO:_highest_common_factor:list_length = 3.
+20150722 10:35:42 PM:INFO:_highest_common_factor:index i : 0
+20150722 10:35:42 PM:INFO:_highest_common_factor:index i : 1
+20150722 10:35:42 PM:INFO:_highest_common_factor:index i : 2
+20150722 10:35:42 PM:INFO:_highest_common_factor:Number_list = [144, 104, 144]
+20150722 10:35:42 PM:INFO:_highest_common_factor:ordered_list = [104, 144, 144]
+20150722 10:35:42 PM:INFO:_highest_common_factor:numerator = 144, denominator = 104, remainder = 40
+20150722 10:35:42 PM:INFO:_highest_common_factor:numerator = 104, denominator = 40, remainder = 24
+20150722 10:35:42 PM:INFO:_highest_common_factor:numerator = 40, denominator = 24, remainder = 16
+20150722 10:35:42 PM:INFO:_highest_common_factor:numerator = 24, denominator = 16, remainder = 8
+20150722 10:35:42 PM:INFO:_highest_common_factor:numerator = 16, denominator = 8, remainder = 0
+20150722 10:35:42 PM:INFO:main:Function : <function least_common_multiple at 0x0274B150>
+20150722 10:35:42 PM:INFO:main:Function : <function lcm_and_hcf at 0x0274B198>
+20150722 10:35:42 PM:INFO:_highest_common_factor:ordered_list = [180, 420, 440]
+20150722 10:35:42 PM:INFO:_highest_common_factor:numerator = 420, denominator = 20, remainder = 0
+20150722 11:07:38 PM:INFO:main:Function : <function nearest_primes at 0x02986E88>
+20150722 11:07:38 PM:INFO:main:Function : <function list_primes at 0x02986ED0>
+20150722 11:07:38 PM:INFO:main:Function : <function twin_primes at 0x02986F18>
+20150722 11:07:38 PM:INFO:main:Function : <function factors at 0x02986F60>
+20150722 11:07:38 PM:INFO:main:Function : <function multiples at 0x0298B078>
+20150722 11:07:38 PM:INFO:main:Function : <function all_factors at 0x02986FA8>
+20150722 11:07:38 PM:INFO:main:Function : <function consecutive_primes at 0x0298B030>
+20150722 11:07:38 PM:INFO:main:Function : <function highest_common_factor at 0x0298B108>
+20150722 11:07:38 PM:INFO:_highest_common_factor:list_length = 3.
+20150722 11:07:38 PM:INFO:_highest_common_factor:index i : 0
+20150722 11:07:38 PM:INFO:_highest_common_factor:index i : 1
+20150722 11:07:38 PM:INFO:_highest_common_factor:index i : 2
+20150722 11:07:38 PM:INFO:_highest_common_factor:Number_list = [161, 63, 140]
+20150722 11:07:38 PM:INFO:_highest_common_factor:ordered_list = [63, 140, 161]
+20150722 11:07:38 PM:INFO:_highest_common_factor:numerator = 140, denominator = 21, remainder = 14
+20150722 11:07:38 PM:INFO:_highest_common_factor:numerator = 21, denominator = 14, remainder = 7
+20150722 11:07:38 PM:INFO:_highest_common_factor:numerator = 14, denominator = 7, remainder = 0
+20150722 11:07:38 PM:INFO:main:Function : <function least_common_multiple at 0x0298B198>
+20150722 11:07:38 PM:INFO:main:Function : <function lcm_and_hcf at 0x0298B1E0>
+20150722 11:07:38 PM:INFO:_highest_common_factor:ordered_list = [63, 77, 154]
+20150722 11:07:38 PM:INFO:_highest_common_factor:numerator = 77, denominator = 63, remainder = 14
+20150722 11:07:38 PM:INFO:_highest_common_factor:numerator = 63, denominator = 14, remainder = 7
+20150722 11:07:38 PM:INFO:_highest_common_factor:numerator = 14, denominator = 7, remainder = 0
+20150722 11:07:38 PM:INFO:main:Function : <function pole_spacing at 0x0298B228>
+20150722 11:08:19 PM:INFO:main:Function : <function nearest_primes at 0x02816E88>
+20150722 11:08:19 PM:INFO:main:Function : <function list_primes at 0x02816ED0>
+20150722 11:08:19 PM:INFO:main:Function : <function twin_primes at 0x02816F18>
+20150722 11:08:19 PM:INFO:main:Function : <function factors at 0x02816F60>
+20150722 11:08:19 PM:INFO:main:Function : <function multiples at 0x0281B078>
+20150722 11:08:19 PM:INFO:main:Function : <function all_factors at 0x02816FA8>
+20150722 11:08:19 PM:INFO:main:Function : <function consecutive_primes at 0x0281B030>
+20150722 11:08:19 PM:INFO:main:Function : <function highest_common_factor at 0x0281B108>
+20150722 11:08:19 PM:INFO:_highest_common_factor:list_length = 3.
+20150722 11:08:19 PM:INFO:_highest_common_factor:index i : 0
+20150722 11:08:19 PM:INFO:_highest_common_factor:index i : 1
+20150722 11:08:19 PM:INFO:_highest_common_factor:index i : 2
+20150722 11:08:19 PM:INFO:_highest_common_factor:Number_list = [119, 14, 161]
+20150722 11:08:19 PM:INFO:_highest_common_factor:ordered_list = [14, 119, 161]
+20150722 11:08:19 PM:INFO:_highest_common_factor:numerator = 119, denominator = 42, remainder = 35
+20150722 11:08:19 PM:INFO:_highest_common_factor:numerator = 42, denominator = 35, remainder = 7
+20150722 11:08:19 PM:INFO:_highest_common_factor:numerator = 35, denominator = 7, remainder = 0
+20150722 11:08:19 PM:INFO:main:Function : <function least_common_multiple at 0x0281B198>
+20150722 11:08:19 PM:INFO:main:Function : <function lcm_and_hcf at 0x0281B1E0>
+20150722 11:08:19 PM:INFO:_highest_common_factor:ordered_list = [176, 240, 272]
+20150722 11:08:19 PM:INFO:_highest_common_factor:numerator = 240, denominator = 32, remainder = 16
+20150722 11:08:19 PM:INFO:_highest_common_factor:numerator = 32, denominator = 16, remainder = 0
+20150722 11:08:19 PM:INFO:main:Function : <function pole_spacing at 0x0281B228>
+20150722 11:09:02 PM:INFO:main:Function : <function nearest_primes at 0x028E6E88>
+20150722 11:09:02 PM:INFO:main:Function : <function list_primes at 0x028E6ED0>
+20150722 11:09:02 PM:INFO:main:Function : <function twin_primes at 0x028E6F18>
+20150722 11:09:02 PM:INFO:main:Function : <function factors at 0x028E6F60>
+20150722 11:09:02 PM:INFO:main:Function : <function multiples at 0x028EB078>
+20150722 11:09:02 PM:INFO:main:Function : <function all_factors at 0x028E6FA8>
+20150722 11:09:02 PM:INFO:main:Function : <function consecutive_primes at 0x028EB030>
+20150722 11:09:02 PM:INFO:main:Function : <function highest_common_factor at 0x028EB108>
+20150722 11:09:02 PM:INFO:_highest_common_factor:list_length = 3.
+20150722 11:09:02 PM:INFO:_highest_common_factor:index i : 0
+20150722 11:09:02 PM:INFO:_highest_common_factor:index i : 1
+20150722 11:09:02 PM:INFO:_highest_common_factor:index i : 2
+20150722 11:09:02 PM:INFO:_highest_common_factor:Number_list = [120, 100, 10]
+20150722 11:09:02 PM:INFO:_highest_common_factor:ordered_list = [10, 100, 120]
+20150722 11:09:02 PM:INFO:_highest_common_factor:numerator = 100, denominator = 20, remainder = 0
+20150722 11:09:02 PM:INFO:_highest_common_factor:numerator = 20, denominator = 10, remainder = 0
+20150722 11:09:02 PM:INFO:main:Function : <function least_common_multiple at 0x028EB198>
+20150722 11:09:02 PM:INFO:main:Function : <function lcm_and_hcf at 0x028EB1E0>
+20150722 11:09:02 PM:INFO:_highest_common_factor:ordered_list = [180, 288, 378]
+20150722 11:09:02 PM:INFO:_highest_common_factor:numerator = 288, denominator = 90, remainder = 18
+20150722 11:09:02 PM:INFO:_highest_common_factor:numerator = 90, denominator = 18, remainder = 0
+20150722 11:09:02 PM:INFO:main:Function : <function pole_spacing at 0x028EB228>
+20150722 11:09:02 PM:INFO:_highest_common_factor:ordered_list = [18, 24, 42]
+20150722 11:09:02 PM:INFO:_highest_common_factor:numerator = 24, denominator = 18, remainder = 6
+20150722 11:09:02 PM:INFO:_highest_common_factor:numerator = 18, denominator = 6, remainder = 0
+20150722 11:09:55 PM:INFO:main:Function : <function nearest_primes at 0x026C6E88>
+20150722 11:09:55 PM:INFO:main:Function : <function list_primes at 0x026C6ED0>
+20150722 11:09:55 PM:INFO:main:Function : <function twin_primes at 0x026C6F18>
+20150722 11:09:55 PM:INFO:main:Function : <function factors at 0x026C6F60>
+20150722 11:09:55 PM:INFO:main:Function : <function multiples at 0x026CB078>
+20150722 11:09:55 PM:INFO:main:Function : <function all_factors at 0x026C6FA8>
+20150722 11:09:55 PM:INFO:main:Function : <function consecutive_primes at 0x026CB030>
+20150722 11:09:55 PM:INFO:main:Function : <function highest_common_factor at 0x026CB108>
+20150722 11:09:55 PM:INFO:_highest_common_factor:list_length = 3.
+20150722 11:09:55 PM:INFO:_highest_common_factor:index i : 0
+20150722 11:09:55 PM:INFO:_highest_common_factor:index i : 1
+20150722 11:09:55 PM:INFO:_highest_common_factor:index i : 2
+20150722 11:09:55 PM:INFO:_highest_common_factor:Number_list = [44, 253, 242]
+20150722 11:09:55 PM:INFO:_highest_common_factor:ordered_list = [44, 242, 253]
+20150722 11:09:55 PM:INFO:_highest_common_factor:numerator = 242, denominator = 11, remainder = 0
+20150722 11:09:55 PM:INFO:main:Function : <function least_common_multiple at 0x026CB198>
+20150722 11:09:55 PM:INFO:main:Function : <function lcm_and_hcf at 0x026CB1E0>
+20150722 11:09:55 PM:INFO:_highest_common_factor:ordered_list = [108, 252, 264]
+20150722 11:09:55 PM:INFO:_highest_common_factor:numerator = 252, denominator = 12, remainder = 0
+20150722 11:09:55 PM:INFO:main:Function : <function pole_spacing at 0x026CB228>
+20150722 11:09:55 PM:INFO:_highest_common_factor:ordered_list = [50, 60, 70]
+20150722 11:09:55 PM:INFO:_highest_common_factor:numerator = 60, denominator = 10, remainder = 0
+20150722 11:10:51 PM:INFO:main:Function : <function nearest_primes at 0x028F6E88>
+20150722 11:10:51 PM:INFO:main:Function : <function list_primes at 0x028F6ED0>
+20150722 11:10:51 PM:INFO:main:Function : <function twin_primes at 0x028F6F18>
+20150722 11:10:51 PM:INFO:main:Function : <function factors at 0x028F6F60>
+20150722 11:10:51 PM:INFO:main:Function : <function multiples at 0x028FB078>
+20150722 11:10:51 PM:INFO:main:Function : <function all_factors at 0x028F6FA8>
+20150722 11:10:51 PM:INFO:main:Function : <function consecutive_primes at 0x028FB030>
+20150722 11:10:51 PM:INFO:main:Function : <function highest_common_factor at 0x028FB108>
+20150722 11:10:51 PM:INFO:_highest_common_factor:list_length = 2.
+20150722 11:10:51 PM:INFO:_highest_common_factor:index i : 0
+20150722 11:10:51 PM:INFO:_highest_common_factor:index i : 1
+20150722 11:10:51 PM:INFO:_highest_common_factor:Number_list = [110, 209]
+20150722 11:10:51 PM:INFO:_highest_common_factor:ordered_list = [110, 209]
+20150722 11:10:51 PM:INFO:_highest_common_factor:numerator = 110, denominator = 99, remainder = 11
+20150722 11:10:51 PM:INFO:_highest_common_factor:numerator = 99, denominator = 11, remainder = 0
+20150722 11:10:51 PM:INFO:main:Function : <function least_common_multiple at 0x028FB198>
+20150722 11:10:51 PM:INFO:main:Function : <function lcm_and_hcf at 0x028FB1E0>
+20150722 11:10:51 PM:INFO:_highest_common_factor:ordered_list = [169, 247, 273]
+20150722 11:10:51 PM:INFO:_highest_common_factor:numerator = 247, denominator = 26, remainder = 13
+20150722 11:10:51 PM:INFO:_highest_common_factor:numerator = 26, denominator = 13, remainder = 0
+20150722 11:10:51 PM:INFO:main:Function : <function pole_spacing at 0x028FB228>
+20150722 11:10:51 PM:INFO:_highest_common_factor:ordered_list = [15, 20, 35]
+20150722 11:10:51 PM:INFO:_highest_common_factor:numerator = 20, denominator = 15, remainder = 5
+20150722 11:10:51 PM:INFO:_highest_common_factor:numerator = 15, denominator = 5, remainder = 0
+20150722 11:10:59 PM:INFO:main:Function : <function nearest_primes at 0x02AB6E88>
+20150722 11:10:59 PM:INFO:main:Function : <function list_primes at 0x02AB6ED0>
+20150722 11:10:59 PM:INFO:main:Function : <function twin_primes at 0x02AB6F18>
+20150722 11:10:59 PM:INFO:main:Function : <function factors at 0x02AB6F60>
+20150722 11:10:59 PM:INFO:main:Function : <function multiples at 0x02ABB078>
+20150722 11:10:59 PM:INFO:main:Function : <function all_factors at 0x02AB6FA8>
+20150722 11:10:59 PM:INFO:main:Function : <function consecutive_primes at 0x02ABB030>
+20150722 11:10:59 PM:INFO:main:Function : <function highest_common_factor at 0x02ABB108>
+20150722 11:10:59 PM:INFO:_highest_common_factor:list_length = 2.
+20150722 11:10:59 PM:INFO:_highest_common_factor:index i : 0
+20150722 11:10:59 PM:INFO:_highest_common_factor:index i : 1
+20150722 11:10:59 PM:INFO:_highest_common_factor:Number_list = [132, 33]
+20150722 11:10:59 PM:INFO:_highest_common_factor:ordered_list = [33, 132]
+20150722 11:10:59 PM:INFO:main:Function : <function least_common_multiple at 0x02ABB198>
+20150722 11:10:59 PM:INFO:main:Function : <function lcm_and_hcf at 0x02ABB1E0>
+20150722 11:10:59 PM:INFO:_highest_common_factor:ordered_list = [90, 99, 117]
+20150722 11:10:59 PM:INFO:_highest_common_factor:numerator = 99, denominator = 18, remainder = 9
+20150722 11:10:59 PM:INFO:_highest_common_factor:numerator = 18, denominator = 9, remainder = 0
+20150722 11:10:59 PM:INFO:main:Function : <function pole_spacing at 0x02ABB228>
+20150722 11:10:59 PM:INFO:_highest_common_factor:ordered_list = [36, 60, 84]
+20150722 11:10:59 PM:INFO:_highest_common_factor:numerator = 60, denominator = 24, remainder = 12
+20150722 11:10:59 PM:INFO:_highest_common_factor:numerator = 24, denominator = 12, remainder = 0
+20150722 11:26:09 PM:INFO:main:Function : <function nearest_primes at 0x028D6E88>
+20150722 11:26:09 PM:INFO:main:Function : <function list_primes at 0x028D6ED0>
+20150722 11:26:09 PM:INFO:main:Function : <function twin_primes at 0x028D6F18>
+20150722 11:26:09 PM:INFO:main:Function : <function factors at 0x028D6F60>
+20150722 11:26:09 PM:INFO:main:Function : <function multiples at 0x028DB078>
+20150722 11:26:09 PM:INFO:main:Function : <function all_factors at 0x028D6FA8>
+20150722 11:26:09 PM:INFO:main:Function : <function consecutive_primes at 0x028DB030>
+20150722 11:26:09 PM:INFO:main:Function : <function highest_common_factor at 0x028DB108>
+20150722 11:26:09 PM:INFO:_highest_common_factor:list_length = 2.
+20150722 11:26:09 PM:INFO:_highest_common_factor:index i : 0
+20150722 11:26:09 PM:INFO:_highest_common_factor:index i : 1
+20150722 11:26:09 PM:INFO:_highest_common_factor:Number_list = [138, 132]
+20150722 11:26:09 PM:INFO:_highest_common_factor:ordered_list = [132, 138]
+20150722 11:26:09 PM:INFO:_highest_common_factor:numerator = 132, denominator = 6, remainder = 0
+20150722 11:26:09 PM:INFO:main:Function : <function least_common_multiple at 0x028DB198>
+20150722 11:26:09 PM:INFO:main:Function : <function lcm_and_hcf at 0x028DB1E0>
+20150722 11:26:09 PM:INFO:_highest_common_factor:ordered_list = [70, 112, 147]
+20150722 11:26:09 PM:INFO:_highest_common_factor:numerator = 112, denominator = 35, remainder = 7
+20150722 11:26:09 PM:INFO:_highest_common_factor:numerator = 35, denominator = 7, remainder = 0
+20150722 11:26:09 PM:INFO:main:Function : <function pole_spacing at 0x028DB228>
+20150722 11:26:09 PM:INFO:_highest_common_factor:ordered_list = [18, 24, 36]
+20150722 11:26:09 PM:INFO:_highest_common_factor:numerator = 24, denominator = 12, remainder = 0
+20150722 11:26:09 PM:INFO:_highest_common_factor:numerator = 12, denominator = 6, remainder = 0
+20150722 11:26:21 PM:INFO:main:Function : <function nearest_primes at 0x02686E88>
+20150722 11:26:21 PM:INFO:main:Function : <function list_primes at 0x02686ED0>
+20150722 11:26:21 PM:INFO:main:Function : <function twin_primes at 0x02686F18>
+20150722 11:26:21 PM:INFO:main:Function : <function factors at 0x02686F60>
+20150722 11:26:21 PM:INFO:main:Function : <function multiples at 0x0268B078>
+20150722 11:26:21 PM:INFO:main:Function : <function all_factors at 0x02686FA8>
+20150722 11:26:21 PM:INFO:main:Function : <function consecutive_primes at 0x0268B030>
+20150722 11:26:21 PM:INFO:main:Function : <function highest_common_factor at 0x0268B108>
+20150722 11:26:21 PM:INFO:_highest_common_factor:list_length = 2.
+20150722 11:26:21 PM:INFO:_highest_common_factor:index i : 0
+20150722 11:26:21 PM:INFO:_highest_common_factor:index i : 1
+20150722 11:26:21 PM:INFO:_highest_common_factor:Number_list = [110, 198]
+20150722 11:26:21 PM:INFO:_highest_common_factor:ordered_list = [110, 198]
+20150722 11:26:21 PM:INFO:_highest_common_factor:numerator = 110, denominator = 88, remainder = 22
+20150722 11:26:21 PM:INFO:_highest_common_factor:numerator = 88, denominator = 22, remainder = 0
+20150722 11:26:21 PM:INFO:main:Function : <function least_common_multiple at 0x0268B198>
+20150722 11:26:21 PM:INFO:main:Function : <function lcm_and_hcf at 0x0268B1E0>
+20150722 11:26:21 PM:INFO:_highest_common_factor:ordered_list = [150, 165, 360]
+20150722 11:26:21 PM:INFO:_highest_common_factor:numerator = 165, denominator = 30, remainder = 15
+20150722 11:26:21 PM:INFO:_highest_common_factor:numerator = 30, denominator = 15, remainder = 0
+20150722 11:26:21 PM:INFO:main:Function : <function pole_spacing at 0x0268B228>
+20150722 11:26:21 PM:INFO:_highest_common_factor:ordered_list = [36, 48, 84]
+20150722 11:26:21 PM:INFO:_highest_common_factor:numerator = 48, denominator = 36, remainder = 12
+20150722 11:26:21 PM:INFO:_highest_common_factor:numerator = 36, denominator = 12, remainder = 0
+20150722 11:26:21 PM:INFO:main:Function : <function stamp_distribution at 0x0268B270>
+20150722 11:26:21 PM:INFO:_highest_common_factor:ordered_list = [28, 32]
+20150722 11:26:21 PM:INFO:_highest_common_factor:numerator = 28, denominator = 4, remainder = 0
+20150722 11:26:38 PM:INFO:main:Function : <function nearest_primes at 0x026F6E88>
+20150722 11:26:38 PM:INFO:main:Function : <function list_primes at 0x026F6ED0>
+20150722 11:26:38 PM:INFO:main:Function : <function twin_primes at 0x026F6F18>
+20150722 11:26:38 PM:INFO:main:Function : <function factors at 0x026F6F60>
+20150722 11:26:38 PM:INFO:main:Function : <function multiples at 0x026FB078>
+20150722 11:26:38 PM:INFO:main:Function : <function all_factors at 0x026F6FA8>
+20150722 11:26:38 PM:INFO:main:Function : <function consecutive_primes at 0x026FB030>
+20150722 11:26:38 PM:INFO:main:Function : <function highest_common_factor at 0x026FB108>
+20150722 11:26:38 PM:INFO:_highest_common_factor:list_length = 3.
+20150722 11:26:38 PM:INFO:_highest_common_factor:index i : 0
+20150722 11:26:38 PM:INFO:_highest_common_factor:index i : 1
+20150722 11:26:38 PM:INFO:_highest_common_factor:index i : 2
+20150722 11:26:38 PM:INFO:_highest_common_factor:Number_list = [28, 133, 84]
+20150722 11:26:38 PM:INFO:_highest_common_factor:ordered_list = [28, 84, 133]
+20150722 11:26:38 PM:INFO:_highest_common_factor:numerator = 84, denominator = 49, remainder = 35
+20150722 11:26:38 PM:INFO:_highest_common_factor:numerator = 49, denominator = 35, remainder = 14
+20150722 11:26:38 PM:INFO:_highest_common_factor:numerator = 35, denominator = 14, remainder = 7
+20150722 11:26:38 PM:INFO:_highest_common_factor:numerator = 14, denominator = 7, remainder = 0
+20150722 11:26:38 PM:INFO:main:Function : <function least_common_multiple at 0x026FB198>
+20150722 11:26:38 PM:INFO:main:Function : <function lcm_and_hcf at 0x026FB1E0>
+20150722 11:26:38 PM:INFO:_highest_common_factor:ordered_list = [196, 238, 266]
+20150722 11:26:38 PM:INFO:_highest_common_factor:numerator = 238, denominator = 28, remainder = 14
+20150722 11:26:38 PM:INFO:_highest_common_factor:numerator = 28, denominator = 14, remainder = 0
+20150722 11:26:38 PM:INFO:main:Function : <function pole_spacing at 0x026FB228>
+20150722 11:26:38 PM:INFO:_highest_common_factor:ordered_list = [21, 28, 35]
+20150722 11:26:38 PM:INFO:_highest_common_factor:numerator = 28, denominator = 7, remainder = 0
+20150722 11:26:38 PM:INFO:main:Function : <function stamp_distribution at 0x026FB270>
+20150722 11:26:38 PM:INFO:_highest_common_factor:ordered_list = [16, 24]
+20150722 11:26:38 PM:INFO:_highest_common_factor:numerator = 16, denominator = 8, remainder = 0
+20150722 11:41:01 PM:INFO:main:Function : <function nearest_primes at 0x02873ED0>
+20150722 11:41:01 PM:INFO:main:Function : <function list_primes at 0x02873F18>
+20150722 11:41:01 PM:INFO:main:Function : <function twin_primes at 0x02873F60>
+20150722 11:41:01 PM:INFO:main:Function : <function factors at 0x02873FA8>
+20150722 11:41:01 PM:INFO:main:Function : <function multiples at 0x0287B0C0>
+20150722 11:41:01 PM:INFO:main:Function : <function all_factors at 0x0287B030>
+20150722 11:41:01 PM:INFO:main:Function : <function consecutive_primes at 0x0287B078>
+20150722 11:41:01 PM:INFO:main:Function : <function highest_common_factor at 0x0287B150>
+20150722 11:41:01 PM:INFO:_highest_common_factor:list_length = 2.
+20150722 11:41:01 PM:INFO:_highest_common_factor:index i : 0
+20150722 11:41:01 PM:INFO:_highest_common_factor:index i : 1
+20150722 11:41:01 PM:INFO:_highest_common_factor:Number_list = [187, 22]
+20150722 11:41:01 PM:INFO:_highest_common_factor:ordered_list = [22, 187]
+20150722 11:41:01 PM:INFO:_highest_common_factor:numerator = 22, denominator = 11, remainder = 0
+20150722 11:41:01 PM:INFO:main:Function : <function least_common_multiple at 0x0287B1E0>
+20150722 11:41:01 PM:INFO:main:Function : <function lcm_and_hcf at 0x0287B228>
+20150722 11:41:01 PM:INFO:_highest_common_factor:ordered_list = [360, 420, 480]
+20150722 11:41:01 PM:INFO:_highest_common_factor:numerator = 420, denominator = 60, remainder = 0
+20150722 11:41:01 PM:INFO:main:Function : <function pole_spacing at 0x0287B270>
+20150722 11:41:01 PM:INFO:_highest_common_factor:ordered_list = [36, 54, 63]
+20150722 11:41:01 PM:INFO:_highest_common_factor:numerator = 54, denominator = 9, remainder = 0
+20150722 11:41:01 PM:INFO:main:Function : <function stamp_distribution at 0x0287B2B8>
+20150722 11:41:01 PM:INFO:_highest_common_factor:ordered_list = [25, 25]
+20150722 11:41:18 PM:INFO:main:Function : <function nearest_primes at 0x028B3ED0>
+20150722 11:41:18 PM:INFO:main:Function : <function list_primes at 0x028B3F18>
+20150722 11:41:18 PM:INFO:main:Function : <function twin_primes at 0x028B3F60>
+20150722 11:41:18 PM:INFO:main:Function : <function factors at 0x028B3FA8>
+20150722 11:41:18 PM:INFO:main:Function : <function multiples at 0x028BB0C0>
+20150722 11:41:18 PM:INFO:main:Function : <function all_factors at 0x028BB030>
+20150722 11:41:18 PM:INFO:main:Function : <function consecutive_primes at 0x028BB078>
+20150722 11:41:18 PM:INFO:main:Function : <function highest_common_factor at 0x028BB150>
+20150722 11:41:18 PM:INFO:_highest_common_factor:list_length = 3.
+20150722 11:41:18 PM:INFO:_highest_common_factor:index i : 0
+20150722 11:41:18 PM:INFO:_highest_common_factor:index i : 1
+20150722 11:41:18 PM:INFO:_highest_common_factor:index i : 2
+20150722 11:41:18 PM:INFO:_highest_common_factor:Number_list = [162, 189, 63]
+20150722 11:41:18 PM:INFO:_highest_common_factor:ordered_list = [63, 162, 189]
+20150722 11:41:18 PM:INFO:_highest_common_factor:numerator = 162, denominator = 27, remainder = 0
+20150722 11:41:18 PM:INFO:_highest_common_factor:numerator = 27, denominator = 9, remainder = 0
+20150722 11:41:18 PM:INFO:main:Function : <function least_common_multiple at 0x028BB1E0>
+20150722 11:41:18 PM:INFO:main:Function : <function lcm_and_hcf at 0x028BB228>
+20150722 11:41:18 PM:INFO:_highest_common_factor:ordered_list = [228, 361, 380]
+20150722 11:41:18 PM:INFO:_highest_common_factor:numerator = 361, denominator = 19, remainder = 0
+20150722 11:41:18 PM:INFO:main:Function : <function pole_spacing at 0x028BB270>
+20150722 11:41:18 PM:INFO:_highest_common_factor:ordered_list = [44, 44, 66]
+20150722 11:41:18 PM:INFO:_highest_common_factor:numerator = 44, denominator = 22, remainder = 0
+20150722 11:41:18 PM:INFO:main:Function : <function stamp_distribution at 0x028BB2B8>
+20150722 11:41:18 PM:INFO:_highest_common_factor:ordered_list = [45, 54]
+20150722 11:41:18 PM:INFO:_highest_common_factor:numerator = 45, denominator = 9, remainder = 0
+20150722 11:41:18 PM:INFO:main:Function : <function march_past at 0x028BB300>
+20150722 11:41:18 PM:INFO:_highest_common_factor:ordered_list = [48, 84]
+20150722 11:41:18 PM:INFO:_highest_common_factor:numerator = 48, denominator = 36, remainder = 12
+20150722 11:41:18 PM:INFO:_highest_common_factor:numerator = 36, denominator = 12, remainder = 0
+20150722 11:41:45 PM:INFO:main:Function : <function nearest_primes at 0x027F3ED0>
+20150722 11:41:45 PM:INFO:main:Function : <function list_primes at 0x027F3F18>
+20150722 11:41:45 PM:INFO:main:Function : <function twin_primes at 0x027F3F60>
+20150722 11:41:45 PM:INFO:main:Function : <function factors at 0x027F3FA8>
+20150722 11:41:45 PM:INFO:main:Function : <function multiples at 0x027FB0C0>
+20150722 11:41:45 PM:INFO:main:Function : <function all_factors at 0x027FB030>
+20150722 11:41:45 PM:INFO:main:Function : <function consecutive_primes at 0x027FB078>
+20150722 11:41:45 PM:INFO:main:Function : <function highest_common_factor at 0x027FB150>
+20150722 11:41:45 PM:INFO:_highest_common_factor:list_length = 2.
+20150722 11:41:45 PM:INFO:_highest_common_factor:index i : 0
+20150722 11:41:45 PM:INFO:_highest_common_factor:index i : 1
+20150722 11:41:45 PM:INFO:_highest_common_factor:Number_list = [16, 112]
+20150722 11:41:45 PM:INFO:_highest_common_factor:ordered_list = [16, 112]
+20150722 11:41:45 PM:INFO:main:Function : <function least_common_multiple at 0x027FB1E0>
+20150722 11:41:45 PM:INFO:main:Function : <function lcm_and_hcf at 0x027FB228>
+20150722 11:41:45 PM:INFO:_highest_common_factor:ordered_list = [80, 152, 176]
+20150722 11:41:45 PM:INFO:_highest_common_factor:numerator = 152, denominator = 24, remainder = 8
+20150722 11:41:45 PM:INFO:_highest_common_factor:numerator = 24, denominator = 8, remainder = 0
+20150722 11:41:45 PM:INFO:main:Function : <function pole_spacing at 0x027FB270>
+20150722 11:41:45 PM:INFO:_highest_common_factor:ordered_list = [30, 40, 60]
+20150722 11:41:45 PM:INFO:_highest_common_factor:numerator = 40, denominator = 20, remainder = 0
+20150722 11:41:45 PM:INFO:_highest_common_factor:numerator = 20, denominator = 10, remainder = 0
+20150722 11:41:45 PM:INFO:main:Function : <function stamp_distribution at 0x027FB2B8>
+20150722 11:41:45 PM:INFO:_highest_common_factor:ordered_list = [42, 42]
+20150722 11:41:45 PM:INFO:main:Function : <function march_past at 0x027FB300>
+20150722 11:41:45 PM:INFO:_highest_common_factor:ordered_list = [45, 72]
+20150722 11:41:45 PM:INFO:_highest_common_factor:numerator = 45, denominator = 27, remainder = 18
+20150722 11:41:45 PM:INFO:_highest_common_factor:numerator = 27, denominator = 18, remainder = 9
+20150722 11:41:45 PM:INFO:_highest_common_factor:numerator = 18, denominator = 9, remainder = 0
+20150722 11:42:17 PM:INFO:main:Function : <function nearest_primes at 0x026E3ED0>
+20150722 11:42:17 PM:INFO:main:Function : <function list_primes at 0x026E3F18>
+20150722 11:42:17 PM:INFO:main:Function : <function twin_primes at 0x026E3F60>
+20150722 11:42:17 PM:INFO:main:Function : <function factors at 0x026E3FA8>
+20150722 11:42:17 PM:INFO:main:Function : <function multiples at 0x026EB0C0>
+20150722 11:42:17 PM:INFO:main:Function : <function all_factors at 0x026EB030>
+20150722 11:42:17 PM:INFO:main:Function : <function consecutive_primes at 0x026EB078>
+20150722 11:42:17 PM:INFO:main:Function : <function highest_common_factor at 0x026EB150>
+20150722 11:42:17 PM:INFO:_highest_common_factor:list_length = 3.
+20150722 11:42:17 PM:INFO:_highest_common_factor:index i : 0
+20150722 11:42:17 PM:INFO:_highest_common_factor:index i : 1
+20150722 11:42:17 PM:INFO:_highest_common_factor:index i : 2
+20150722 11:42:17 PM:INFO:_highest_common_factor:Number_list = [156, 48, 204]
+20150722 11:42:17 PM:INFO:_highest_common_factor:ordered_list = [48, 156, 204]
+20150722 11:42:17 PM:INFO:_highest_common_factor:numerator = 156, denominator = 48, remainder = 12
+20150722 11:42:17 PM:INFO:_highest_common_factor:numerator = 48, denominator = 12, remainder = 0
+20150722 11:42:17 PM:INFO:main:Function : <function least_common_multiple at 0x026EB1E0>
+20150722 11:42:17 PM:INFO:main:Function : <function lcm_and_hcf at 0x026EB228>
+20150722 11:42:17 PM:INFO:_highest_common_factor:ordered_list = [247, 418, 437]
+20150722 11:42:17 PM:INFO:_highest_common_factor:numerator = 418, denominator = 19, remainder = 0
+20150722 11:42:17 PM:INFO:main:Function : <function pole_spacing at 0x026EB270>
+20150722 11:42:17 PM:INFO:_highest_common_factor:ordered_list = [36, 60, 84]
+20150722 11:42:17 PM:INFO:_highest_common_factor:numerator = 60, denominator = 24, remainder = 12
+20150722 11:42:17 PM:INFO:_highest_common_factor:numerator = 24, denominator = 12, remainder = 0
+20150722 11:42:17 PM:INFO:main:Function : <function stamp_distribution at 0x026EB2B8>
+20150722 11:42:17 PM:INFO:_highest_common_factor:ordered_list = [16, 28]
+20150722 11:42:17 PM:INFO:_highest_common_factor:numerator = 16, denominator = 12, remainder = 4
+20150722 11:42:17 PM:INFO:_highest_common_factor:numerator = 12, denominator = 4, remainder = 0
+20150722 11:42:17 PM:INFO:main:Function : <function march_past at 0x026EB300>
+20150722 11:42:17 PM:INFO:_highest_common_factor:ordered_list = [60, 80]
+20150722 11:42:17 PM:INFO:_highest_common_factor:numerator = 60, denominator = 20, remainder = 0
+20150722 11:42:32 PM:INFO:main:Function : <function nearest_primes at 0x02853ED0>
+20150722 11:42:32 PM:INFO:main:Function : <function list_primes at 0x02853F18>
+20150722 11:42:32 PM:INFO:main:Function : <function twin_primes at 0x02853F60>
+20150722 11:42:32 PM:INFO:main:Function : <function factors at 0x02853FA8>
+20150722 11:42:32 PM:INFO:main:Function : <function multiples at 0x0285B0C0>
+20150722 11:42:32 PM:INFO:main:Function : <function all_factors at 0x0285B030>
+20150722 11:42:32 PM:INFO:main:Function : <function consecutive_primes at 0x0285B078>
+20150722 11:42:32 PM:INFO:main:Function : <function highest_common_factor at 0x0285B150>
+20150722 11:42:32 PM:INFO:_highest_common_factor:list_length = 3.
+20150722 11:42:32 PM:INFO:_highest_common_factor:index i : 0
+20150722 11:42:32 PM:INFO:_highest_common_factor:index i : 1
+20150722 11:42:32 PM:INFO:_highest_common_factor:index i : 2
+20150722 11:42:32 PM:INFO:_highest_common_factor:Number_list = [105, 65, 50]
+20150722 11:42:32 PM:INFO:_highest_common_factor:ordered_list = [50, 65, 105]
+20150722 11:42:32 PM:INFO:_highest_common_factor:numerator = 65, denominator = 40, remainder = 25
+20150722 11:42:32 PM:INFO:_highest_common_factor:numerator = 40, denominator = 25, remainder = 15
+20150722 11:42:32 PM:INFO:_highest_common_factor:numerator = 25, denominator = 15, remainder = 10
+20150722 11:42:32 PM:INFO:_highest_common_factor:numerator = 15, denominator = 10, remainder = 5
+20150722 11:42:32 PM:INFO:_highest_common_factor:numerator = 10, denominator = 5, remainder = 0
+20150722 11:42:32 PM:INFO:main:Function : <function least_common_multiple at 0x0285B1E0>
+20150722 11:42:32 PM:INFO:main:Function : <function lcm_and_hcf at 0x0285B228>
+20150722 11:42:32 PM:INFO:_highest_common_factor:ordered_list = [198, 324, 450]
+20150722 11:42:32 PM:INFO:_highest_common_factor:numerator = 324, denominator = 126, remainder = 72
+20150722 11:42:32 PM:INFO:_highest_common_factor:numerator = 126, denominator = 72, remainder = 54
+20150722 11:42:32 PM:INFO:_highest_common_factor:numerator = 72, denominator = 54, remainder = 18
+20150722 11:42:32 PM:INFO:_highest_common_factor:numerator = 54, denominator = 18, remainder = 0
+20150722 11:42:32 PM:INFO:main:Function : <function pole_spacing at 0x0285B270>
+20150722 11:42:32 PM:INFO:_highest_common_factor:ordered_list = [21, 42, 42]
+20150722 11:42:32 PM:INFO:_highest_common_factor:numerator = 42, denominator = 21, remainder = 0
+20150722 11:42:32 PM:INFO:main:Function : <function stamp_distribution at 0x0285B2B8>
+20150722 11:42:32 PM:INFO:_highest_common_factor:ordered_list = [27, 45]
+20150722 11:42:32 PM:INFO:_highest_common_factor:numerator = 27, denominator = 18, remainder = 9
+20150722 11:42:32 PM:INFO:_highest_common_factor:numerator = 18, denominator = 9, remainder = 0
+20150722 11:42:32 PM:INFO:main:Function : <function march_past at 0x0285B300>
+20150722 11:42:32 PM:INFO:_highest_common_factor:ordered_list = [25, 25]
+20150722 11:52:00 PM:INFO:main:Function : <function nearest_primes at 0x02803ED0>
+20150722 11:52:00 PM:INFO:main:Function : <function list_primes at 0x02803F18>
+20150722 11:52:00 PM:INFO:main:Function : <function twin_primes at 0x02803F60>
+20150722 11:52:00 PM:INFO:main:Function : <function factors at 0x02803FA8>
+20150722 11:52:00 PM:INFO:main:Function : <function multiples at 0x0280B0C0>
+20150722 11:52:00 PM:INFO:main:Function : <function all_factors at 0x0280B030>
+20150722 11:52:00 PM:INFO:main:Function : <function consecutive_primes at 0x0280B078>
+20150722 11:52:00 PM:INFO:main:Function : <function highest_common_factor at 0x0280B150>
+20150722 11:52:00 PM:INFO:_highest_common_factor:list_length = 2.
+20150722 11:52:00 PM:INFO:_highest_common_factor:index i : 0
+20150722 11:52:00 PM:INFO:_highest_common_factor:index i : 1
+20150722 11:52:00 PM:INFO:_highest_common_factor:Number_list = [198, 275]
+20150722 11:52:00 PM:INFO:_highest_common_factor:ordered_list = [198, 275]
+20150722 11:52:00 PM:INFO:_highest_common_factor:numerator = 198, denominator = 77, remainder = 44
+20150722 11:52:00 PM:INFO:_highest_common_factor:numerator = 77, denominator = 44, remainder = 33
+20150722 11:52:00 PM:INFO:_highest_common_factor:numerator = 44, denominator = 33, remainder = 11
+20150722 11:52:00 PM:INFO:_highest_common_factor:numerator = 33, denominator = 11, remainder = 0
+20150722 11:52:00 PM:INFO:main:Function : <function least_common_multiple at 0x0280B1E0>
+20150722 11:52:00 PM:INFO:main:Function : <function lcm_and_hcf at 0x0280B228>
+20150722 11:52:00 PM:INFO:_highest_common_factor:ordered_list = [108, 120, 276]
+20150722 11:52:00 PM:INFO:_highest_common_factor:numerator = 120, denominator = 36, remainder = 12
+20150722 11:52:00 PM:INFO:_highest_common_factor:numerator = 36, denominator = 12, remainder = 0
+20150722 11:52:00 PM:INFO:main:Function : <function pole_spacing at 0x0280B270>
+20150722 11:52:00 PM:INFO:_highest_common_factor:ordered_list = [45, 54, 63]
+20150722 11:52:00 PM:INFO:_highest_common_factor:numerator = 54, denominator = 9, remainder = 0
+20150722 11:52:00 PM:INFO:main:Function : <function stamp_distribution at 0x0280B2B8>
+20150722 11:52:00 PM:INFO:_highest_common_factor:ordered_list = [36, 72]
+20150722 11:52:00 PM:INFO:main:Function : <function march_past at 0x0280B300>
+20150722 11:52:00 PM:INFO:_highest_common_factor:ordered_list = [20, 25]
+20150722 11:52:00 PM:INFO:_highest_common_factor:numerator = 20, denominator = 5, remainder = 0
+20150808 10:23:38 AM:INFO:main:Function : <function nearest_primes at 0x02453FA8>
+20150808 10:23:38 AM:INFO:main:Function : <function list_primes at 0x0245B030>
+20150808 10:23:38 AM:INFO:main:Function : <function twin_primes at 0x0245B078>
+20150808 10:23:38 AM:INFO:main:Function : <function factors at 0x0245B0C0>
+20150808 10:23:38 AM:INFO:main:Function : <function multiples at 0x0245B198>
+20150808 10:23:38 AM:INFO:main:Function : <function all_factors at 0x0245B108>
+20150808 10:23:38 AM:INFO:main:Function : <function consecutive_primes at 0x0245B150>
+20150808 10:23:38 AM:INFO:main:Function : <function highest_common_factor at 0x0245B228>
+20150808 10:23:38 AM:INFO:_highest_common_factor:list_length = 3.
+20150808 10:23:38 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:23:38 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:23:38 AM:INFO:_highest_common_factor:index i : 2
+20150808 10:23:38 AM:INFO:_highest_common_factor:Number_list = [162, 18, 99]
+20150808 10:23:38 AM:INFO:_highest_common_factor:ordered_list = [18, 99, 162]
+20150808 10:23:38 AM:INFO:_highest_common_factor:numerator = 99, denominator = 63, remainder = 36
+20150808 10:23:38 AM:INFO:_highest_common_factor:numerator = 63, denominator = 36, remainder = 27
+20150808 10:23:38 AM:INFO:_highest_common_factor:numerator = 36, denominator = 27, remainder = 9
+20150808 10:23:38 AM:INFO:_highest_common_factor:numerator = 27, denominator = 9, remainder = 0
+20150808 10:23:38 AM:INFO:main:Function : <function least_common_multiple at 0x0245B2B8>
+20150808 10:23:38 AM:INFO:main:Function : <function lcm_and_hcf at 0x0245B300>
+20150808 10:23:38 AM:INFO:_highest_common_factor:ordered_list = [209, 220, 242]
+20150808 10:23:38 AM:INFO:_highest_common_factor:numerator = 220, denominator = 22, remainder = 0
+20150808 10:23:38 AM:INFO:_highest_common_factor:numerator = 22, denominator = 11, remainder = 0
+20150808 10:23:38 AM:INFO:main:Function : <function pole_spacing at 0x0245B348>
+20150808 10:23:38 AM:INFO:_highest_common_factor:ordered_list = [30, 50, 70]
+20150808 10:23:38 AM:INFO:_highest_common_factor:numerator = 50, denominator = 20, remainder = 10
+20150808 10:23:38 AM:INFO:_highest_common_factor:numerator = 20, denominator = 10, remainder = 0
+20150808 10:23:38 AM:INFO:main:Function : <function stamp_distribution at 0x0245B390>
+20150808 10:23:38 AM:INFO:_highest_common_factor:ordered_list = [21, 35]
+20150808 10:23:38 AM:INFO:_highest_common_factor:numerator = 21, denominator = 14, remainder = 7
+20150808 10:23:38 AM:INFO:_highest_common_factor:numerator = 14, denominator = 7, remainder = 0
+20150808 10:23:38 AM:INFO:main:Function : <function march_past at 0x0245B3D8>
+20150808 10:23:38 AM:INFO:_highest_common_factor:ordered_list = [49, 56]
+20150808 10:23:38 AM:INFO:_highest_common_factor:numerator = 49, denominator = 7, remainder = 0
+20150808 10:23:38 AM:INFO:main:Function : <function building_age at 0x0245B420>
+20150808 10:23:38 AM:INFO:main:Function : <function chocolate_distribution at 0x0245B468>
+20150808 10:24:19 AM:INFO:main:Function : <function nearest_primes at 0x023D7F60>
+20150808 10:24:19 AM:INFO:main:Function : <function list_primes at 0x023D7FA8>
+20150808 10:24:19 AM:INFO:main:Function : <function twin_primes at 0x023DE030>
+20150808 10:24:19 AM:INFO:main:Function : <function factors at 0x023DE078>
+20150808 10:24:19 AM:INFO:main:Function : <function multiples at 0x023DE150>
+20150808 10:24:19 AM:INFO:main:Function : <function all_factors at 0x023DE0C0>
+20150808 10:24:19 AM:INFO:main:Function : <function consecutive_primes at 0x023DE108>
+20150808 10:24:19 AM:INFO:main:Function : <function highest_common_factor at 0x023DE1E0>
+20150808 10:24:19 AM:INFO:_highest_common_factor:list_length = 3.
+20150808 10:24:19 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:24:19 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:24:19 AM:INFO:_highest_common_factor:index i : 2
+20150808 10:24:19 AM:INFO:_highest_common_factor:Number_list = [44, 253, 121]
+20150808 10:24:19 AM:INFO:_highest_common_factor:ordered_list = [44, 121, 253]
+20150808 10:24:19 AM:INFO:_highest_common_factor:numerator = 121, denominator = 11, remainder = 0
+20150808 10:24:19 AM:INFO:main:Function : <function least_common_multiple at 0x023DE270>
+20150808 10:24:19 AM:INFO:main:Function : <function lcm_and_hcf at 0x023DE2B8>
+20150808 10:24:19 AM:INFO:_highest_common_factor:ordered_list = [252, 288, 306]
+20150808 10:24:19 AM:INFO:_highest_common_factor:numerator = 288, denominator = 18, remainder = 0
+20150808 10:24:19 AM:INFO:main:Function : <function pole_spacing at 0x023DE300>
+20150808 10:24:19 AM:INFO:_highest_common_factor:ordered_list = [30, 50, 70]
+20150808 10:24:19 AM:INFO:_highest_common_factor:numerator = 50, denominator = 20, remainder = 10
+20150808 10:24:19 AM:INFO:_highest_common_factor:numerator = 20, denominator = 10, remainder = 0
+20150808 10:24:19 AM:INFO:main:Function : <function stamp_distribution at 0x023DE348>
+20150808 10:24:19 AM:INFO:_highest_common_factor:ordered_list = [20, 40]
+20150808 10:24:19 AM:INFO:main:Function : <function march_past at 0x023DE390>
+20150808 10:24:19 AM:INFO:_highest_common_factor:ordered_list = [20, 40]
+20150808 10:24:19 AM:INFO:main:Function : <function building_age at 0x023DE3D8>
+20150808 10:24:19 AM:INFO:main:Function : <function chocolate_distribution at 0x023DE420>
+20150808 10:24:19 AM:INFO:chocolate_distribution:Chocolates per friend [8, 7]
+20150808 10:33:11 AM:INFO:main:Function : <function nearest_primes at 0x02569F60>
+20150808 10:33:11 AM:INFO:main:Function : <function list_primes at 0x02569FA8>
+20150808 10:33:11 AM:INFO:main:Function : <function twin_primes at 0x02571030>
+20150808 10:33:11 AM:INFO:main:Function : <function factors at 0x02571078>
+20150808 10:33:11 AM:INFO:main:Function : <function multiples at 0x02571150>
+20150808 10:33:11 AM:INFO:main:Function : <function all_factors at 0x025710C0>
+20150808 10:33:11 AM:INFO:main:Function : <function consecutive_primes at 0x02571108>
+20150808 10:33:11 AM:INFO:main:Function : <function highest_common_factor at 0x025711E0>
+20150808 10:33:11 AM:INFO:_highest_common_factor:list_length = 2.
+20150808 10:33:11 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:33:11 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:33:11 AM:INFO:_highest_common_factor:Number_list = [102, 54]
+20150808 10:33:11 AM:INFO:_highest_common_factor:ordered_list = [54, 102]
+20150808 10:33:11 AM:INFO:_highest_common_factor:numerator = 54, denominator = 48, remainder = 6
+20150808 10:33:11 AM:INFO:_highest_common_factor:numerator = 48, denominator = 6, remainder = 0
+20150808 10:33:11 AM:INFO:main:Function : <function least_common_multiple at 0x02571270>
+20150808 10:33:11 AM:INFO:main:Function : <function lcm_and_hcf at 0x025712B8>
+20150808 10:33:11 AM:INFO:_highest_common_factor:ordered_list = [143, 156, 221]
+20150808 10:33:11 AM:INFO:_highest_common_factor:numerator = 156, denominator = 65, remainder = 26
+20150808 10:33:11 AM:INFO:_highest_common_factor:numerator = 65, denominator = 26, remainder = 13
+20150808 10:33:11 AM:INFO:_highest_common_factor:numerator = 26, denominator = 13, remainder = 0
+20150808 10:33:11 AM:INFO:main:Function : <function pole_spacing at 0x02571300>
+20150808 10:33:11 AM:INFO:_highest_common_factor:ordered_list = [48, 48, 48]
+20150808 10:33:11 AM:INFO:main:Function : <function stamp_distribution at 0x02571348>
+20150808 10:33:11 AM:INFO:_highest_common_factor:ordered_list = [24, 32]
+20150808 10:33:11 AM:INFO:_highest_common_factor:numerator = 24, denominator = 8, remainder = 0
+20150808 10:33:11 AM:INFO:main:Function : <function march_past at 0x02571390>
+20150808 10:33:11 AM:INFO:_highest_common_factor:ordered_list = [28, 56]
+20150808 10:33:11 AM:INFO:main:Function : <function building_age at 0x025713D8>
+20150808 10:33:11 AM:INFO:main:Function : <function chocolate_distribution at 0x02571468>
+20150808 10:33:11 AM:INFO:chocolate_distribution:Chocolates per friend ()
+20150808 10:34:29 AM:INFO:main:Function : <function nearest_primes at 0x02509F60>
+20150808 10:34:29 AM:INFO:main:Function : <function list_primes at 0x02509FA8>
+20150808 10:34:29 AM:INFO:main:Function : <function twin_primes at 0x02511030>
+20150808 10:34:29 AM:INFO:main:Function : <function factors at 0x02511078>
+20150808 10:34:29 AM:INFO:main:Function : <function multiples at 0x02511150>
+20150808 10:34:29 AM:INFO:main:Function : <function all_factors at 0x025110C0>
+20150808 10:34:29 AM:INFO:main:Function : <function consecutive_primes at 0x02511108>
+20150808 10:34:29 AM:INFO:main:Function : <function highest_common_factor at 0x025111E0>
+20150808 10:34:29 AM:INFO:_highest_common_factor:list_length = 2.
+20150808 10:34:29 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:34:29 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:34:29 AM:INFO:_highest_common_factor:Number_list = [102, 132]
+20150808 10:34:29 AM:INFO:_highest_common_factor:ordered_list = [102, 132]
+20150808 10:34:29 AM:INFO:_highest_common_factor:numerator = 102, denominator = 30, remainder = 12
+20150808 10:34:29 AM:INFO:_highest_common_factor:numerator = 30, denominator = 12, remainder = 6
+20150808 10:34:29 AM:INFO:_highest_common_factor:numerator = 12, denominator = 6, remainder = 0
+20150808 10:34:29 AM:INFO:main:Function : <function least_common_multiple at 0x02511270>
+20150808 10:34:29 AM:INFO:main:Function : <function lcm_and_hcf at 0x025112B8>
+20150808 10:34:29 AM:INFO:_highest_common_factor:ordered_list = [288, 306, 360]
+20150808 10:34:29 AM:INFO:_highest_common_factor:numerator = 306, denominator = 54, remainder = 36
+20150808 10:34:29 AM:INFO:_highest_common_factor:numerator = 54, denominator = 36, remainder = 18
+20150808 10:34:29 AM:INFO:_highest_common_factor:numerator = 36, denominator = 18, remainder = 0
+20150808 10:34:29 AM:INFO:main:Function : <function pole_spacing at 0x02511300>
+20150808 10:34:29 AM:INFO:_highest_common_factor:ordered_list = [45, 45, 54]
+20150808 10:34:29 AM:INFO:_highest_common_factor:numerator = 45, denominator = 9, remainder = 0
+20150808 10:34:29 AM:INFO:main:Function : <function stamp_distribution at 0x02511348>
+20150808 10:34:29 AM:INFO:_highest_common_factor:ordered_list = [36, 36]
+20150808 10:34:29 AM:INFO:main:Function : <function march_past at 0x02511390>
+20150808 10:34:29 AM:INFO:_highest_common_factor:ordered_list = [25, 30]
+20150808 10:34:29 AM:INFO:_highest_common_factor:numerator = 25, denominator = 5, remainder = 0
+20150808 10:34:29 AM:INFO:main:Function : <function building_age at 0x025113D8>
+20150808 10:34:29 AM:INFO:main:Function : <function chocolate_distribution at 0x02511468>
+20150808 10:35:08 AM:INFO:main:Function : <function nearest_primes at 0x02356F60>
+20150808 10:35:08 AM:INFO:main:Function : <function list_primes at 0x02356FA8>
+20150808 10:35:08 AM:INFO:main:Function : <function twin_primes at 0x0235E030>
+20150808 10:35:08 AM:INFO:main:Function : <function factors at 0x0235E078>
+20150808 10:35:08 AM:INFO:main:Function : <function multiples at 0x0235E150>
+20150808 10:35:08 AM:INFO:main:Function : <function all_factors at 0x0235E0C0>
+20150808 10:35:08 AM:INFO:main:Function : <function consecutive_primes at 0x0235E108>
+20150808 10:35:08 AM:INFO:main:Function : <function highest_common_factor at 0x0235E1E0>
+20150808 10:35:08 AM:INFO:_highest_common_factor:list_length = 2.
+20150808 10:35:08 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:35:08 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:35:08 AM:INFO:_highest_common_factor:Number_list = [45, 105]
+20150808 10:35:08 AM:INFO:_highest_common_factor:ordered_list = [45, 105]
+20150808 10:35:08 AM:INFO:_highest_common_factor:numerator = 45, denominator = 15, remainder = 0
+20150808 10:35:08 AM:INFO:main:Function : <function least_common_multiple at 0x0235E270>
+20150808 10:35:08 AM:INFO:main:Function : <function lcm_and_hcf at 0x0235E2B8>
+20150808 10:35:08 AM:INFO:_highest_common_factor:ordered_list = [99, 135, 216]
+20150808 10:35:08 AM:INFO:_highest_common_factor:numerator = 135, denominator = 81, remainder = 54
+20150808 10:35:08 AM:INFO:_highest_common_factor:numerator = 81, denominator = 54, remainder = 27
+20150808 10:35:08 AM:INFO:_highest_common_factor:numerator = 54, denominator = 27, remainder = 0
+20150808 10:35:08 AM:INFO:_highest_common_factor:numerator = 27, denominator = 18, remainder = 9
+20150808 10:35:08 AM:INFO:_highest_common_factor:numerator = 18, denominator = 9, remainder = 0
+20150808 10:35:08 AM:INFO:main:Function : <function pole_spacing at 0x0235E300>
+20150808 10:35:08 AM:INFO:_highest_common_factor:ordered_list = [33, 33, 77]
+20150808 10:35:08 AM:INFO:_highest_common_factor:numerator = 33, denominator = 11, remainder = 0
+20150808 10:35:08 AM:INFO:main:Function : <function stamp_distribution at 0x0235E348>
+20150808 10:35:08 AM:INFO:_highest_common_factor:ordered_list = [27, 45]
+20150808 10:35:08 AM:INFO:_highest_common_factor:numerator = 27, denominator = 18, remainder = 9
+20150808 10:35:08 AM:INFO:_highest_common_factor:numerator = 18, denominator = 9, remainder = 0
+20150808 10:35:08 AM:INFO:main:Function : <function march_past at 0x0235E390>
+20150808 10:35:08 AM:INFO:_highest_common_factor:ordered_list = [48, 56]
+20150808 10:35:08 AM:INFO:_highest_common_factor:numerator = 48, denominator = 8, remainder = 0
+20150808 10:35:08 AM:INFO:main:Function : <function building_age at 0x0235E3D8>
+20150808 10:35:43 AM:INFO:main:Function : <function nearest_primes at 0x02B2DA98>
+20150808 10:35:43 AM:INFO:main:Function : <function list_primes at 0x02B2DAE0>
+20150808 10:35:43 AM:INFO:main:Function : <function twin_primes at 0x02B2DB28>
+20150808 10:35:43 AM:INFO:main:Function : <function factors at 0x02B2DB70>
+20150808 10:35:43 AM:INFO:main:Function : <function multiples at 0x02B2DC48>
+20150808 10:35:43 AM:INFO:main:Function : <function all_factors at 0x02B2DBB8>
+20150808 10:35:43 AM:INFO:main:Function : <function consecutive_primes at 0x02B2DC00>
+20150808 10:35:43 AM:INFO:main:Function : <function highest_common_factor at 0x02B2DCD8>
+20150808 10:35:43 AM:INFO:_highest_common_factor:list_length = 2.
+20150808 10:35:43 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:35:43 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:35:43 AM:INFO:_highest_common_factor:Number_list = [200, 72]
+20150808 10:35:43 AM:INFO:_highest_common_factor:ordered_list = [72, 200]
+20150808 10:35:43 AM:INFO:_highest_common_factor:numerator = 72, denominator = 56, remainder = 16
+20150808 10:35:43 AM:INFO:_highest_common_factor:numerator = 56, denominator = 16, remainder = 8
+20150808 10:35:43 AM:INFO:_highest_common_factor:numerator = 16, denominator = 8, remainder = 0
+20150808 10:35:43 AM:INFO:main:Function : <function least_common_multiple at 0x02B2DD68>
+20150808 10:35:43 AM:INFO:main:Function : <function lcm_and_hcf at 0x02B2DDB0>
+20150808 10:35:44 AM:INFO:_highest_common_factor:ordered_list = [180, 228, 276]
+20150808 10:35:44 AM:INFO:_highest_common_factor:numerator = 228, denominator = 48, remainder = 36
+20150808 10:35:44 AM:INFO:_highest_common_factor:numerator = 48, denominator = 36, remainder = 12
+20150808 10:35:44 AM:INFO:_highest_common_factor:numerator = 36, denominator = 12, remainder = 0
+20150808 10:35:44 AM:INFO:main:Function : <function pole_spacing at 0x02B2DDF8>
+20150808 10:35:44 AM:INFO:_highest_common_factor:ordered_list = [21, 35, 35]
+20150808 10:35:44 AM:INFO:_highest_common_factor:numerator = 35, denominator = 21, remainder = 14
+20150808 10:35:44 AM:INFO:_highest_common_factor:numerator = 21, denominator = 14, remainder = 7
+20150808 10:35:44 AM:INFO:_highest_common_factor:numerator = 14, denominator = 7, remainder = 0
+20150808 10:35:44 AM:INFO:main:Function : <function stamp_distribution at 0x02B2DE40>
+20150808 10:35:44 AM:INFO:_highest_common_factor:ordered_list = [20, 28]
+20150808 10:35:44 AM:INFO:_highest_common_factor:numerator = 20, denominator = 8, remainder = 4
+20150808 10:35:44 AM:INFO:_highest_common_factor:numerator = 8, denominator = 4, remainder = 0
+20150808 10:35:44 AM:INFO:main:Function : <function march_past at 0x02B2DE88>
+20150808 10:35:44 AM:INFO:_highest_common_factor:ordered_list = [45, 45]
+20150808 10:35:44 AM:INFO:main:Function : <function building_age at 0x02B2DED0>
+20150808 10:35:44 AM:INFO:main:Function : <function chocolate_distribution at 0x02B2DF60>
+20150808 10:37:02 AM:INFO:main:Function : <function nearest_primes at 0x02B4FA98>
+20150808 10:37:02 AM:INFO:main:Function : <function list_primes at 0x02B4FAE0>
+20150808 10:37:02 AM:INFO:main:Function : <function twin_primes at 0x02B4FB28>
+20150808 10:37:02 AM:INFO:main:Function : <function factors at 0x02B4FB70>
+20150808 10:37:02 AM:INFO:main:Function : <function multiples at 0x02B4FC48>
+20150808 10:37:02 AM:INFO:main:Function : <function all_factors at 0x02B4FBB8>
+20150808 10:37:02 AM:INFO:main:Function : <function consecutive_primes at 0x02B4FC00>
+20150808 10:37:02 AM:INFO:main:Function : <function highest_common_factor at 0x02B4FCD8>
+20150808 10:37:02 AM:INFO:_highest_common_factor:list_length = 2.
+20150808 10:37:02 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:37:02 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:37:02 AM:INFO:_highest_common_factor:Number_list = [110, 33]
+20150808 10:37:02 AM:INFO:_highest_common_factor:ordered_list = [33, 110]
+20150808 10:37:02 AM:INFO:_highest_common_factor:numerator = 33, denominator = 11, remainder = 0
+20150808 10:37:02 AM:INFO:main:Function : <function least_common_multiple at 0x02B4FD68>
+20150808 10:37:02 AM:INFO:main:Function : <function lcm_and_hcf at 0x02B4FDB0>
+20150808 10:37:02 AM:INFO:_highest_common_factor:ordered_list = [180, 288, 300]
+20150808 10:37:02 AM:INFO:_highest_common_factor:numerator = 288, denominator = 12, remainder = 0
+20150808 10:37:02 AM:INFO:main:Function : <function pole_spacing at 0x02B4FDF8>
+20150808 10:37:02 AM:INFO:_highest_common_factor:ordered_list = [20, 25, 35]
+20150808 10:37:02 AM:INFO:_highest_common_factor:numerator = 25, denominator = 10, remainder = 5
+20150808 10:37:02 AM:INFO:_highest_common_factor:numerator = 10, denominator = 5, remainder = 0
+20150808 10:37:02 AM:INFO:main:Function : <function stamp_distribution at 0x02B4FE40>
+20150808 10:37:02 AM:INFO:_highest_common_factor:ordered_list = [24, 32]
+20150808 10:37:02 AM:INFO:_highest_common_factor:numerator = 24, denominator = 8, remainder = 0
+20150808 10:37:02 AM:INFO:main:Function : <function march_past at 0x02B4FE88>
+20150808 10:37:02 AM:INFO:_highest_common_factor:ordered_list = [24, 36]
+20150808 10:37:02 AM:INFO:_highest_common_factor:numerator = 24, denominator = 12, remainder = 0
+20150808 10:37:02 AM:INFO:main:Function : <function building_age at 0x02B4FED0>
+20150808 10:37:03 AM:INFO:main:Function : <function chocolate_distribution at 0x02B4FF60>
+20150808 10:38:30 AM:INFO:main:Function : <function nearest_primes at 0x02BE0A98>
+20150808 10:38:30 AM:INFO:main:Function : <function list_primes at 0x02BE0AE0>
+20150808 10:38:30 AM:INFO:main:Function : <function twin_primes at 0x02BE0B28>
+20150808 10:38:30 AM:INFO:main:Function : <function factors at 0x02BE0B70>
+20150808 10:38:31 AM:INFO:main:Function : <function multiples at 0x02BE0C48>
+20150808 10:38:31 AM:INFO:main:Function : <function all_factors at 0x02BE0BB8>
+20150808 10:38:31 AM:INFO:main:Function : <function consecutive_primes at 0x02BE0C00>
+20150808 10:38:31 AM:INFO:main:Function : <function highest_common_factor at 0x02BE0CD8>
+20150808 10:38:31 AM:INFO:_highest_common_factor:list_length = 3.
+20150808 10:38:31 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:38:31 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:38:31 AM:INFO:_highest_common_factor:index i : 2
+20150808 10:38:31 AM:INFO:_highest_common_factor:Number_list = [228, 156, 72]
+20150808 10:38:31 AM:INFO:_highest_common_factor:ordered_list = [72, 156, 228]
+20150808 10:38:31 AM:INFO:_highest_common_factor:numerator = 156, denominator = 72, remainder = 12
+20150808 10:38:31 AM:INFO:_highest_common_factor:numerator = 72, denominator = 12, remainder = 0
+20150808 10:38:31 AM:INFO:main:Function : <function least_common_multiple at 0x02BE0D68>
+20150808 10:38:31 AM:INFO:main:Function : <function lcm_and_hcf at 0x02BE0DB0>
+20150808 10:38:31 AM:INFO:_highest_common_factor:ordered_list = [150, 180, 225]
+20150808 10:38:31 AM:INFO:_highest_common_factor:numerator = 180, denominator = 45, remainder = 0
+20150808 10:38:31 AM:INFO:_highest_common_factor:numerator = 45, denominator = 15, remainder = 0
+20150808 10:38:31 AM:INFO:main:Function : <function pole_spacing at 0x02BE0DF8>
+20150808 10:38:31 AM:INFO:_highest_common_factor:ordered_list = [36, 48, 72]
+20150808 10:38:31 AM:INFO:_highest_common_factor:numerator = 48, denominator = 24, remainder = 0
+20150808 10:38:31 AM:INFO:_highest_common_factor:numerator = 24, denominator = 12, remainder = 0
+20150808 10:38:31 AM:INFO:main:Function : <function stamp_distribution at 0x02BE0E40>
+20150808 10:38:31 AM:INFO:_highest_common_factor:ordered_list = [12, 24]
+20150808 10:38:31 AM:INFO:main:Function : <function march_past at 0x02BE0E88>
+20150808 10:38:31 AM:INFO:_highest_common_factor:ordered_list = [36, 72]
+20150808 10:38:31 AM:INFO:main:Function : <function building_age at 0x02BE0ED0>
+20150808 10:38:32 AM:INFO:main:Function : <function chocolate_distribution at 0x02BE0F60>
+20150808 10:39:50 AM:INFO:main:Function : <function nearest_primes at 0x02416F60>
+20150808 10:39:50 AM:INFO:main:Function : <function list_primes at 0x02416FA8>
+20150808 10:39:50 AM:INFO:main:Function : <function twin_primes at 0x0241E030>
+20150808 10:39:50 AM:INFO:main:Function : <function factors at 0x0241E078>
+20150808 10:39:50 AM:INFO:main:Function : <function multiples at 0x0241E150>
+20150808 10:39:50 AM:INFO:main:Function : <function all_factors at 0x0241E0C0>
+20150808 10:39:50 AM:INFO:main:Function : <function consecutive_primes at 0x0241E108>
+20150808 10:39:50 AM:INFO:main:Function : <function highest_common_factor at 0x0241E1E0>
+20150808 10:39:50 AM:INFO:_highest_common_factor:list_length = 2.
+20150808 10:39:50 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:39:50 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:39:50 AM:INFO:_highest_common_factor:Number_list = [33, 264]
+20150808 10:39:50 AM:INFO:_highest_common_factor:ordered_list = [33, 264]
+20150808 10:39:50 AM:INFO:main:Function : <function least_common_multiple at 0x0241E270>
+20150808 10:39:50 AM:INFO:main:Function : <function lcm_and_hcf at 0x0241E2B8>
+20150808 10:39:50 AM:INFO:_highest_common_factor:ordered_list = [323, 361, 437]
+20150808 10:39:50 AM:INFO:_highest_common_factor:numerator = 361, denominator = 76, remainder = 57
+20150808 10:39:50 AM:INFO:_highest_common_factor:numerator = 76, denominator = 57, remainder = 19
+20150808 10:39:50 AM:INFO:_highest_common_factor:numerator = 57, denominator = 19, remainder = 0
+20150808 10:39:50 AM:INFO:main:Function : <function pole_spacing at 0x0241E300>
+20150808 10:39:50 AM:INFO:_highest_common_factor:ordered_list = [24, 32, 56]
+20150808 10:39:50 AM:INFO:_highest_common_factor:numerator = 32, denominator = 24, remainder = 8
+20150808 10:39:50 AM:INFO:_highest_common_factor:numerator = 24, denominator = 8, remainder = 0
+20150808 10:39:50 AM:INFO:main:Function : <function stamp_distribution at 0x0241E348>
+20150808 10:39:50 AM:INFO:_highest_common_factor:ordered_list = [48, 56]
+20150808 10:39:50 AM:INFO:_highest_common_factor:numerator = 48, denominator = 8, remainder = 0
+20150808 10:39:50 AM:INFO:main:Function : <function march_past at 0x0241E390>
+20150808 10:39:50 AM:INFO:_highest_common_factor:ordered_list = [54, 72]
+20150808 10:39:50 AM:INFO:_highest_common_factor:numerator = 54, denominator = 18, remainder = 0
+20150808 10:39:50 AM:INFO:main:Function : <function building_age at 0x0241E3D8>
+20150808 10:39:50 AM:INFO:main:Function : <function chocolate_distribution at 0x0241E468>
+20150808 10:39:56 AM:INFO:main:Function : <function nearest_primes at 0x02486F60>
+20150808 10:39:56 AM:INFO:main:Function : <function list_primes at 0x02486FA8>
+20150808 10:39:56 AM:INFO:main:Function : <function twin_primes at 0x0248E030>
+20150808 10:39:56 AM:INFO:main:Function : <function factors at 0x0248E078>
+20150808 10:39:56 AM:INFO:main:Function : <function multiples at 0x0248E150>
+20150808 10:39:56 AM:INFO:main:Function : <function all_factors at 0x0248E0C0>
+20150808 10:39:56 AM:INFO:main:Function : <function consecutive_primes at 0x0248E108>
+20150808 10:39:56 AM:INFO:main:Function : <function highest_common_factor at 0x0248E1E0>
+20150808 10:39:56 AM:INFO:_highest_common_factor:list_length = 2.
+20150808 10:39:56 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:39:56 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:39:56 AM:INFO:_highest_common_factor:Number_list = [121, 209]
+20150808 10:39:56 AM:INFO:_highest_common_factor:ordered_list = [121, 209]
+20150808 10:39:56 AM:INFO:_highest_common_factor:numerator = 121, denominator = 88, remainder = 33
+20150808 10:39:56 AM:INFO:_highest_common_factor:numerator = 88, denominator = 33, remainder = 22
+20150808 10:39:56 AM:INFO:_highest_common_factor:numerator = 33, denominator = 22, remainder = 11
+20150808 10:39:56 AM:INFO:_highest_common_factor:numerator = 22, denominator = 11, remainder = 0
+20150808 10:39:56 AM:INFO:main:Function : <function least_common_multiple at 0x0248E270>
+20150808 10:39:56 AM:INFO:main:Function : <function lcm_and_hcf at 0x0248E2B8>
+20150808 10:39:56 AM:INFO:_highest_common_factor:ordered_list = [209, 228, 361]
+20150808 10:39:56 AM:INFO:_highest_common_factor:numerator = 228, denominator = 133, remainder = 95
+20150808 10:39:56 AM:INFO:_highest_common_factor:numerator = 133, denominator = 95, remainder = 38
+20150808 10:39:56 AM:INFO:_highest_common_factor:numerator = 95, denominator = 38, remainder = 19
+20150808 10:39:56 AM:INFO:_highest_common_factor:numerator = 38, denominator = 19, remainder = 0
+20150808 10:39:56 AM:INFO:main:Function : <function pole_spacing at 0x0248E300>
+20150808 10:39:56 AM:INFO:_highest_common_factor:ordered_list = [60, 60, 84]
+20150808 10:39:56 AM:INFO:_highest_common_factor:numerator = 60, denominator = 24, remainder = 12
+20150808 10:39:56 AM:INFO:_highest_common_factor:numerator = 24, denominator = 12, remainder = 0
+20150808 10:39:56 AM:INFO:main:Function : <function stamp_distribution at 0x0248E348>
+20150808 10:39:56 AM:INFO:_highest_common_factor:ordered_list = [28, 49]
+20150808 10:39:56 AM:INFO:_highest_common_factor:numerator = 28, denominator = 21, remainder = 7
+20150808 10:39:56 AM:INFO:_highest_common_factor:numerator = 21, denominator = 7, remainder = 0
+20150808 10:39:56 AM:INFO:main:Function : <function march_past at 0x0248E390>
+20150808 10:39:56 AM:INFO:_highest_common_factor:ordered_list = [35, 35]
+20150808 10:39:56 AM:INFO:main:Function : <function building_age at 0x0248E3D8>
+20150808 10:39:56 AM:INFO:main:Function : <function chocolate_distribution at 0x0248E468>
+20150808 10:42:14 AM:INFO:main:Function : <function nearest_primes at 0x02636F60>
+20150808 10:42:14 AM:INFO:main:Function : <function list_primes at 0x02636FA8>
+20150808 10:42:14 AM:INFO:main:Function : <function twin_primes at 0x0263E030>
+20150808 10:42:14 AM:INFO:main:Function : <function factors at 0x0263E078>
+20150808 10:42:14 AM:INFO:main:Function : <function multiples at 0x0263E150>
+20150808 10:42:14 AM:INFO:main:Function : <function all_factors at 0x0263E0C0>
+20150808 10:42:14 AM:INFO:main:Function : <function consecutive_primes at 0x0263E108>
+20150808 10:42:14 AM:INFO:main:Function : <function highest_common_factor at 0x0263E1E0>
+20150808 10:42:14 AM:INFO:_highest_common_factor:list_length = 3.
+20150808 10:42:14 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:42:14 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:42:14 AM:INFO:_highest_common_factor:index i : 2
+20150808 10:42:14 AM:INFO:_highest_common_factor:Number_list = [119, 168, 147]
+20150808 10:42:14 AM:INFO:_highest_common_factor:ordered_list = [119, 147, 168]
+20150808 10:42:14 AM:INFO:_highest_common_factor:numerator = 147, denominator = 21, remainder = 0
+20150808 10:42:14 AM:INFO:_highest_common_factor:numerator = 21, denominator = 14, remainder = 7
+20150808 10:42:14 AM:INFO:_highest_common_factor:numerator = 14, denominator = 7, remainder = 0
+20150808 10:42:14 AM:INFO:main:Function : <function least_common_multiple at 0x0263E270>
+20150808 10:42:14 AM:INFO:main:Function : <function lcm_and_hcf at 0x0263E2B8>
+20150808 10:42:14 AM:INFO:_highest_common_factor:ordered_list = [195, 225, 330]
+20150808 10:42:14 AM:INFO:_highest_common_factor:numerator = 225, denominator = 105, remainder = 15
+20150808 10:42:14 AM:INFO:_highest_common_factor:numerator = 105, denominator = 15, remainder = 0
+20150808 10:42:14 AM:INFO:main:Function : <function pole_spacing at 0x0263E300>
+20150808 10:42:14 AM:INFO:_highest_common_factor:ordered_list = [32, 32, 56]
+20150808 10:42:14 AM:INFO:_highest_common_factor:numerator = 32, denominator = 24, remainder = 8
+20150808 10:42:14 AM:INFO:_highest_common_factor:numerator = 24, denominator = 8, remainder = 0
+20150808 10:42:14 AM:INFO:main:Function : <function stamp_distribution at 0x0263E348>
+20150808 10:42:14 AM:INFO:_highest_common_factor:ordered_list = [27, 63]
+20150808 10:42:14 AM:INFO:_highest_common_factor:numerator = 27, denominator = 9, remainder = 0
+20150808 10:42:14 AM:INFO:main:Function : <function march_past at 0x0263E390>
+20150808 10:42:14 AM:INFO:_highest_common_factor:ordered_list = [32, 64]
+20150808 10:42:14 AM:INFO:main:Function : <function building_age at 0x0263E3D8>
+20150808 10:42:14 AM:INFO:main:Function : <function chocolate_distribution at 0x0263E468>
+20150808 10:42:53 AM:INFO:main:Function : <function nearest_primes at 0x024A9F60>
+20150808 10:42:53 AM:INFO:main:Function : <function list_primes at 0x024A9FA8>
+20150808 10:42:53 AM:INFO:main:Function : <function twin_primes at 0x024B1030>
+20150808 10:42:53 AM:INFO:main:Function : <function factors at 0x024B1078>
+20150808 10:42:53 AM:INFO:main:Function : <function multiples at 0x024B1150>
+20150808 10:42:53 AM:INFO:main:Function : <function all_factors at 0x024B10C0>
+20150808 10:42:53 AM:INFO:main:Function : <function consecutive_primes at 0x024B1108>
+20150808 10:42:53 AM:INFO:main:Function : <function highest_common_factor at 0x024B11E0>
+20150808 10:42:53 AM:INFO:_highest_common_factor:list_length = 3.
+20150808 10:42:53 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:42:53 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:42:53 AM:INFO:_highest_common_factor:index i : 2
+20150808 10:42:53 AM:INFO:_highest_common_factor:Number_list = [184, 56, 56]
+20150808 10:42:53 AM:INFO:_highest_common_factor:ordered_list = [56, 56, 184]
+20150808 10:42:53 AM:INFO:_highest_common_factor:numerator = 56, denominator = 16, remainder = 8
+20150808 10:42:53 AM:INFO:_highest_common_factor:numerator = 16, denominator = 8, remainder = 0
+20150808 10:42:53 AM:INFO:main:Function : <function least_common_multiple at 0x024B1270>
+20150808 10:42:53 AM:INFO:main:Function : <function lcm_and_hcf at 0x024B12B8>
+20150808 10:42:53 AM:INFO:_highest_common_factor:ordered_list = [162, 288, 342]
+20150808 10:42:53 AM:INFO:_highest_common_factor:numerator = 288, denominator = 54, remainder = 18
+20150808 10:42:53 AM:INFO:_highest_common_factor:numerator = 54, denominator = 18, remainder = 0
+20150808 10:42:53 AM:INFO:main:Function : <function pole_spacing at 0x024B1300>
+20150808 10:42:53 AM:INFO:_highest_common_factor:ordered_list = [24, 48, 56]
+20150808 10:42:53 AM:INFO:_highest_common_factor:numerator = 48, denominator = 8, remainder = 0
+20150808 10:42:53 AM:INFO:main:Function : <function stamp_distribution at 0x024B1348>
+20150808 10:42:53 AM:INFO:_highest_common_factor:ordered_list = [12, 16]
+20150808 10:42:53 AM:INFO:_highest_common_factor:numerator = 12, denominator = 4, remainder = 0
+20150808 10:42:53 AM:INFO:main:Function : <function march_past at 0x024B1390>
+20150808 10:42:53 AM:INFO:_highest_common_factor:ordered_list = [28, 28]
+20150808 10:42:53 AM:INFO:main:Function : <function building_age at 0x024B13D8>
+20150808 10:42:53 AM:INFO:main:Function : <function chocolate_distribution at 0x024B1468>
+20150808 10:43:52 AM:INFO:main:Function : <function nearest_primes at 0x025E6F60>
+20150808 10:43:52 AM:INFO:main:Function : <function list_primes at 0x025E6FA8>
+20150808 10:43:52 AM:INFO:main:Function : <function twin_primes at 0x025EE030>
+20150808 10:43:52 AM:INFO:main:Function : <function factors at 0x025EE078>
+20150808 10:43:52 AM:INFO:main:Function : <function multiples at 0x025EE150>
+20150808 10:43:52 AM:INFO:main:Function : <function all_factors at 0x025EE0C0>
+20150808 10:43:52 AM:INFO:main:Function : <function consecutive_primes at 0x025EE108>
+20150808 10:43:52 AM:INFO:main:Function : <function highest_common_factor at 0x025EE1E0>
+20150808 10:43:52 AM:INFO:_highest_common_factor:list_length = 2.
+20150808 10:43:52 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:43:52 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:43:52 AM:INFO:_highest_common_factor:Number_list = [180, 18]
+20150808 10:43:52 AM:INFO:_highest_common_factor:ordered_list = [18, 180]
+20150808 10:43:52 AM:INFO:main:Function : <function least_common_multiple at 0x025EE270>
+20150808 10:43:52 AM:INFO:main:Function : <function lcm_and_hcf at 0x025EE2B8>
+20150808 10:43:52 AM:INFO:_highest_common_factor:ordered_list = [80, 88, 96]
+20150808 10:43:52 AM:INFO:_highest_common_factor:numerator = 88, denominator = 8, remainder = 0
+20150808 10:43:52 AM:INFO:main:Function : <function pole_spacing at 0x025EE300>
+20150808 10:43:52 AM:INFO:_highest_common_factor:ordered_list = [18, 42, 42]
+20150808 10:43:52 AM:INFO:_highest_common_factor:numerator = 42, denominator = 18, remainder = 6
+20150808 10:43:52 AM:INFO:_highest_common_factor:numerator = 18, denominator = 6, remainder = 0
+20150808 10:43:52 AM:INFO:main:Function : <function stamp_distribution at 0x025EE348>
+20150808 10:43:52 AM:INFO:_highest_common_factor:ordered_list = [49, 56]
+20150808 10:43:52 AM:INFO:_highest_common_factor:numerator = 49, denominator = 7, remainder = 0
+20150808 10:43:52 AM:INFO:main:Function : <function march_past at 0x025EE390>
+20150808 10:43:52 AM:INFO:_highest_common_factor:ordered_list = [28, 56]
+20150808 10:43:52 AM:INFO:main:Function : <function building_age at 0x025EE3D8>
+20150808 10:43:52 AM:INFO:main:Function : <function chocolate_distribution at 0x025EE468>
+20150808 10:43:52 AM:INFO:chocolate_distribution:Chocolates per friend [9, 6, 7]
+20150808 10:44:56 AM:INFO:main:Function : <function nearest_primes at 0x023C4F60>
+20150808 10:44:56 AM:INFO:main:Function : <function list_primes at 0x023C4FA8>
+20150808 10:44:56 AM:INFO:main:Function : <function twin_primes at 0x023CC030>
+20150808 10:44:56 AM:INFO:main:Function : <function factors at 0x023CC078>
+20150808 10:44:56 AM:INFO:main:Function : <function multiples at 0x023CC150>
+20150808 10:44:56 AM:INFO:main:Function : <function all_factors at 0x023CC0C0>
+20150808 10:44:56 AM:INFO:main:Function : <function consecutive_primes at 0x023CC108>
+20150808 10:44:56 AM:INFO:main:Function : <function highest_common_factor at 0x023CC1E0>
+20150808 10:44:56 AM:INFO:_highest_common_factor:list_length = 3.
+20150808 10:44:56 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:44:56 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:44:56 AM:INFO:_highest_common_factor:index i : 2
+20150808 10:44:56 AM:INFO:_highest_common_factor:Number_list = [112, 136, 192]
+20150808 10:44:56 AM:INFO:_highest_common_factor:ordered_list = [112, 136, 192]
+20150808 10:44:56 AM:INFO:_highest_common_factor:numerator = 136, denominator = 56, remainder = 24
+20150808 10:44:56 AM:INFO:_highest_common_factor:numerator = 56, denominator = 24, remainder = 8
+20150808 10:44:56 AM:INFO:_highest_common_factor:numerator = 24, denominator = 8, remainder = 0
+20150808 10:44:56 AM:INFO:main:Function : <function least_common_multiple at 0x023CC270>
+20150808 10:44:56 AM:INFO:main:Function : <function lcm_and_hcf at 0x023CC2B8>
+20150808 10:44:56 AM:INFO:_highest_common_factor:ordered_list = [198, 360, 450]
+20150808 10:44:56 AM:INFO:_highest_common_factor:numerator = 360, denominator = 90, remainder = 0
+20150808 10:44:56 AM:INFO:_highest_common_factor:numerator = 90, denominator = 18, remainder = 0
+20150808 10:44:56 AM:INFO:main:Function : <function pole_spacing at 0x023CC300>
+20150808 10:44:56 AM:INFO:_highest_common_factor:ordered_list = [50, 50, 60]
+20150808 10:44:56 AM:INFO:_highest_common_factor:numerator = 50, denominator = 10, remainder = 0
+20150808 10:44:56 AM:INFO:main:Function : <function stamp_distribution at 0x023CC348>
+20150808 10:44:56 AM:INFO:_highest_common_factor:ordered_list = [63, 72]
+20150808 10:44:56 AM:INFO:_highest_common_factor:numerator = 63, denominator = 9, remainder = 0
+20150808 10:44:56 AM:INFO:main:Function : <function march_past at 0x023CC390>
+20150808 10:44:56 AM:INFO:_highest_common_factor:ordered_list = [42, 56]
+20150808 10:44:56 AM:INFO:_highest_common_factor:numerator = 42, denominator = 14, remainder = 0
+20150808 10:44:56 AM:INFO:main:Function : <function building_age at 0x023CC3D8>
+20150808 10:44:56 AM:INFO:main:Function : <function chocolate_distribution at 0x023CC468>
+20150808 10:44:56 AM:INFO:_generate_unique_random_numbers:Set of random numbers: {10, 5, 6}
+20150808 10:44:56 AM:INFO:chocolate_distribution:Chocolates per friend [10, 5, 6]
+20150808 10:45:10 AM:INFO:main:Function : <function nearest_primes at 0x02472F60>
+20150808 10:45:10 AM:INFO:main:Function : <function list_primes at 0x02472FA8>
+20150808 10:45:10 AM:INFO:main:Function : <function twin_primes at 0x0247A030>
+20150808 10:45:10 AM:INFO:main:Function : <function factors at 0x0247A078>
+20150808 10:45:10 AM:INFO:main:Function : <function multiples at 0x0247A150>
+20150808 10:45:10 AM:INFO:main:Function : <function all_factors at 0x0247A0C0>
+20150808 10:45:10 AM:INFO:main:Function : <function consecutive_primes at 0x0247A108>
+20150808 10:45:10 AM:INFO:main:Function : <function highest_common_factor at 0x0247A1E0>
+20150808 10:45:10 AM:INFO:_highest_common_factor:list_length = 3.
+20150808 10:45:10 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:45:10 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:45:10 AM:INFO:_highest_common_factor:index i : 2
+20150808 10:45:10 AM:INFO:_highest_common_factor:Number_list = [21, 140, 161]
+20150808 10:45:10 AM:INFO:_highest_common_factor:ordered_list = [21, 140, 161]
+20150808 10:45:10 AM:INFO:_highest_common_factor:numerator = 140, denominator = 21, remainder = 14
+20150808 10:45:10 AM:INFO:_highest_common_factor:numerator = 21, denominator = 14, remainder = 7
+20150808 10:45:10 AM:INFO:_highest_common_factor:numerator = 14, denominator = 7, remainder = 0
+20150808 10:45:10 AM:INFO:main:Function : <function least_common_multiple at 0x0247A270>
+20150808 10:45:10 AM:INFO:main:Function : <function lcm_and_hcf at 0x0247A2B8>
+20150808 10:45:10 AM:INFO:_highest_common_factor:ordered_list = [144, 192, 384]
+20150808 10:45:10 AM:INFO:_highest_common_factor:numerator = 192, denominator = 144, remainder = 48
+20150808 10:45:10 AM:INFO:_highest_common_factor:numerator = 144, denominator = 48, remainder = 0
+20150808 10:45:10 AM:INFO:main:Function : <function pole_spacing at 0x0247A300>
+20150808 10:45:10 AM:INFO:_highest_common_factor:ordered_list = [21, 35, 49]
+20150808 10:45:10 AM:INFO:_highest_common_factor:numerator = 35, denominator = 14, remainder = 7
+20150808 10:45:10 AM:INFO:_highest_common_factor:numerator = 14, denominator = 7, remainder = 0
+20150808 10:45:10 AM:INFO:main:Function : <function stamp_distribution at 0x0247A348>
+20150808 10:45:10 AM:INFO:_highest_common_factor:ordered_list = [40, 64]
+20150808 10:45:10 AM:INFO:_highest_common_factor:numerator = 40, denominator = 24, remainder = 16
+20150808 10:45:10 AM:INFO:_highest_common_factor:numerator = 24, denominator = 16, remainder = 8
+20150808 10:45:10 AM:INFO:_highest_common_factor:numerator = 16, denominator = 8, remainder = 0
+20150808 10:45:10 AM:INFO:main:Function : <function march_past at 0x0247A390>
+20150808 10:45:10 AM:INFO:_highest_common_factor:ordered_list = [49, 49]
+20150808 10:45:10 AM:INFO:main:Function : <function building_age at 0x0247A3D8>
+20150808 10:45:10 AM:INFO:main:Function : <function chocolate_distribution at 0x0247A468>
+20150808 10:45:10 AM:INFO:_generate_unique_random_numbers:Set of random numbers: {10, 5, 7}
+20150808 10:45:10 AM:INFO:chocolate_distribution:Chocolates per friend [10, 5, 7]
+20150808 10:46:56 AM:INFO:main:Function : <function nearest_primes at 0x02334F60>
+20150808 10:46:56 AM:INFO:main:Function : <function list_primes at 0x02334FA8>
+20150808 10:46:56 AM:INFO:main:Function : <function twin_primes at 0x0233B030>
+20150808 10:46:56 AM:INFO:main:Function : <function factors at 0x0233B078>
+20150808 10:46:56 AM:INFO:main:Function : <function multiples at 0x0233B150>
+20150808 10:46:56 AM:INFO:main:Function : <function all_factors at 0x0233B0C0>
+20150808 10:46:56 AM:INFO:main:Function : <function consecutive_primes at 0x0233B108>
+20150808 10:46:56 AM:INFO:main:Function : <function highest_common_factor at 0x0233B1E0>
+20150808 10:46:56 AM:INFO:_highest_common_factor:list_length = 3.
+20150808 10:46:56 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:46:56 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:46:56 AM:INFO:_highest_common_factor:index i : 2
+20150808 10:46:56 AM:INFO:_highest_common_factor:Number_list = [100, 50, 30]
+20150808 10:46:56 AM:INFO:_highest_common_factor:ordered_list = [30, 50, 100]
+20150808 10:46:56 AM:INFO:_highest_common_factor:numerator = 50, denominator = 30, remainder = 20
+20150808 10:46:56 AM:INFO:_highest_common_factor:numerator = 30, denominator = 20, remainder = 10
+20150808 10:46:56 AM:INFO:_highest_common_factor:numerator = 20, denominator = 10, remainder = 0
+20150808 10:46:56 AM:INFO:main:Function : <function least_common_multiple at 0x0233B270>
+20150808 10:46:56 AM:INFO:main:Function : <function lcm_and_hcf at 0x0233B2B8>
+20150808 10:46:56 AM:INFO:_highest_common_factor:ordered_list = [132, 144, 216]
+20150808 10:46:56 AM:INFO:_highest_common_factor:numerator = 144, denominator = 72, remainder = 0
+20150808 10:46:56 AM:INFO:_highest_common_factor:numerator = 72, denominator = 60, remainder = 12
+20150808 10:46:56 AM:INFO:_highest_common_factor:numerator = 60, denominator = 12, remainder = 0
+20150808 10:46:56 AM:INFO:main:Function : <function pole_spacing at 0x0233B300>
+20150808 10:46:56 AM:INFO:_highest_common_factor:ordered_list = [40, 70, 70]
+20150808 10:46:56 AM:INFO:_highest_common_factor:numerator = 70, denominator = 40, remainder = 30
+20150808 10:46:56 AM:INFO:_highest_common_factor:numerator = 40, denominator = 30, remainder = 10
+20150808 10:46:56 AM:INFO:_highest_common_factor:numerator = 30, denominator = 10, remainder = 0
+20150808 10:46:56 AM:INFO:main:Function : <function stamp_distribution at 0x0233B348>
+20150808 10:46:56 AM:INFO:_highest_common_factor:ordered_list = [28, 49]
+20150808 10:46:56 AM:INFO:_highest_common_factor:numerator = 28, denominator = 21, remainder = 7
+20150808 10:46:56 AM:INFO:_highest_common_factor:numerator = 21, denominator = 7, remainder = 0
+20150808 10:46:56 AM:INFO:main:Function : <function march_past at 0x0233B390>
+20150808 10:46:56 AM:INFO:_highest_common_factor:ordered_list = [30, 36]
+20150808 10:46:56 AM:INFO:_highest_common_factor:numerator = 30, denominator = 6, remainder = 0
+20150808 10:46:56 AM:INFO:main:Function : <function building_age at 0x0233B3D8>
+20150808 10:46:56 AM:INFO:main:Function : <function chocolate_distribution at 0x0233B468>
+20150808 10:46:56 AM:INFO:_generate_unique_random_numbers:Set of random numbers: {8, 5, 7}
+20150808 10:46:56 AM:INFO:chocolate_distribution:Chocolates per friend [8, 5, 7]
+20150808 10:47:11 AM:INFO:main:Function : <function nearest_primes at 0x02446F60>
+20150808 10:47:11 AM:INFO:main:Function : <function list_primes at 0x02446FA8>
+20150808 10:47:11 AM:INFO:main:Function : <function twin_primes at 0x0244D030>
+20150808 10:47:11 AM:INFO:main:Function : <function factors at 0x0244D078>
+20150808 10:47:11 AM:INFO:main:Function : <function multiples at 0x0244D150>
+20150808 10:47:11 AM:INFO:main:Function : <function all_factors at 0x0244D0C0>
+20150808 10:47:11 AM:INFO:main:Function : <function consecutive_primes at 0x0244D108>
+20150808 10:47:11 AM:INFO:main:Function : <function highest_common_factor at 0x0244D1E0>
+20150808 10:47:11 AM:INFO:_highest_common_factor:list_length = 3.
+20150808 10:47:11 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:47:11 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:47:11 AM:INFO:_highest_common_factor:index i : 2
+20150808 10:47:11 AM:INFO:_highest_common_factor:Number_list = [220, 60, 200]
+20150808 10:47:11 AM:INFO:_highest_common_factor:ordered_list = [60, 200, 220]
+20150808 10:47:11 AM:INFO:_highest_common_factor:numerator = 200, denominator = 20, remainder = 0
+20150808 10:47:11 AM:INFO:main:Function : <function least_common_multiple at 0x0244D270>
+20150808 10:47:11 AM:INFO:main:Function : <function lcm_and_hcf at 0x0244D2B8>
+20150808 10:47:11 AM:INFO:_highest_common_factor:ordered_list = [154, 198, 253]
+20150808 10:47:11 AM:INFO:_highest_common_factor:numerator = 198, denominator = 55, remainder = 33
+20150808 10:47:11 AM:INFO:_highest_common_factor:numerator = 55, denominator = 33, remainder = 22
+20150808 10:47:11 AM:INFO:_highest_common_factor:numerator = 33, denominator = 22, remainder = 11
+20150808 10:47:11 AM:INFO:_highest_common_factor:numerator = 22, denominator = 11, remainder = 0
+20150808 10:47:11 AM:INFO:main:Function : <function pole_spacing at 0x0244D300>
+20150808 10:47:11 AM:INFO:_highest_common_factor:ordered_list = [48, 84, 84]
+20150808 10:47:11 AM:INFO:_highest_common_factor:numerator = 84, denominator = 48, remainder = 36
+20150808 10:47:11 AM:INFO:_highest_common_factor:numerator = 48, denominator = 36, remainder = 12
+20150808 10:47:11 AM:INFO:_highest_common_factor:numerator = 36, denominator = 12, remainder = 0
+20150808 10:47:11 AM:INFO:main:Function : <function stamp_distribution at 0x0244D348>
+20150808 10:47:11 AM:INFO:_highest_common_factor:ordered_list = [15, 30]
+20150808 10:47:11 AM:INFO:main:Function : <function march_past at 0x0244D390>
+20150808 10:47:11 AM:INFO:_highest_common_factor:ordered_list = [36, 54]
+20150808 10:47:11 AM:INFO:_highest_common_factor:numerator = 36, denominator = 18, remainder = 0
+20150808 10:47:11 AM:INFO:main:Function : <function building_age at 0x0244D3D8>
+20150808 10:47:11 AM:INFO:main:Function : <function chocolate_distribution at 0x0244D468>
+20150808 10:47:11 AM:INFO:_generate_unique_random_numbers:Set of random numbers: {10, 6, 7}
+20150808 10:47:11 AM:INFO:chocolate_distribution:Chocolates per friend [10, 6, 7]
+20150808 10:47:33 AM:INFO:main:Function : <function nearest_primes at 0x02626F60>
+20150808 10:47:33 AM:INFO:main:Function : <function list_primes at 0x02626FA8>
+20150808 10:47:33 AM:INFO:main:Function : <function twin_primes at 0x0262D030>
+20150808 10:47:33 AM:INFO:main:Function : <function factors at 0x0262D078>
+20150808 10:47:33 AM:INFO:main:Function : <function multiples at 0x0262D150>
+20150808 10:47:33 AM:INFO:main:Function : <function all_factors at 0x0262D0C0>
+20150808 10:47:33 AM:INFO:main:Function : <function consecutive_primes at 0x0262D108>
+20150808 10:47:33 AM:INFO:main:Function : <function highest_common_factor at 0x0262D1E0>
+20150808 10:47:33 AM:INFO:_highest_common_factor:list_length = 3.
+20150808 10:47:33 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:47:33 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:47:33 AM:INFO:_highest_common_factor:index i : 2
+20150808 10:47:33 AM:INFO:_highest_common_factor:Number_list = [95, 100, 75]
+20150808 10:47:33 AM:INFO:_highest_common_factor:ordered_list = [75, 95, 100]
+20150808 10:47:33 AM:INFO:_highest_common_factor:numerator = 95, denominator = 5, remainder = 0
+20150808 10:47:33 AM:INFO:main:Function : <function least_common_multiple at 0x0262D270>
+20150808 10:47:33 AM:INFO:main:Function : <function lcm_and_hcf at 0x0262D2B8>
+20150808 10:47:33 AM:INFO:_highest_common_factor:ordered_list = [150, 170, 180]
+20150808 10:47:33 AM:INFO:_highest_common_factor:numerator = 170, denominator = 10, remainder = 0
+20150808 10:47:33 AM:INFO:main:Function : <function pole_spacing at 0x0262D300>
+20150808 10:47:33 AM:INFO:_highest_common_factor:ordered_list = [25, 25, 35]
+20150808 10:47:33 AM:INFO:_highest_common_factor:numerator = 25, denominator = 10, remainder = 5
+20150808 10:47:33 AM:INFO:_highest_common_factor:numerator = 10, denominator = 5, remainder = 0
+20150808 10:47:33 AM:INFO:main:Function : <function stamp_distribution at 0x0262D348>
+20150808 10:47:33 AM:INFO:_highest_common_factor:ordered_list = [27, 45]
+20150808 10:47:33 AM:INFO:_highest_common_factor:numerator = 27, denominator = 18, remainder = 9
+20150808 10:47:33 AM:INFO:_highest_common_factor:numerator = 18, denominator = 9, remainder = 0
+20150808 10:47:33 AM:INFO:main:Function : <function march_past at 0x0262D390>
+20150808 10:47:33 AM:INFO:_highest_common_factor:ordered_list = [42, 48]
+20150808 10:47:33 AM:INFO:_highest_common_factor:numerator = 42, denominator = 6, remainder = 0
+20150808 10:47:33 AM:INFO:main:Function : <function building_age at 0x0262D3D8>
+20150808 10:47:33 AM:INFO:main:Function : <function chocolate_distribution at 0x0262D468>
+20150808 10:47:33 AM:INFO:_generate_unique_random_numbers:Set of random numbers: {8, 5, 7}
+20150808 10:47:33 AM:INFO:chocolate_distribution:Chocolates per friend [8, 5, 7]
+20150808 10:47:41 AM:INFO:main:Function : <function nearest_primes at 0x02462F60>
+20150808 10:47:41 AM:INFO:main:Function : <function list_primes at 0x02462FA8>
+20150808 10:47:41 AM:INFO:main:Function : <function twin_primes at 0x02469030>
+20150808 10:47:41 AM:INFO:main:Function : <function factors at 0x02469078>
+20150808 10:47:41 AM:INFO:main:Function : <function multiples at 0x02469150>
+20150808 10:47:41 AM:INFO:main:Function : <function all_factors at 0x024690C0>
+20150808 10:47:41 AM:INFO:main:Function : <function consecutive_primes at 0x02469108>
+20150808 10:47:41 AM:INFO:main:Function : <function highest_common_factor at 0x024691E0>
+20150808 10:47:41 AM:INFO:_highest_common_factor:list_length = 3.
+20150808 10:47:41 AM:INFO:_highest_common_factor:index i : 0
+20150808 10:47:41 AM:INFO:_highest_common_factor:index i : 1
+20150808 10:47:41 AM:INFO:_highest_common_factor:index i : 2
+20150808 10:47:41 AM:INFO:_highest_common_factor:Number_list = [65, 90, 25]
+20150808 10:47:41 AM:INFO:_highest_common_factor:ordered_list = [25, 65, 90]
+20150808 10:47:41 AM:INFO:_highest_common_factor:numerator = 65, denominator = 25, remainder = 15
+20150808 10:47:41 AM:INFO:_highest_common_factor:numerator = 25, denominator = 15, remainder = 10
+20150808 10:47:41 AM:INFO:_highest_common_factor:numerator = 15, denominator = 10, remainder = 5
+20150808 10:47:41 AM:INFO:_highest_common_factor:numerator = 10, denominator = 5, remainder = 0
+20150808 10:47:41 AM:INFO:main:Function : <function least_common_multiple at 0x02469270>
+20150808 10:47:41 AM:INFO:main:Function : <function lcm_and_hcf at 0x024692B8>
+20150808 10:47:41 AM:INFO:_highest_common_factor:ordered_list = [77, 105, 119]
+20150808 10:47:41 AM:INFO:_highest_common_factor:numerator = 105, denominator = 14, remainder = 7
+20150808 10:47:41 AM:INFO:_highest_common_factor:numerator = 14, denominator = 7, remainder = 0
+20150808 10:47:41 AM:INFO:main:Function : <function pole_spacing at 0x02469300>
+20150808 10:47:41 AM:INFO:_highest_common_factor:ordered_list = [21, 21, 49]
+20150808 10:47:41 AM:INFO:_highest_common_factor:numerator = 21, denominator = 7, remainder = 0
+20150808 10:47:41 AM:INFO:main:Function : <function stamp_distribution at 0x02469348>
+20150808 10:47:41 AM:INFO:_highest_common_factor:ordered_list = [24, 30]
+20150808 10:47:41 AM:INFO:_highest_common_factor:numerator = 24, denominator = 6, remainder = 0
+20150808 10:47:41 AM:INFO:main:Function : <function march_past at 0x02469390>
+20150808 10:47:41 AM:INFO:_highest_common_factor:ordered_list = [35, 42]
+20150808 10:47:41 AM:INFO:_highest_common_factor:numerator = 35, denominator = 7, remainder = 0
+20150808 10:47:41 AM:INFO:main:Function : <function building_age at 0x024693D8>
+20150808 10:47:41 AM:INFO:main:Function : <function chocolate_distribution at 0x02469468>
+20150808 10:47:41 AM:INFO:_generate_unique_random_numbers:Set of random numbers: {8, 10, 6}
+20150808 10:47:41 AM:INFO:chocolate_distribution:Chocolates per friend [8, 10, 6]

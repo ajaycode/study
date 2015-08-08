@@ -8,7 +8,7 @@ import os
 import uuid
 
 answers = []
-
+names = ['Rahul', 'Ganpat', 'Gaurav', 'Gautam','Girish']
 
 def _is_prime(number):
     if number < 3 or number % 2 == 0:
@@ -274,9 +274,46 @@ def building_age (age_this_year=0):
     return (age_this_year)
 
 
+def _generate_unique_random_numbers (start=0, end=100, count=5):
+    if start >= end or count <= 1 or count > (end - start):
+        return ()
+    random_number_set = set()
+    while count > 0:
+        element = random.randint (start, end)
+        if element not in random_number_set:
+            random_number_set.add (element)
+            count -= 1
+    logging.info ("Set of random numbers: {}".format (random_number_set))
+    return random_number_set
+
+def chocolate_distribution (chocolates_per_friend = [], extra_chocolates=-1):
+    person = names[random.randint(0,  len(names) -1)]
+    if len (chocolates_per_friend) <3:
+        chocolates_per_friend = list(_generate_unique_random_numbers(5, 10, 3))
+        '''
+        for i in range (3):
+            chocolates = random.randint (5, 10)
+            if (chocolates not in chocolates_per_friend):
+                chocolates_per_friend.append (random.randint (5,10))
+                '''
+    logging.info ("Chocolates per friend {}".format (chocolates_per_friend))
+    if extra_chocolates < 0:
+        extra_chocolates = random.randint (4, 9)
+    print ("{person} has some chocolates and he gives each of his friends {choc1} or {choc2} or {choc3} chocolates.  He finds that each time"\
+        " {extra} chocolates are left over.  Find the minimum number of chocolates {person} had.   How many friends did he have?"\
+        .format (person=person,choc1=chocolates_per_friend[0], choc2=chocolates_per_friend[1], choc3=chocolates_per_friend[2],\
+                 extra=extra_chocolates))
+    chocs, lcm = _least_common_multiple(chocolates_per_friend)
+    answers.append (lcm + extra_chocolates)
+    return (lcm + extra_chocolates)
+
+
+
+
+
 functions = [nearest_primes, list_primes, twin_primes, factors, multiples, all_factors, consecutive_primes, \
              highest_common_factor, least_common_multiple, lcm_and_hcf, pole_spacing, stamp_distribution,\
-             march_past, building_age]
+             march_past, building_age, chocolate_distribution]
 
 
 def squat():

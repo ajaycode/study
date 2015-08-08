@@ -32,4 +32,5 @@ class TestFactors(TestCase):
         self.assertEqual((8,3,2), stamp_distribution([24,16]))
         self.assertEqual((6,3,5), stamp_distribution([18,30]))
         self.assertEqual(8, march_past([32, 40]))
-        self.assertEqual (50, building_age(50))
+        #self.assertEqual (50, building_age(50))
+        self.assertEqual(123, chocolate_distribution ([6, 8, 10], 3))
