@@ -340,9 +340,25 @@ def students_running_circles (circling_time=[]):
     return (lcm, rounds)
 
 
+def journey_time_minimum_hours (hours_per_person=[]):
+    if len(hours_per_person) < 3:
+        factor = random.randint (2,7)
+        for i in range (3, 8, 2):
+            hours_per_person.append (factor * i)
+    print ("To travel to Delhi, Meena requires a total of {} hours, Rajesh requires a total of {} hours and Priya requires {} hours.".format (hours_per_person[0], hours_per_person[1], hours_per_person[2]),\
+           "All the three, travel for an equal number of hours each day.  Find out 1) How many hours all the three spend ",\
+            "each day to travel and 2) How many days will it take each of them to travel to Delhi?")
+    hours, hcf = _highest_common_factor(hours_per_person)
+    days_per_person = []
+    for i in range (len (hours_per_person)):
+        days_per_person.append (hours_per_person[i]//hcf)
+    answers.append ("Hours per day: {}, Days per person : {}".format (hcf, days_per_person))
+    return (hcf, days_per_person)
+
+
 functions = [nearest_primes, list_primes, twin_primes, factors, multiples, all_factors, consecutive_primes, \
              highest_common_factor, least_common_multiple, lcm_and_hcf, pole_spacing, stamp_distribution,\
-             march_past, building_age, chocolate_distribution, students_in_class, students_running_circles]
+             march_past, building_age, chocolate_distribution, students_in_class, students_running_circles, journey_time_minimum_hours]
 
 
 def squat():

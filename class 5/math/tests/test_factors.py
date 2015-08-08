@@ -37,3 +37,5 @@ class TestFactors(TestCase):
         self.assertEqual(36,  students_in_class([6, 9, 12, 18]))
         self.assertEqual((120, [4,3]), students_running_circles([30, 40]))
         self.assertEqual((60, [5,4]), students_running_circles([12, 15]))
+        self.assertEqual((7, [3,5,7] ),  journey_time_minimum_hours([21, 35, 49]))
+        self.assertEqual((2, [3,4,5]),   journey_time_minimum_hours([6, 8, 10]))

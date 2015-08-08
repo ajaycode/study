@@ -3901,3 +3901,89 @@
 20150808 12:59:52 PM:INFO:_generate_unique_random_numbers:Set of random numbers: {9, 10, 12, 7}
 20150808 12:59:52 PM:INFO:main:Function : <function students_running_circles at 0x0267E390>
 20150808 12:59:52 PM:INFO:_generate_unique_random_numbers:Set of random numbers: {9, 12}
+20150808 01:18:25 PM:INFO:main:Function : <function nearest_primes at 0x025C6DF8>
+20150808 01:18:25 PM:INFO:main:Function : <function list_primes at 0x025C6E40>
+20150808 01:18:25 PM:INFO:main:Function : <function twin_primes at 0x025C6E88>
+20150808 01:18:25 PM:INFO:main:Function : <function factors at 0x025C6ED0>
+20150808 01:18:25 PM:INFO:main:Function : <function multiples at 0x025C6FA8>
+20150808 01:18:25 PM:INFO:main:Function : <function all_factors at 0x025C6F18>
+20150808 01:18:25 PM:INFO:main:Function : <function consecutive_primes at 0x025C6F60>
+20150808 01:18:25 PM:INFO:main:Function : <function highest_common_factor at 0x025AB078>
+20150808 01:18:25 PM:INFO:_highest_common_factor:list_length = 3.
+20150808 01:18:25 PM:INFO:_highest_common_factor:index i : 0
+20150808 01:18:25 PM:INFO:_highest_common_factor:index i : 1
+20150808 01:18:25 PM:INFO:_highest_common_factor:index i : 2
+20150808 01:18:25 PM:INFO:_highest_common_factor:Number_list = [144, 153, 207]
+20150808 01:18:25 PM:INFO:_highest_common_factor:ordered_list = [144, 153, 207]
+20150808 01:18:25 PM:INFO:_highest_common_factor:numerator = 153, denominator = 54, remainder = 45
+20150808 01:18:25 PM:INFO:_highest_common_factor:numerator = 54, denominator = 45, remainder = 9
+20150808 01:18:25 PM:INFO:_highest_common_factor:numerator = 45, denominator = 9, remainder = 0
+20150808 01:18:25 PM:INFO:main:Function : <function least_common_multiple at 0x025AB108>
+20150808 01:18:25 PM:INFO:main:Function : <function lcm_and_hcf at 0x025AB150>
+20150808 01:18:25 PM:INFO:_highest_common_factor:ordered_list = [110, 209, 264]
+20150808 01:18:25 PM:INFO:_highest_common_factor:numerator = 209, denominator = 55, remainder = 44
+20150808 01:18:25 PM:INFO:_highest_common_factor:numerator = 55, denominator = 44, remainder = 11
+20150808 01:18:25 PM:INFO:_highest_common_factor:numerator = 44, denominator = 11, remainder = 0
+20150808 01:18:25 PM:INFO:main:Function : <function pole_spacing at 0x025AB198>
+20150808 01:18:25 PM:INFO:_highest_common_factor:ordered_list = [36, 42, 42]
+20150808 01:18:25 PM:INFO:_highest_common_factor:numerator = 42, denominator = 36, remainder = 6
+20150808 01:18:25 PM:INFO:_highest_common_factor:numerator = 36, denominator = 6, remainder = 0
+20150808 01:18:25 PM:INFO:main:Function : <function stamp_distribution at 0x025AB1E0>
+20150808 01:18:25 PM:INFO:_highest_common_factor:ordered_list = [32, 56]
+20150808 01:18:25 PM:INFO:_highest_common_factor:numerator = 32, denominator = 24, remainder = 8
+20150808 01:18:25 PM:INFO:_highest_common_factor:numerator = 24, denominator = 8, remainder = 0
+20150808 01:18:25 PM:INFO:main:Function : <function march_past at 0x025AB228>
+20150808 01:18:25 PM:INFO:_highest_common_factor:ordered_list = [28, 42]
+20150808 01:18:25 PM:INFO:_highest_common_factor:numerator = 28, denominator = 14, remainder = 0
+20150808 01:18:25 PM:INFO:main:Function : <function building_age at 0x025AB270>
+20150808 01:18:25 PM:INFO:building_age:[50, 51, 52, 54, 55, 56, 57, 58, 60, 62, 63, 64, 65, 66, 68, 69]
+20150808 01:18:25 PM:INFO:building_age:Age this year = 64
+20150808 01:18:25 PM:INFO:building_age:Factors: [2, 2, 2, 2, 2, 2] [3, 3, 7]
+20150808 01:18:25 PM:INFO:main:Function : <function chocolate_distribution at 0x025AB300>
+20150808 01:18:25 PM:INFO:_generate_unique_random_numbers:Set of random numbers: {8, 10, 6}
+20150808 01:18:25 PM:INFO:chocolate_distribution:Chocolates per friend [6, 8, 10]
+20150808 01:18:25 PM:INFO:main:Function : <function students_in_class at 0x025AB348>
+20150808 01:18:25 PM:INFO:_generate_unique_random_numbers:Set of random numbers: {16, 18, 13, 6}
+20150808 01:18:25 PM:INFO:main:Function : <function students_running_circles at 0x025AB390>
+20150808 01:18:25 PM:INFO:_generate_unique_random_numbers:Set of random numbers: {11, 13}
+20150808 01:33:28 PM:INFO:main:Function : <function nearest_primes at 0x02498E40>
+20150808 01:33:28 PM:INFO:main:Function : <function list_primes at 0x02498E88>
+20150808 01:33:28 PM:INFO:main:Function : <function twin_primes at 0x02498ED0>
+20150808 01:33:28 PM:INFO:main:Function : <function factors at 0x02498F18>
+20150808 01:33:28 PM:INFO:main:Function : <function multiples at 0x0247D030>
+20150808 01:33:28 PM:INFO:main:Function : <function all_factors at 0x02498F60>
+20150808 01:33:28 PM:INFO:main:Function : <function consecutive_primes at 0x02498FA8>
+20150808 01:33:28 PM:INFO:main:Function : <function highest_common_factor at 0x0247D0C0>
+20150808 01:33:28 PM:INFO:_highest_common_factor:list_length = 2.
+20150808 01:33:28 PM:INFO:_highest_common_factor:index i : 0
+20150808 01:33:28 PM:INFO:_highest_common_factor:index i : 1
+20150808 01:33:28 PM:INFO:_highest_common_factor:Number_list = [55, 121]
+20150808 01:33:28 PM:INFO:_highest_common_factor:ordered_list = [55, 121]
+20150808 01:33:28 PM:INFO:_highest_common_factor:numerator = 55, denominator = 11, remainder = 0
+20150808 01:33:28 PM:INFO:main:Function : <function least_common_multiple at 0x0247D150>
+20150808 01:33:28 PM:INFO:main:Function : <function lcm_and_hcf at 0x0247D198>
+20150808 01:33:28 PM:INFO:_highest_common_factor:ordered_list = [136, 152, 160]
+20150808 01:33:28 PM:INFO:_highest_common_factor:numerator = 152, denominator = 8, remainder = 0
+20150808 01:33:28 PM:INFO:main:Function : <function pole_spacing at 0x0247D1E0>
+20150808 01:33:28 PM:INFO:_highest_common_factor:ordered_list = [33, 44, 77]
+20150808 01:33:28 PM:INFO:_highest_common_factor:numerator = 44, denominator = 33, remainder = 11
+20150808 01:33:28 PM:INFO:_highest_common_factor:numerator = 33, denominator = 11, remainder = 0
+20150808 01:33:28 PM:INFO:main:Function : <function stamp_distribution at 0x0247D228>
+20150808 01:33:28 PM:INFO:_highest_common_factor:ordered_list = [42, 42]
+20150808 01:33:28 PM:INFO:main:Function : <function march_past at 0x0247D270>
+20150808 01:33:28 PM:INFO:_highest_common_factor:ordered_list = [36, 72]
+20150808 01:33:28 PM:INFO:main:Function : <function building_age at 0x0247D2B8>
+20150808 01:33:28 PM:INFO:building_age:[50, 51, 52, 54, 55, 56, 57, 58, 60, 62, 63, 64, 65, 66, 68, 69]
+20150808 01:33:28 PM:INFO:building_age:Age this year = 64
+20150808 01:33:28 PM:INFO:building_age:Factors: [2, 2, 2, 2, 2, 2] [3, 3, 7]
+20150808 01:33:28 PM:INFO:main:Function : <function chocolate_distribution at 0x0247D348>
+20150808 01:33:28 PM:INFO:_generate_unique_random_numbers:Set of random numbers: {8, 6, 7}
+20150808 01:33:28 PM:INFO:chocolate_distribution:Chocolates per friend [6, 7, 8]
+20150808 01:33:28 PM:INFO:main:Function : <function students_in_class at 0x0247D390>
+20150808 01:33:28 PM:INFO:_generate_unique_random_numbers:Set of random numbers: {10, 12, 13, 7}
+20150808 01:33:28 PM:INFO:main:Function : <function students_running_circles at 0x0247D3D8>
+20150808 01:33:28 PM:INFO:_generate_unique_random_numbers:Set of random numbers: {8, 11}
+20150808 01:33:28 PM:INFO:main:Function : <function journey_time_minimum_hours at 0x0247D420>
+20150808 01:33:28 PM:INFO:_highest_common_factor:ordered_list = [21, 35, 49]
+20150808 01:33:28 PM:INFO:_highest_common_factor:numerator = 35, denominator = 14, remainder = 7
+20150808 01:33:28 PM:INFO:_highest_common_factor:numerator = 14, denominator = 7, remainder = 0
