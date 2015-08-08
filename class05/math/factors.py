@@ -6,9 +6,10 @@ import random
 import logging
 import os
 import uuid
+from fractions import gcd
 
 answers = []
-
+names = ['Rahul', 'Ganpat', 'Gaurav', 'Gautam','Girish']
 
 def _is_prime(number):
     if number < 3 or number % 2 == 0:
@@ -176,6 +177,11 @@ def highest_common_factor(number_list=[]):
 
 
 def _least_common_multiple(number_list=[]):
+    '''
+
+    :param number_list - finds the LCM of three numbers:
+    :return: the list of numbers and the LCM
+    '''
     list_length = len(number_list)
     if list_length <= 2:
         list_length = 3
@@ -213,9 +219,146 @@ def lcm_and_hcf(number_list=[]):
     answers.append([lcm, hcf])
     return (lcm, hcf)
 
+def pole_spacing (triangle_lengths=[]):
+    if (len (triangle_lengths) < 3):
+        i = 0;
+        distance_between_poles = random.randint (5,12)
+        while i < 3:
+            triangle_lengths.append(random.randint(3,7) * distance_between_poles)
+            i += 1
+    triangle_lengths, distance_between_poles = _highest_common_factor(triangle_lengths)
+    print ("A triangular plot of land is being fenced.  The sides of the plot are {}m, {}m and {}m long."\
+           .format (triangle_lengths[0], triangle_lengths[1], triangle_lengths[2]),\
+            "What is the greatest whole number of meters apart the fence (poles) posts can be placed and equally spaced.")
+    answers.append ("{}m apart".format (distance_between_poles))
+    return (distance_between_poles)
+
+def stamp_distribution (stamp_count=[]):
+    if len(stamp_count) != 2:
+        number_of_members = random.randint (4, 9)
+        for i in range (0, 2):
+            stamp_count.append(number_of_members * random.randint(3, 8))
+    stamp_count, number_of_members = _highest_common_factor(stamp_count)
+    stamps_per_member_from_first_set = stamp_count[0]//number_of_members
+    stamps_per_member_from_second_set = stamp_count[1]//number_of_members
+    print ("Suppose a stamp club president equally distributes two different sets of stamps among club members.",\
+           "One set contains {} stamps and the other set contains {} stamps.".format (stamp_count[0], stamp_count[1]), \
+           "There are no stamps left undistributed.", "1. What is the greatest possible number of club members?", \
+           "2. How many stamps from each set will each person receive?")
+    answers.append ("1) {} members, 2) {} stamps from 1st set and {} stamps from 2nd set".format (number_of_members, stamps_per_member_from_first_set, stamps_per_member_from_second_set))
+    return (number_of_members, stamps_per_member_from_first_set, stamps_per_member_from_second_set)
+
+def march_past (team_size=[]):
+    if len (team_size) != 2 or 0 in team_size:
+        people_per_row = random.randint(5,9)
+        for i in range (0,2):
+            team_size.append(people_per_row * random.randint(4,8))
+    print ("Two gymnastic teams are marching at an event. There are {} members on one team and {} on the other"\
+        .format (team_size[0], team_size[1]), "They are marching in rows of equal size that are as wide as possible.",\
+           "How many people are in each row?")
+    team_size, people_per_row = _highest_common_factor(team_size)
+    answers.append (people_per_row)
+    return people_per_row
+
+def building_age (age_this_year=0):
+    age_last_year = age_this_year - 1
+    if age_this_year == 0:
+        non_primes = [x for x in range (50, 70) if not _is_prime(x) ]
+        logging.info (non_primes)
+        age_this_year = non_primes[random.randint (0, len(non_primes) -1)]
+        age_last_year = age_this_year - 1
+
+        while _is_prime(age_last_year):
+            age_this_year = non_primes[random.randint (0, len(non_primes) -1)]
+            age_last_year = age_this_year - 1
+
+    logging.info ("Age this year = {}".format(age_this_year))
+    factors_age_this_year = all_factors(age_this_year)
+    factors_age_last_year = all_factors (age_last_year)
+    logging.info ("Factors: {} {}".format (factors_age_this_year, factors_age_last_year))
+    number_list, lcm = _least_common_multiple([age_this_year, age_last_year])
+    age_range = random.randint (5, 10)
+    #TODO: Complete this
+    print ("A building\'s age this year is a multiple of {}. Last year it was a multiple of {}.".format(factors_age_this_year[1], factors_age_last_year[1]),\
+           "It is less than {} years but more than {} years old.  What is the age of the building?".format (age_this_year + age_range, age_this_year - age_range))
+    answers.append (age_this_year)
+    return (age_this_year)
+
+
+def _generate_unique_random_numbers (start=0, end=100, count=5):
+    if (start >= end) or (count <= 1) or (count > (end - start)):
+        return ()
+    random_number_set = set()
+    while count > 0:
+        element = random.randint (start, end)
+        if element not in random_number_set:
+            random_number_set.add (element)
+            count -= 1
+    logging.info ("Set of random numbers: {}".format (random_number_set))
+    return sorted (random_number_set)
+
+def chocolate_distribution (chocolates_per_friend = [], extra_chocolates=-1):
+    person = names[random.randint(0,  len(names) -1)]
+    if len (chocolates_per_friend) <3:
+        chocolates_per_friend = list(_generate_unique_random_numbers(5, 10, 3))
+
+    logging.info ("Chocolates per friend {}".format (chocolates_per_friend))
+    if extra_chocolates < 0:
+        extra_chocolates = random.randint (4, 9)
+    print ("{person} has some chocolates and he gives each of his friends {choc1} or {choc2} or {choc3} chocolates.  He finds that each time"\
+        " {extra} chocolates are left over.  Find the minimum number of chocolates {person} had.   How many friends did he have?"\
+        .format (person=person,choc1=chocolates_per_friend[0], choc2=chocolates_per_friend[1], choc3=chocolates_per_friend[2],\
+                 extra=extra_chocolates))
+    chocs, lcm = _least_common_multiple(chocolates_per_friend)
+    num_friends = []
+    for i in range (len(chocolates_per_friend)):
+        num_friends.append(lcm // chocolates_per_friend[i])
+    answers.append ("Total chocolates : {}, number of friends: {}".format (lcm + extra_chocolates, num_friends))
+    return (lcm + extra_chocolates, chocolates_per_friend)
+
+
+def students_in_class (students_per_row=[]):
+    if len(students_per_row) < 4:
+        students_per_row = _generate_unique_random_numbers(5,18,4)
+    print ("Students in a class are made to stand in complete rows of {}, {}, {} or {} each.  What is the minimum number"\
+            " of students in that class?".format (students_per_row[0], students_per_row[1], students_per_row[2], students_per_row[3]))
+    students, lcm = _least_common_multiple(students_per_row)
+    answers.append(lcm)
+    return (lcm)
+
+def students_running_circles (circling_time=[]):
+    if len (circling_time) < 2:
+        circling_time = _generate_unique_random_numbers(7, 15, 2)
+    print ("Two boys run around a circular field. They can complete one circle in {} and {} seconds respectively.".format (circling_time[0], circling_time[1]),\
+            "If they start from a point together, find after what time will they be together again at the same point."\
+            "Also find how many rounds each of them will have completed by that time?")
+    lcm = (circling_time[0] * circling_time[1])//gcd(circling_time[0], circling_time[1])
+    rounds = []
+    for i in range (len(circling_time)):
+        rounds.append (lcm//circling_time[i])
+    answers.append("They meet at {} seconds.  They complete {} and {} rounds respectively.".format(lcm, rounds[0], rounds[1]))
+    return (lcm, rounds)
+
+
+def journey_time_minimum_hours (hours_per_person=[]):
+    if len(hours_per_person) < 3:
+        factor = random.randint (2,7)
+        for i in range (3, 8, 2):
+            hours_per_person.append (factor * i)
+    print ("To travel to Delhi, Meena requires a total of {} hours, Rajesh requires a total of {} hours and Priya requires {} hours.".format (hours_per_person[0], hours_per_person[1], hours_per_person[2]),\
+           "All the three, travel for an equal number of hours each day.  Find out 1) How many hours all the three spend ",\
+            "each day to travel and 2) How many days will it take each of them to travel to Delhi?")
+    hours, hcf = _highest_common_factor(hours_per_person)
+    days_per_person = []
+    for i in range (len (hours_per_person)):
+        days_per_person.append (hours_per_person[i]//hcf)
+    answers.append ("Hours per day: {}, Days per person : {}".format (hcf, days_per_person))
+    return (hcf, days_per_person)
+
 
 functions = [nearest_primes, list_primes, twin_primes, factors, multiples, all_factors, consecutive_primes, \
-             highest_common_factor, least_common_multiple, lcm_and_hcf]
+             highest_common_factor, least_common_multiple, lcm_and_hcf, pole_spacing, stamp_distribution,\
+             march_past, building_age, chocolate_distribution, students_in_class, students_running_circles, journey_time_minimum_hours]
 
 
 def squat():
