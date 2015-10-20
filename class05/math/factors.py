@@ -378,10 +378,11 @@ def main():
         print ("{i}) ".format(i=i+1), end="")
         f = functions[i]
         f()
+        logging.info ('Answer  : %s' % answers[i])
 
     print ()
     print("Answer Key # {}".format(str(unique_id)))
-    for i in range(0, len(answers)):
+    for i in range(0, len (functions)): #len(answers)):
         print(i + 1, answers[i])
         #primes = [ _is_prime(x) for x in range (100)]
         #print (primes)
