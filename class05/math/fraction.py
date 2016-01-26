@@ -24,13 +24,36 @@ def fractions_sum():
     fraction2_numerator = random.randint(1, 9)
     fraction2_denominator = random.randint(1, 9) + fraction2_numerator
     answer = Fraction(fraction1_numerator, fraction1_denominator) + Fraction(fraction2_numerator, fraction2_denominator)
-    #answers.append (answer)
-    question = "The sum of {} and {}/{} is __________".format(r'$\frac {2}{9}$',
-                                                                 fraction2_numerator, fraction2_denominator)
+
+    #print ('{}/{}'.format (fraction2_numerator, fraction2_denominator))
+    question = "The sum of {} and {} is __________".format(printable_fraction(fraction1_numerator, fraction1_denominator),
+                                                                 printable_fraction(fraction2_numerator, fraction2_denominator))
+    answer = printable_fraction (answer.numerator, answer.denominator)
+    answers.append (answer)
+    return (question, answer)
+
+def fractions_difference ():
+    subtrahend_numerator = random.randint(1, 9)
+    subtrahend_denominator = random.randint(1, 11) + subtrahend_numerator
+    difference_numerator = random.randint(1, 5)
+    difference_denominator = random.randint(1, 9) + difference_numerator
+    minuend = Fraction (subtrahend_numerator, subtrahend_denominator) + Fraction (difference_numerator, difference_denominator)
+    question = "The difference between {} and {} is __________".format(printable_fraction(minuend.numerator, minuend.denominator),
+                                                                 printable_fraction(subtrahend_numerator, subtrahend_denominator))
+    answer = minuend - Fraction(subtrahend_numerator, subtrahend_denominator)
+    answer = printable_fraction (answer.numerator, answer.denominator)
+    answers.append (answer)
     return (question, answer)
 
 
-functions = [fractions_sum]
+'''input: numerator and denominator
+   output: a string, that appears as a fraction in LaTeX format
+   '''
+def printable_fraction (numerator: int, denominator: int):
+    printable = "$\\frac {" + str(numerator) +"}{" +  str(denominator) + "}$"
+    return printable
+
+functions = [fractions_sum, fractions_difference]
 
 
 def main():
@@ -47,7 +70,7 @@ def main():
 
     html_text = r'<ul>'
     for i in range(0, len(questions)):
-        html = "<li> {} is {} </li>".format (question, r'$\frac {2}{9}$')
+        html = "<li> {} </li>".format (questions[i])
         html_text += html
 
         #print(answer)
