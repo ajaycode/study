@@ -24,7 +24,7 @@ html_post_content = r'</body></html>'
 
 '''Generates a fraction ranging from 1...9/1..9'''
 def __generate_fraction ():
-    return (Fraction(random.randint(1,9),random.randint(1,9) ))
+    return (Fraction(random.randint(1,9),random.randint(2,9) ))
 
 def __generate_mixed_fraction ():
     frac = __generate_fraction()
@@ -80,7 +80,7 @@ def sort_unlike_fractions (fractions_list = [], ascending=True):
     list = []
     if  not fractions_list:
         i = 0
-        while len (list) < 5:
+        while len (list) < 4:
             frac = __generate_fraction()
             if frac not in list:
                 list.append(frac)
@@ -121,13 +121,65 @@ def mixed_fractions_sum (number1=Fraction(), number2=Fraction()):
         number2 = __generate_mixed_fraction()
     answer = number1 + number2
     #logging.info (number1, number2, answer)
-    question = "The sum of {} and {} is _____.".format (printable_mixed_fraction(number1), printable_mixed_fraction(number2))
+    question = "The sum of {} and {} is _____. Convert any improper fraction into a mixed fraction.".format (printable_mixed_fraction(number1), printable_mixed_fraction(number2))
     return (question, printable_mixed_fraction(answer))
 
-def mixed_fractions_difference ():
-    pass
+def mixed_fractions_difference (number1=Fraction(), number2=Fraction()):
+    if number1 == Fraction() or number2 == Fraction():
+        number1 = __generate_mixed_fraction()
+        number2 = __generate_mixed_fraction()
+        while number2 >= number1:
+            number2 = __generate_mixed_fraction()
+    answer = number1 - number2
+    #logging.info (number1, number2, answer)
+    question = "The difference of {} and {} is _____. Convert any improper fraction into a mixed fraction.".format (printable_mixed_fraction(number1), printable_mixed_fraction(number2))
+    return (question, printable_mixed_fraction(answer))
 
-functions = [fractions_sum, fractions_difference, sort_unlike_fractions, sort_unlike_fractions_descending, mixed_fractions_sum]
+def mixed_fractions_multiplication (number1=Fraction(), number2=Fraction()):
+    if number1 == Fraction() or number2 == Fraction():
+        number1 = __generate_mixed_fraction()
+        number2 = __generate_fraction()
+    answer = number1 * number2
+    question = "The product of {} and {} is _____. Convert any improper fraction into a mixed fraction.".format (printable_mixed_fraction(number1), printable_fraction_from_fraction(number2))
+    return (question, printable_mixed_fraction(answer))
+
+def fractions_division (number1=Fraction(), number2=Fraction()):
+    if number1 == Fraction() or number2 == Fraction():
+        number1 = __generate_fraction()
+        number2 = __generate_fraction()
+
+    answer = number1 / number2
+    question = "Divide {} by {}. Convert any improper fraction into a mixed fraction.".format (printable_fraction_from_fraction(number1), printable_fraction_from_fraction(number2))
+    return (question, printable_mixed_fraction(answer))
+
+def fractions_division_by_whole_number (number1=Fraction(), number2=0):
+    if number1 == Fraction() or number2 == 0:
+        number1 = __generate_fraction()
+        number2 = random.randint (3,9)
+    answer = number1 / number2
+    question = "Divide {} by {}.".format (printable_fraction_from_fraction(number1), number2)
+    return (question, printable_fraction_from_fraction(answer))
+
+def whole_number_by_fractions_division (number1=0, number2=Fraction()):
+    if number2 == Fraction() or number1 == 0:
+        number2 = __generate_fraction()
+        number1 = random.randint (3,9)
+    answer = number1 / number2
+    question = "Divide {} by {}.".format (number1, printable_fraction_from_fraction(number2))
+    return (question, printable_fraction_from_fraction(answer))
+
+def mixed_fractions_division (number1=Fraction(), number2=Fraction()):
+    if number1 == Fraction() or number2 == Fraction():
+        number1 = __generate_mixed_fraction()
+        number2 = __generate_mixed_fraction()
+    answer = number1 / number2
+    question = "Divide {} by {}. Convert any improper fraction into a mixed fraction.".format (printable_mixed_fraction(number1), printable_mixed_fraction(number2))
+    return (question, printable_mixed_fraction(answer))
+
+
+functions = [fractions_sum, fractions_difference, sort_unlike_fractions, sort_unlike_fractions_descending, mixed_fractions_sum, \
+             mixed_fractions_difference, mixed_fractions_multiplication,fractions_division, fractions_division_by_whole_number, \
+             whole_number_by_fractions_division, mixed_fractions_division]
 
 
 def main():
@@ -143,13 +195,18 @@ def main():
         answers.append(answer)
 
 
-    html_text = r'<ol>'
+    html_text = r'<h2>Questions</h2>'
+    html_text += r'<ol>'
     for i in range(0, len(questions)):
-        html = "<li> {} : {}</li>".format (questions[i], answers[i])
+        html = "    <li> {} </li>\n".format (questions[i])
         html_text += html
-
-        #print(answer)
-    #html_text += r'$2\frac {2}{9}$'
+    html_text += r'</ol>'
+    html_text += r'<br/><hr>'
+    html_text += r'<h2>Answers</h2>'
+    html_text += r'<ol>'
+    for i in range(0, len(questions)):
+        html = "    <li> {} </li>\n".format (answers[i])
+        html_text += html
     html_text += r'</ol>'
     print ("{} {} {}".format(html_pre_context, html_text, html_post_content))
 
