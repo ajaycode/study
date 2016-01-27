@@ -56,9 +56,9 @@ def printable_mixed_fraction (fraction: Fraction):
 
 def fractions_sum():
     fraction1_numerator = random.randint(1, 9)
-    fraction1_denominator = random.randint(2, 9) + fraction1_numerator
+    fraction1_denominator = random.randint(1, 9) + fraction1_numerator
     fraction2_numerator = random.randint(1, 9)
-    fraction2_denominator = random.randint(2, 9) + fraction2_numerator
+    fraction2_denominator = random.randint(1, 9) + fraction2_numerator
     answer = Fraction(fraction1_numerator, fraction1_denominator) + Fraction(fraction2_numerator, fraction2_denominator)
     question = "The sum of {} and {} is __________".format(printable_fraction(fraction1_numerator, fraction1_denominator),
                                                                  printable_fraction(fraction2_numerator, fraction2_denominator))
@@ -66,8 +66,8 @@ def fractions_sum():
     return (question, answer)
 
 def fractions_difference ():
-    subtrahend= Fraction (random.randint(1, 9), random.randint(2,9))
-    difference = Fraction (random.randint(1, 9),random.randint(2, 5))
+    subtrahend= Fraction (random.randint(1, 9), random.randint(1,9))
+    difference = Fraction (random.randint(1, 9),random.randint(1, 5))
     minuend = subtrahend + difference
     question = "The difference between {} and {} is __________".format(printable_fraction_from_fraction(minuend),
                                                                  printable_fraction_from_fraction(subtrahend))
@@ -194,7 +194,7 @@ def main():
         question, answer = f()
         questions.append(question)
         answers.append(answer)
-    html_text = "<h1>Decimals</h1>\n"
+    html_text = "<h1>Fractions</h1>\n"
     html_text += "<h2>Questions: {}</h2>\n".format(str(unique_id)[:8])
     html_text += r'<ol>'
     for i in range(0, len(questions)):
