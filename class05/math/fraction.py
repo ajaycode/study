@@ -8,6 +8,7 @@ __author__ = 'Ajay'
 
 import random
 import logging
+import uuid
 # from fractions import Fraction
 from fractions import Fraction
 
@@ -185,7 +186,7 @@ functions = [fractions_sum, fractions_difference, sort_unlike_fractions, sort_un
 def main():
     logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y%m%d %I:%M:%S %p',
                         filename='class.log', level=logging.INFO)
-    #random.seed (os.urandom(5))
+    unique_id = uuid.uuid1(1)
 
     for i in range(0, len(functions)):
         logging.info('Function : %s' % functions[i])
@@ -194,15 +195,14 @@ def main():
         questions.append(question)
         answers.append(answer)
 
-
-    html_text = r'<h2>Questions</h2>'
+    html_text = r'<h2>Questions: {}</h2>'.format(str(unique_id))
     html_text += r'<ol>'
     for i in range(0, len(questions)):
         html = "    <li> {} </li>\n".format (questions[i])
         html_text += html
     html_text += r'</ol>'
     html_text += r'<br/><hr>'
-    html_text += r'<h2>Answers</h2>'
+    html_text += r'<h2>Answer Key: {}</h2>'.format(str(unique_id))
     html_text += r'<ol>'
     for i in range(0, len(questions)):
         html = "    <li> {} </li>\n".format (answers[i])
