@@ -11,6 +11,7 @@ import logging
 import uuid
 # from fractions import Fraction
 from fractions import Fraction
+import decimal
 
 
 questions = []
@@ -53,105 +54,89 @@ def printable_mixed_fraction (fraction: Fraction):
         printable = "${}".format(whole_number) +"\\frac {" + str(fraction.numerator) +"}{" +  str(fraction.denominator) + "}$"
         return printable
 
+def generate_decimal (integer=999, mantissa=9999):
+    return decimal.Decimal ('%d.%d' %(random.randint(0, integer), random.randint(0, mantissa)))
 
-def fractions_sum():
-    fraction1_numerator = random.randint(1, 9)
-    fraction1_denominator = random.randint(1, 9) + fraction1_numerator
-    fraction2_numerator = random.randint(1, 9)
-    fraction2_denominator = random.randint(1, 9) + fraction2_numerator
-    answer = Fraction(fraction1_numerator, fraction1_denominator) + Fraction(fraction2_numerator, fraction2_denominator)
-    question = "The sum of {} and {} is __________".format(printable_fraction(fraction1_numerator, fraction1_denominator),
-                                                                 printable_fraction(fraction2_numerator, fraction2_denominator))
-    answer = printable_fraction (answer.numerator, answer.denominator)
+
+def decimals_sum():
+    decimal1 = generate_decimal(0, 99)
+    decimal2 = generate_decimal(99, 9999)
+    answer = decimal1 + decimal2
+    question = "The sum of {} and {} is __________".format(decimal1, decimal2)
     return (question, answer)
 
-def fractions_difference ():
-    subtrahend= Fraction (random.randint(1, 9), random.randint(1,9))
-    difference = Fraction (random.randint(1, 9),random.randint(1, 5))
-    minuend = subtrahend + difference
-    question = "The difference between {} and {} is __________".format(printable_fraction_from_fraction(minuend),
-                                                                 printable_fraction_from_fraction(subtrahend))
+def decimals_mantissa_sum ():
+    decimal1 = generate_decimal(0, 99)
+    decimal2 = generate_decimal(0, 9999)
+    answer = decimal1 + decimal2
+    question = "The sum of {} and {} is __________".format(decimal1, decimal2)
+    return (question, answer)
+
+def decimals_difference ():
+    minuend = generate_decimal(99, 99)
+    subtrahend= generate_decimal(49, 99999)
+    while (minuend <= subtrahend):
+        minuend += generate_decimal(10, 9)
+    question = "The difference between {} and {} is __________".format(minuend, subtrahend)
     answer = minuend - subtrahend
-    answer = printable_fraction (answer.numerator, answer.denominator)
     return (question, answer)
 
-
-
-def sort_unlike_fractions (fractions_list = [], ascending=True):
+def sort_decimals (decimals_list = [], ascending=True):
     list = []
-    if  not fractions_list:
+    if  not decimals_list:
         i = 0
         while len (list) < 4:
-            frac = __generate_fraction()
-            if frac not in list:
-                list.append(frac)
+            dec = generate_decimal(1, 9999)
+            if dec not in list:
+                list.append(dec)
                 i+=1
     else:
-        list = fractions_list
-    logging.info ("Fractions to be sorted: {}".format(list))
-    sorted_fraction_list = sorted(list)
+        list = decimals_list
+    logging.info ("Decimals to be sorted: {}".format(list))
+    sorted_decimals_list = sorted(list)
     if ascending is not True:
-        sorted_fraction_list.reverse()
+        sorted_decimals_list.reverse()
     question_sub_text = ""
     for i in range (0, len(list)):
-        question_sub_text += printable_fraction_from_fraction(list[i])
+        question_sub_text += str(list[i])
         if i != len (list)-1:
             question_sub_text += ','
     if ascending is True:
         order = "ascending"
     else:
         order = "descending"
-    question = 'Arrange the fractions {} in {} order'.format (question_sub_text, order )
+    question = 'Arrange the decimals {} in {} order'.format (question_sub_text, order )
     logging.info (question)
     answer = ""
     for i in range (0, len(list)):
-        answer += printable_fraction_from_fraction(sorted_fraction_list[i])
+        answer += str(sorted_decimals_list[i])
         if i != len (list)-1:
             answer += ','
     logging.info (answer)
-    logging.info (sorted_fraction_list)
-
+    logging.info (sorted_decimals_list)
     return (question, answer)
 
-def sort_unlike_fractions_descending (fractions_list = [], ascending=False):
-    return sort_unlike_fractions(fractions_list, ascending)
+def sort_decimals_descending (fractions_list = [], ascending=False):
+    return sort_decimals(fractions_list, ascending)
 
-def mixed_fractions_sum (number1=Fraction(), number2=Fraction()):
-    if number1 == Fraction() or number2 == Fraction():
-        number1 = __generate_mixed_fraction()
-        number2 = __generate_mixed_fraction()
-    answer = number1 + number2
-    #logging.info (number1, number2, answer)
-    question = "The sum of {} and {} is _____. Convert any improper fraction into a mixed fraction.".format (printable_mixed_fraction(number1), printable_mixed_fraction(number2))
-    return (question, printable_mixed_fraction(answer))
 
-def mixed_fractions_difference (number1=Fraction(), number2=Fraction()):
-    if number1 == Fraction() or number2 == Fraction():
-        number1 = __generate_mixed_fraction()
-        number2 = __generate_mixed_fraction()
-        while number2 >= number1:
-            number2 = __generate_mixed_fraction()
-    answer = number1 - number2
-    #logging.info (number1, number2, answer)
-    question = "The difference of {} and {} is _____. Convert any improper fraction into a mixed fraction.".format (printable_mixed_fraction(number1), printable_mixed_fraction(number2))
-    return (question, printable_mixed_fraction(answer))
-
-def mixed_fractions_multiplication (number1=Fraction(), number2=Fraction()):
-    if number1 == Fraction() or number2 == Fraction():
-        number1 = __generate_mixed_fraction()
-        number2 = __generate_fraction()
+def decimals_multiplication (number1=decimal.Decimal(), number2=decimal.Decimal()):
+    if number1 == decimal.Decimal() or number2 == decimal.Decimal():
+        number1 = generate_decimal(9,99)
+        number2 = generate_decimal(999,9999)
     answer = number1 * number2
-    question = "The product of {} and {} is _____. Convert any improper fraction into a mixed fraction.".format (printable_mixed_fraction(number1), printable_fraction_from_fraction(number2))
-    return (question, printable_mixed_fraction(answer))
+    question = "The product of {} and {} is _____. ".format (number1,number2)
+    return (question, answer)
 
-def fractions_division (number1=Fraction(), number2=Fraction()):
-    if number1 == Fraction() or number2 == Fraction():
-        number1 = __generate_fraction()
-        number2 = __generate_fraction()
-
+def decimals_division (number1=decimal.Decimal(), number2=decimal.Decimal()):
+    if number1 == decimal.Decimal() or number2 == decimal.Decimal():
+        number1 = generate_decimal(99,9999)
+        number2 = generate_decimal(9,99)
+    decimal.getcontext().prec = 6
     answer = number1 / number2
-    question = "Divide {} by {}. Convert any improper fraction into a mixed fraction.".format (printable_fraction_from_fraction(number1), printable_fraction_from_fraction(number2))
-    return (question, printable_mixed_fraction(answer))
+    decimal.getcontext().prec = 28
+    question = "Divide {} by {}. Stop the division at 4 places after decimal point.".format (number1, number2)
+    return (question, answer)
 
 def fractions_division_by_whole_number (number1=Fraction(), number2=0):
     if number1 == Fraction() or number2 == 0:
@@ -178,9 +163,10 @@ def mixed_fractions_division (number1=Fraction(), number2=Fraction()):
     return (question, printable_mixed_fraction(answer))
 
 
-functions = [fractions_sum, fractions_difference, sort_unlike_fractions, sort_unlike_fractions_descending, mixed_fractions_sum, \
-             mixed_fractions_difference, mixed_fractions_multiplication,fractions_division, fractions_division_by_whole_number, \
-             whole_number_by_fractions_division, mixed_fractions_division]
+functions = [ fractions_division_by_whole_number, \
+             whole_number_by_fractions_division, mixed_fractions_division, \
+             decimals_sum, decimals_mantissa_sum, decimals_difference, sort_decimals, sort_decimals_descending, decimals_multiplication, \
+             decimals_division]
 
 
 def main():
