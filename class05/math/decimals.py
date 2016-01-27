@@ -3,7 +3,8 @@ __author__ = 'Ajay'
 '''Generates questions on fractions'''
 '''Usage: python <this_file.py> > test.html''' #test.html can be opened in  a browser to view the fraction problems
 ''' Output: Generates a html file, with the questions and answers'''
-# references : https://docs.python.org/2/library/fractions.html
+# references : https://docs.python.org/2/library/decimal.html
+#              https://docs.python.org/2/library/fractions.html
 #              http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
 
 import random
@@ -132,9 +133,10 @@ def decimals_division (number1=decimal.Decimal(), number2=decimal.Decimal()):
     if number1 == decimal.Decimal() or number2 == decimal.Decimal():
         number1 = generate_decimal(99,9999)
         number2 = generate_decimal(9,99)
+    current_precision = decimal.getcontext().prec
     decimal.getcontext().prec = 6
     answer = number1 / number2
-    decimal.getcontext().prec = 28
+    decimal.getcontext().prec = current_precision
     question = "Divide {} by {}. Stop the division at 4 places after decimal point.".format (number1, number2)
     return (question, answer)
 

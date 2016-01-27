@@ -31,6 +31,8 @@ class TestDecimals(TestCase):
     def test_decimals_division (self):
         __, answer = decimals_division (decimal.Decimal('22.7665'), decimal.Decimal('8.79'))
         self.assertEqual(decimal.Decimal('2.59005'), answer)
+        __, answer = decimals_division (decimal.Decimal('14.6643'), decimal.Decimal('3.87'))
+        self.assertEqual(decimal.Decimal('3.78922'), answer)
 
 
 
