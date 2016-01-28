@@ -13,7 +13,7 @@ import uuid
 # from fractions import Fraction
 from fractions import Fraction
 import decimal
-
+from fraction import printable_fraction, printable_fraction_from_fraction
 
 questions = []
 answers = []
@@ -26,34 +26,6 @@ html_pre_context = r'<html> <head> <title> Home Work Problems - Decimals </title
 html_post_content = r'</body></html>'
 
 '''Generates a fraction ranging from 1...9/2..9'''
-def __generate_fraction ():
-    return (Fraction(random.randint(1,9),random.randint(2,9) ))
-
-def __generate_mixed_fraction ():
-    frac = __generate_fraction()
-    while frac.denominator == 1:
-        frac = __generate_fraction()
-    return frac + random.randint (1,9)
-
-'''input: numerator and denominator
-   output: a string, that appears as a fraction in LaTeX format
-   '''
-def printable_fraction (numerator: int, denominator: int):
-    printable = "$\\frac {" + str(numerator) +"}{" +  str(denominator) + "}$"
-    return printable
-
-'''Takes a Fraction data structure'''
-def printable_fraction_from_fraction (fraction: Fraction):
-    return printable_fraction(fraction.numerator, fraction.denominator)
-
-def printable_mixed_fraction (fraction: Fraction):
-    if fraction.numerator <= fraction.denominator:
-        return printable_fraction_from_fraction(fraction)
-    else:
-        whole_number = fraction.numerator // fraction.denominator
-        fraction = fraction - whole_number
-        printable = "${}".format(whole_number) +"\\frac {" + str(fraction.numerator) +"}{" +  str(fraction.denominator) + "}$"
-        return printable
 
 def generate_decimal (integer=999, mantissa=9999):
     return decimal.Decimal ('%d.%d' %(random.randint(0, integer), random.randint(0, mantissa)))
