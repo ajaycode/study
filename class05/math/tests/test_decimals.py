@@ -34,6 +34,45 @@ class TestDecimals(TestCase):
         __, answer = decimals_division (decimal.Decimal('14.6643'), decimal.Decimal('3.87'))
         self.assertEqual(decimal.Decimal('3.78922'), answer)
 
+    def test_decimal_to_fraction (self):
+        __, answer = decimal_to_fraction (decimal.Decimal('0.009'))
+        self.assertEqual (r'$\frac {9}{1000}$', answer)
+        __, answer = decimal_to_fraction (decimal.Decimal('0.039'))
+        self.assertEqual (r'$\frac {39}{1000}$', answer)
+        __, answer = decimal_to_fraction (decimal.Decimal('0.39'))
+        self.assertEqual (r'$\frac {39}{100}$', answer)
+        __, answer = decimal_to_fraction (decimal.Decimal('3.9'))
+        self.assertEqual (r'$\frac {39}{10}$', answer)
+
+    def test_multiple_decimals_to_fractions (self):
+        __, answer = multiple_decimals_to_fractions ([decimal.Decimal('0.008'), decimal.Decimal('0.945'), decimal.Decimal('0.01'), decimal.Decimal('0.831')])
+        self.assertEqual(r'$\frac {1}{125}$,$\frac {189}{200}$,$\frac {1}{100}$,$\frac {831}{1000}$', answer)
+        __, answer = multiple_decimals_to_fractions ([decimal.Decimal('0.004'), decimal.Decimal('0.326'), decimal.Decimal('0.02'), decimal.Decimal('0.144')])
+        self.assertEqual(r'$\frac {1}{250}$,$\frac {163}{500}$,$\frac {1}{50}$,$\frac {18}{125}$', answer)
+
+    def test_decimals_integers_multiplication (self):
+        __, answer = decimals_integers_multiplication (decimal.Decimal('0.75'), 36)
+        self.assertEqual(decimal.Decimal('27.00'), answer)
+
+    def test_decimals_integers_division (self):
+        __, answer = decimals_integers_division (decimal.Decimal('3.39'), 8)
+        self.assertEqual(decimal.Decimal('0.42375'), answer)
+        __, answer = decimals_integers_division (decimal.Decimal('0.26'), 5)
+        self.assertEqual(decimal.Decimal('0.052'), answer)
+
+    def test_integers_decimals_division (self):
+        __, answer = integers_decimals_division (81, decimal.Decimal('0.4'))
+        self.assertEqual(decimal.Decimal('202.5'), answer)
+
+    def test_percentage_of_whole_numbers (self):
+        __, answer = percentage_of_whole_numbers (70, 55)
+        self.assertEqual(38.5, answer)
+
+    def test_decimal_as_percentage (self):
+        __, answer = decimal_as_percentage (decimal.Decimal('0.948'))
+        self.assertEqual(94.8, answer)
+
+
 
 
 

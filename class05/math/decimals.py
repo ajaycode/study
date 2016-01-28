@@ -19,13 +19,13 @@ questions = []
 answers = []
 
 style = r'<style>body{font-size:16;font-family:Verdana;}</style>'
-html_pre_context = r'<html> <head> <title> Quiz on fractions </title>' + r'<script type="text/x-mathjax-config">MathJax.Hub.Config({' + \
+html_pre_context = r'<html> <head> <title> Home Work Problems - Decimals </title>' + r'<script type="text/x-mathjax-config">MathJax.Hub.Config({' + \
   r'tex2jax: {' + r"inlineMath: [ ['$','$'], ['\\(','\\)'] ]" + \
   r'}' + r'})'+ r'</script><script type="text/javascript" src = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" ></script> ' +\
   style + r'</head > <body> '
 html_post_content = r'</body></html>'
 
-'''Generates a fraction ranging from 1...9/1..9'''
+'''Generates a fraction ranging from 1...9/2..9'''
 def __generate_fraction ():
     return (Fraction(random.randint(1,9),random.randint(2,9) ))
 
@@ -57,6 +57,40 @@ def printable_mixed_fraction (fraction: Fraction):
 
 def generate_decimal (integer=999, mantissa=9999):
     return decimal.Decimal ('%d.%d' %(random.randint(0, integer), random.randint(0, mantissa)))
+
+def decimal_to_fraction (number = decimal.Decimal()):
+    if number == decimal.Decimal():
+        number = generate_decimal(0, 999)
+    number_in_fraction = Fraction(number)
+    answer = printable_fraction_from_fraction(number_in_fraction)
+    question = "Convert {} to a fraction. Simplify the fraction, if required.".format(number)
+    return (question, answer)
+
+def multiple_decimals_to_fractions (decimal_list = []):
+    dec_list = []
+    if not decimal_list:
+        i = 0
+        if len(decimal_list) <= 4:
+            dec_list.append (decimal.Decimal(random.randint(1,9)/1000).quantize(decimal.Decimal('0.001'), rounding=decimal.ROUND_DOWN))
+            dec_list.append (decimal.Decimal(random.randint(111,999)/1000).quantize(decimal.Decimal('0.001'), rounding=decimal.ROUND_DOWN))
+            dec_list.append (decimal.Decimal(random.randint(1,9)/100).quantize(decimal.Decimal('0.01'), rounding=decimal.ROUND_DOWN))
+            dec_list.append (generate_decimal(0, 9999).quantize(decimal.Decimal('0.001'), rounding=decimal.ROUND_DOWN))
+
+        decimal_list = dec_list
+    fraction_list = []
+    answer = ""
+    question = ""
+    for i in range (0, len (decimal_list)):
+        fraction_list.append( Fraction(decimal_list[i]))
+        answer += printable_fraction_from_fraction(fraction_list[i])
+        question += " {}".format (decimal_list[i])
+        if i != len (decimal_list) -1:
+            answer += ","
+            question += ","
+    question = "Convert the decimals into their equivalent fractions : {}".format (question)
+    return (question, answer)
+
+
 
 
 def decimals_sum():
@@ -129,6 +163,15 @@ def decimals_multiplication (number1=decimal.Decimal(), number2=decimal.Decimal(
     question = "The product of {} and {} is _____. ".format (number1,number2)
     return (question, answer)
 
+def decimals_integers_multiplication (number1=decimal.Decimal(), number2=0):
+    if number1 == decimal.Decimal() or number2 == 0:
+        number1 = generate_decimal(0,99)
+        number2 = random.randint (5,50)
+    answer = number1 * number2
+    question = "{} x {} = ______".format (number1, number2)
+    return (question, answer)
+
+
 def decimals_division (number1=decimal.Decimal(), number2=decimal.Decimal()):
     if number1 == decimal.Decimal() or number2 == decimal.Decimal():
         number1 = generate_decimal(99,9999)
@@ -140,35 +183,50 @@ def decimals_division (number1=decimal.Decimal(), number2=decimal.Decimal()):
     question = "Divide {} by {}. Stop the division at 4 places after decimal point.".format (number1, number2)
     return (question, answer)
 
-def fractions_division_by_whole_number (number1=Fraction(), number2=0):
-    if number1 == Fraction() or number2 == 0:
-        number1 = __generate_fraction()
-        number2 = random.randint (3,9)
+def decimals_integers_division (number1=decimal.Decimal(), number2=0):
+    if number1 == decimal.Decimal() or number2 == 0:
+        number1 = generate_decimal(4,99)
+        number2 = random.randint (4,9)
+    original_precision = decimal.getcontext().prec
+    decimal.getcontext().prec=4
     answer = number1 / number2
-    question = "Divide {} by {}.".format (printable_fraction_from_fraction(number1), number2)
-    return (question, printable_fraction_from_fraction(answer))
+    decimal.getcontext().prec = original_precision
+    question = "{} divided by {} = ______".format (number1, number2)
+    return (question, answer)
 
-def whole_number_by_fractions_division (number1=0, number2=Fraction()):
-    if number2 == Fraction() or number1 == 0:
-        number2 = __generate_fraction()
-        number1 = random.randint (3,9)
+def integers_decimals_division (number1=0, number2= decimal.Decimal()):
+    if number1 == 0 or number2 == decimal.Decimal():
+        number1 = random.randint (19, 300)
+        number2 = generate_decimal(9,9)
+    original_precision = decimal.getcontext().prec
+    decimal.getcontext().prec=4
     answer = number1 / number2
-    question = "Divide {} by {}.".format (number1, printable_fraction_from_fraction(number2))
-    return (question, printable_fraction_from_fraction(answer))
-
-def mixed_fractions_division (number1=Fraction(), number2=Fraction()):
-    if number1 == Fraction() or number2 == Fraction():
-        number1 = __generate_mixed_fraction()
-        number2 = __generate_mixed_fraction()
-    answer = number1 / number2
-    question = "Divide {} by {}. Convert any improper fraction into a mixed fraction.".format (printable_mixed_fraction(number1), printable_mixed_fraction(number2))
-    return (question, printable_mixed_fraction(answer))
+    decimal.getcontext().prec = original_precision
+    question = "{} divided by {} = ______".format (number1, number2)
+    return (question, answer)
 
 
-functions = [ fractions_division_by_whole_number, \
-             whole_number_by_fractions_division, mixed_fractions_division, \
-             decimals_sum, decimals_mantissa_sum, decimals_difference, sort_decimals, sort_decimals_descending, decimals_multiplication, \
-             decimals_division]
+def percentage_of_whole_numbers (percentage=0, whole_number=0):
+    if percentage == 0 or whole_number == 0:
+        percentage = random.randint (2,15)*5
+        whole_number = random.randint (2,19) * 5
+    answer = whole_number * percentage / 100
+    question = "{}% of {} is _______.".format (percentage, whole_number)
+    return  (question, answer)
+
+def decimal_as_percentage (number1=decimal.Decimal()):
+    if number1 == decimal.Decimal():
+        number1 = generate_decimal(0, 999)
+    answer = number1 * 100
+    answer = float(answer)
+    question = "{} can be expressed as ____%.".format (number1)
+    return (question, answer)
+
+
+
+functions = [decimals_sum, decimals_mantissa_sum, decimals_difference, sort_decimals, sort_decimals_descending, decimals_multiplication, \
+             decimals_division, decimal_to_fraction, multiple_decimals_to_fractions, decimals_integers_multiplication, decimals_integers_division,\
+              integers_decimals_division,percentage_of_whole_numbers, decimal_as_percentage]
 
 
 def main():
@@ -182,7 +240,7 @@ def main():
         question, answer = f()
         questions.append(question)
         answers.append(answer)
-    html_text = "<h1>Fractions</h1>\n"
+    html_text = "<h1>Decimals</h1>\n"
     html_text += "<h2>Questions: {}</h2>\n".format(str(unique_id)[:8])
     html_text += r'<ol>'
     for i in range(0, len(questions)):
