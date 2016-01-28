@@ -62,9 +62,6 @@ def multiple_decimals_to_fractions (decimal_list = []):
     question = "Convert the decimals into their equivalent fractions : {}".format (question)
     return (question, answer)
 
-
-
-
 def decimals_sum():
     decimal1 = generate_decimal(0, 99)
     decimal2 = generate_decimal(99, 9999)
@@ -160,7 +157,7 @@ def decimals_integers_division (number1=decimal.Decimal(), number2=0):
         number1 = generate_decimal(4,99)
         number2 = random.randint (4,9)
     original_precision = decimal.getcontext().prec
-    decimal.getcontext().prec=4
+    decimal.getcontext().prec=5
     answer = number1 / number2
     decimal.getcontext().prec = original_precision
     question = "{} divided by {} = ______".format (number1, number2)
@@ -193,7 +190,6 @@ def decimal_as_percentage (number1=decimal.Decimal()):
     answer = float(answer)
     question = "{} can be expressed as ____%.".format (number1)
     return (question, answer)
-
 
 
 functions = [decimals_sum, decimals_mantissa_sum, decimals_difference, sort_decimals, sort_decimals_descending, decimals_multiplication, \
