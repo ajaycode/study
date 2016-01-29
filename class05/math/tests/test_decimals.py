@@ -74,9 +74,9 @@ class TestDecimals(TestCase):
 
     def test_fraction_as_percentage (self):
         __, answer = fraction_as_percentage (Fraction (11, 25))
-        self.assertEqual(44.0, answer)
+        self.assertEqual(str(44.0) + " %", answer)
         __, answer = fraction_as_percentage (Fraction (13, 25))
-        self.assertEqual(52.0, answer)
+        self.assertEqual(str (52.0) + " %", answer)
 
 
 
