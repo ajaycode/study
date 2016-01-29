@@ -196,7 +196,11 @@ def fraction_as_percentage (number = Fraction ()):
         possible_denominators = [2, 5, 10, 20, 25, 50]
         selection = random.randint (0, len (possible_denominators)-1)
         denominator = possible_denominators[selection]
-        number = Fraction(random.randint (2, 15), denominator)
+        numerator = random.randint(2, 15)
+        while (numerator == denominator):
+            numerator = random.randint (2, 15)
+        number = Fraction(numerator, denominator)
+        logging.info ("{} {} {}".format (selection, denominator, printable_fraction_from_fraction(number)))
     question = "Express fraction {} as a percentage.".format (printable_fraction_from_fraction(number))
     original_precision = decimal.getcontext().prec
     decimal.getcontext().prec = 2
