@@ -3,8 +3,8 @@
 import unittest
 from unittest import TestCase
 __author__ = 'Ajay'
-import sys, decimal
-from decimal import ROUND_HALF_UP
+import sys
+from decimal import ROUND_HALF_UP, Decimal
 
 sys.path.append('..\\')
 from decimals import *
@@ -71,6 +71,12 @@ class TestDecimals(TestCase):
     def test_decimal_as_percentage (self):
         __, answer = decimal_as_percentage (decimal.Decimal('0.948'))
         self.assertEqual(94.8, answer)
+
+    def test_fraction_as_percentage (self):
+        __, answer = fraction_as_percentage (Fraction (11, 25))
+        self.assertEqual(44.0, answer)
+        __, answer = fraction_as_percentage (Fraction (13, 25))
+        self.assertEqual(52.0, answer)
 
 
 

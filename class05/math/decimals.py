@@ -191,10 +191,23 @@ def decimal_as_percentage (number1=decimal.Decimal()):
     question = "{} can be expressed as ____%.".format (number1)
     return (question, answer)
 
+def fraction_as_percentage (number = Fraction ()):
+    if number == Fraction():
+        possible_denominators = [2, 5, 10, 20, 25, 50]
+        selection = random.randint (0, len (possible_denominators)-1)
+        denominator = possible_denominators[selection]
+        number = Fraction(random.randint (2, 15), denominator)
+    question = "Express fraction {} as a percentage.".format (printable_fraction_from_fraction(number))
+    original_precision = decimal.getcontext().prec
+    decimal.getcontext().prec = 2
+    answer = number.numerator * 100/number.denominator
+    decimal.getcontext().prec = original_precision
+    return (question, answer)
+
 
 functions = [decimals_sum, decimals_mantissa_sum, decimals_difference, sort_decimals, sort_decimals_descending, decimals_multiplication, \
              decimals_division, decimal_to_fraction, multiple_decimals_to_fractions, decimals_integers_multiplication, decimals_integers_division,\
-              integers_decimals_division,percentage_of_whole_numbers, decimal_as_percentage]
+              integers_decimals_division,percentage_of_whole_numbers, decimal_as_percentage, fraction_as_percentage]
 
 
 def main():
@@ -208,7 +221,7 @@ def main():
         question, answer = f()
         questions.append(question)
         answers.append(answer)
-    html_text = "<h1>Decimals</h1>\n"
+    html_text = "<h1>Decimals & Percentages</h1>\n"
     html_text += "<h2>Questions: {}</h2>\n".format(str(unique_id)[:8])
     html_text += r'<ol>'
     for i in range(0, len(questions)):
