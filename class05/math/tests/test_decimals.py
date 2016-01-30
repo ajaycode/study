@@ -63,6 +63,8 @@ class TestDecimals(TestCase):
     def test_integers_decimals_division (self):
         __, answer = integers_decimals_division (81, decimal.Decimal('0.4'))
         self.assertEqual(decimal.Decimal('202.5'), answer)
+        __, answer = integers_decimals_division (171, decimal.Decimal('1.9'))
+        self.assertEqual(decimal.Decimal('90'), answer)
 
     def test_percentage_of_whole_numbers (self):
         __, answer = percentage_of_whole_numbers (70, 55)
