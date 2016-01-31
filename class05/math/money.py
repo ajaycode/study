@@ -69,8 +69,40 @@ def selling_price_profit (selling_price=0, profit = 0):
     question = "A set of {items} was sold for Rs {sp} at a profit of Rs {profit}.  What was its cost price?".format (items=__get_plural(__get_item()), sp=selling_price, profit=profit)
     return  (question, answer)
 
+def bulk_purchase_with_unit_loss (bulk_purchase_price = 0, units = 0, unit_loss = 0):
+    if bulk_purchase_price == 0 or units == 0 or unit_loss == 0:
+        units = random.randint (31, 55)
+        bulk_purchase_price = units * random.randint (31, 55)
+        unit_loss = random.randint (5, 11)
+    answer = bulk_purchase_price - unit_loss * units
+    question = "A wholesaler purchases {} kg of sugar for Rs {} and sells each kilogram of sugar at a loss of Rs {}. Calculate the amount, he would get at the end of the sale."\
+               .format (units, bulk_purchase_price, unit_loss)
+    return (question, answer)
 
-functions = [purchase_costs_input_costs_selling_price, cost_input_loss, selling_price_profit]
+def bulk_purchase_with_unit_profit (bulk_purchase_price = 0, units = 0, unit_profit = 0):
+    if bulk_purchase_price == 0 or units == 0 or unit_profit == 0:
+        units = random.randint (31, 55)
+        bulk_purchase_price = units * random.randint (31, 55)
+        unit_profit = random.randint (5, 11)
+    answer = bulk_purchase_price + unit_profit * units
+    question = "A wholesaler purchases {} kg of sugar for Rs {} and sells each kilogram of sugar at a profit of Rs {}. Calculate the amount, he would get at the end of the sale."\
+               .format (units, bulk_purchase_price, unit_profit)
+    return (question, answer)
+
+def unit_profit_on_bulk_sale (bulk_purchase_price=0, bulk_sale_price = 0, units = 0):
+    if (bulk_purchase_price == 0 or bulk_sale_price == 0 or units == 0):
+        units = random.randint (12, 19)
+        unit_cost_price = random.randint (6, 14)
+        unit_sale_price = unit_cost_price + random.randint (2,6)
+        bulk_purchase_price = unit_cost_price * units
+        bulk_sale_price = unit_sale_price * units
+    answer = (bulk_sale_price - bulk_purchase_price)/units
+    question = "{} units of {} were bought for Rs {} and sold for Rs {}.   Find the profit or loss per unit?".format (units, __get_plural(__get_item()), bulk_purchase_price, bulk_sale_price)
+    return (question, answer)
+
+
+functions = [purchase_costs_input_costs_selling_price, cost_input_loss, selling_price_profit, bulk_purchase_with_unit_loss, bulk_purchase_with_unit_profit, \
+             unit_profit_on_bulk_sale]
 
 
 def main():
