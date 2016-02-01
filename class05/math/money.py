@@ -14,6 +14,7 @@ import uuid
 from fractions import Fraction
 import decimal
 from fraction import printable_fraction, printable_fraction_from_fraction
+import datetime
 
 questions = []
 answers = []
@@ -23,6 +24,11 @@ html_pre_context = r'<html> <head> <title> Home Work Problems - Money </title>' 
   r'tex2jax: {' + r"inlineMath: [ ['$','$'], ['\\(','\\)'] ]" + \
   r'}' + r'})'+ r'</script><script type="text/javascript" src = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" ></script> ' +\
   style + r'</head > <body> '
+today = datetime.date.today()
+today = today.strftime("%B %d, %Y")
+
+
+
 html_post_content = r'</body></html>'
 
 names = ['Rahul', 'Gaurav', 'Rama', 'Utkarsh', 'Govind', 'Akash', 'Anand']
@@ -100,9 +106,21 @@ def unit_profit_on_bulk_sale (bulk_purchase_price=0, bulk_sale_price = 0, units 
     question = "{} units of {} were bought for Rs {} and sold for Rs {}.   Find the profit or loss per unit?".format (units, __get_plural(__get_item()), bulk_purchase_price, bulk_sale_price)
     return (question, answer)
 
+def aggregate_cost_on_unit_sale (unit_sale_price = 0, unit_profit = 0, units = 0):
+    if unit_sale_price == 0 or unit_profit == 0 or units == 0:
+        units = random.randint (12,19)
+        unit_profit = random.randint (4, 9)
+        unit_sale_price = unit_profit + random.randint (21,29)
+    item = __get_item()
+    unit_cost_price = unit_sale_price - unit_profit
+    aggregate_cost = unit_cost_price * units
+    question = "{units}  {items} were sold for Rs {unit_sale_price} each at a profit of Rs {unit_profit} per item. What was the total cost price for these {items}?"\
+                .format (units=units, items = __get_plural(item), unit_sale_price=unit_sale_price, unit_profit=unit_profit)
+    return (question, aggregate_cost)
+
 
 functions = [purchase_costs_input_costs_selling_price, cost_input_loss, selling_price_profit, bulk_purchase_with_unit_loss, bulk_purchase_with_unit_profit, \
-             unit_profit_on_bulk_sale]
+             unit_profit_on_bulk_sale, aggregate_cost_on_unit_sale]
 
 
 def main():
@@ -116,7 +134,8 @@ def main():
         question, answer = f()
         questions.append(question)
         answers.append(answer)
-    html_text = "<h1>Decimals & Percentages</h1>\n"
+    html_text = "<h1>Money</h1>\n"
+    html_text += today
     html_text += "<h2>Questions: {}</h2>\n".format(str(unique_id)[:8])
     html_text += r'<ol>'
     for i in range(0, len(questions)):

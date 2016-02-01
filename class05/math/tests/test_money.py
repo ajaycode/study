@@ -38,6 +38,10 @@ class TestMoney(TestCase):
         q, a = unit_profit_on_bulk_sale (162, 216, 18)
         self.assertEqual(3.0, a)
 
+    def test_aggregate_cost_on_unit_sale (self):
+        q, a = aggregate_cost_on_unit_sale (35, 7, 15)
+        self.assertEqual(420, a)
+
 
 if __name__ == '__main__':
     unittest.main()
