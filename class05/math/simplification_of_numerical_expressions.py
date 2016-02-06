@@ -13,6 +13,8 @@ import uuid
 import datetime
 import re
 from factors import is_prime
+from decimals import *
+from fraction import __generate_fraction
 
 chapter = r'Simplification of Numerical Expressions'
 
@@ -32,7 +34,7 @@ html_post_content = r'</body></html>'
 division_sign = '&#247;'#u'\N{DIVISION SIGN}'
 multiplication_sign = '&times;'#u'\N{MULTIPLICATION SIGN}'
 
-def __generate_random_numbers (min=2, max=25):
+def __generate_random_number (min=2, max=25):
     number =  random.randint (min, max)
     while is_prime(number):
         number = random.randint (min, max)
@@ -86,10 +88,10 @@ def bodmas_integers (expression = None, num_operations = 5):
         ops_list = __generate_operations(num_operations)
         for i in range (0, num_operations + 1):
             if i == 0:
-                numbers_list.append(__generate_random_numbers(50, 100))
+                numbers_list.append(__generate_random_number(50, 100))
             elif   i < len (ops_list) and  ops_list[i] == "/" and ops_list[i]:#ensures that there are no prime numbers before a / sign. Else the divisors are either the number or 1.
-                numbers_list.append( __generate_random_numbers(50, 200))
-                #logging.info (number)
+                numbers_list.append( __generate_random_number(50, 200))
+
             else:
                 if ops_list[i-1] == "/":
 
@@ -98,28 +100,68 @@ def bodmas_integers (expression = None, num_operations = 5):
                     divisor = factor_list[random.randint(0, len(factor_list)-1)]
                     numbers_list.append(divisor)
                 else:
-                    numbers_list.append(__generate_random_numbers())
+                    numbers_list.append(__generate_random_number())
         #Both numbers and operators are available.  Construct the mathematical expression
         expression = __generate_expression (numbers_list, ops_list)
-
     answer = eval (expression)
     question = __printable_expression(expression)
     return (question, answer)
 
 
 
-def bodmas_fractions (expression = None):
-    pass
+def bodmas_fractions (expression = None, num_operations = 4):#TODO: Fix this..  eval does not work.  A parser is required.
+    numbers_list = []
+
+    if expression == None:
+        ops_list = __generate_operations(num_operations)
+        for i in range (0, num_operations + 1):
+            if i == 0:
+                numbers_list.append(__generate_fraction ())
+            else:
+                numbers_list.append(__generate_fraction ())
+        #Both numbers and operators are available.  Construct the mathematical expression
+        expression = __generate_expression (numbers_list, ops_list)
+    answer = eval (expression)
+    question = expression
+    return (question, answer)
+
 
 def bodmas_mixed_fractions (expression = None):
     pass
 
-def bodmas_decimals (expression = None):
-    pass
+def bodmas_decimals (expression = None, num_operations = 4):
+    numbers_list = []
+    multiplier = 1
+    if expression == None:
+        ops_list = __generate_operations(num_operations)
+        for i in range (0, num_operations + 1):
+            if i == 0:
+                numbers_list.append(generate_decimal (2, 99))
+            elif   i < len (ops_list) and  ops_list[i] == "/" and ops_list[i]:#ensures that there are no prime numbers before a / sign. Else the divisors are either the number or 1.
+                multiplier = random.randint (5,9)
+                numbers_list.append(generate_decimal (2, 99) * multiplier)
+            else:
+                if ops_list[i-1] == "/":
+                    orig = decimal.getcontext().prec
+                    decimal.getcontext().prec = 3
+                    divisor = numbers_list[i-1]/multiplier
+                    decimal.getcontext().prec = orig
+                    numbers_list.append(divisor)
+                else:
+                    numbers_list.append(generate_decimal (0, 9))
+        #Both numbers and operators are available.  Construct the mathematical expression
+        expression = __generate_expression (numbers_list, ops_list)
+    orig = decimal.getcontext().prec
+    decimal.getcontext().prec = 3
+    answer = round (eval (expression), 3)
+    decimal.getcontext().prec = orig
+    question = __printable_expression(expression)
+    return (question, answer)
 
 
 
-functions = [bodmas_integers]
+
+functions = [bodmas_integers, bodmas_decimals] #, bodmas_fractions]
 
 
 def main():
@@ -128,7 +170,7 @@ def main():
     unique_id = uuid.uuid1(1)
 
     num_problems = 0
-    while num_problems < 10:
+    while num_problems < 20:
         for i in range(0, len(functions)):
             logging.info('Function : %s' % functions[i])
             f = functions[i]
