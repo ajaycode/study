@@ -4,7 +4,6 @@ import unittest
 from unittest import TestCase
 __author__ = 'Ajay'
 import sys
-from decimal import ROUND_HALF_UP, Decimal
 
 sys.path.append('..\\')
 from temperature import *

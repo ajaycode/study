@@ -10,9 +10,6 @@ __author__ = 'Ajay'
 import random
 import logging
 import uuid
-import decimal
-from decimal import ROUND_UP
-from fraction import printable_fraction, printable_fraction_from_fraction
 import datetime
 
 chapter = r'Temperature'
