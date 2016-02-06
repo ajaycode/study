@@ -63,7 +63,7 @@ def cost_input_loss (cost_price=0, input_costs=0, loss=0):
         input_costs = random.randint (100, 150)
         loss = random.randint (200, 300)
     answer = cost_price + input_costs - loss
-    question = "{} were bought for Rs {}. Packing charges were Rs {}. Loss incurred was Rs {}. What was the selling price?".format (__get_plural(__get_item()), \
+    question = "{} were bought for Rs {}. Packing charges were Rs {}. Loss incurred was Rs {}. What was the selling price?".format (__get_plural(__get_item()).title(), \
                                         cost_price, input_costs, loss)
     return (question, answer)
 
