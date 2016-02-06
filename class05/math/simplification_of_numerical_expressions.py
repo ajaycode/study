@@ -11,9 +11,8 @@ import random
 import logging
 import uuid
 import datetime
-import factors
 import re
-#from factors import _is_prime
+from factors import is_prime
 
 chapter = r'Simplification of Numerical Expressions'
 
@@ -30,11 +29,14 @@ today = today.strftime("%B %d, %Y")
 
 html_post_content = r'</body></html>'
 
-division_sign = u'\N{DIVISION SIGN}'
-multiplication_sign = u'\N{MULTIPLICATION SIGN}'
+division_sign = '&#247;'#u'\N{DIVISION SIGN}'
+multiplication_sign = '&times;'#u'\N{MULTIPLICATION SIGN}'
 
 def __generate_random_numbers (min=2, max=25):
-    return random.randint (min, max)
+    number =  random.randint (min, max)
+    while is_prime(number):
+        number = random.randint (min, max)
+    return number
 
 def __generate_operations (num_operations = 4): #num_operations = number of arithmetic operators present in the equation
     operations = ["+", "-", "*", "/"]
@@ -65,7 +67,7 @@ def __factors(number=0):
         factors.append(n)
         # factors.append (number / n)
       n += 1
-    return (factors[1:])  # for unit testing
+    return (factors[1:-1])  # for unit testing
 
 def __generate_expression (numbers_list, ops_list):
     if numbers_list == None or len (numbers_list) == 0 or ops_list == None or len (ops_list) == 0:
@@ -85,6 +87,9 @@ def bodmas_integers (expression = None, num_operations = 5):
         for i in range (0, num_operations + 1):
             if i == 0:
                 numbers_list.append(__generate_random_numbers(50, 100))
+            elif   i < len (ops_list) and  ops_list[i] == "/" and ops_list[i]:#ensures that there are no prime numbers before a / sign. Else the divisors are either the number or 1.
+                numbers_list.append( __generate_random_numbers(50, 200))
+                #logging.info (number)
             else:
                 if ops_list[i-1] == "/":
 
@@ -122,13 +127,17 @@ def main():
                         filename='class.log', level=logging.INFO)
     unique_id = uuid.uuid1(1)
 
-    for i in range (0, 10):
+    num_problems = 0
+    while num_problems < 10:
         for i in range(0, len(functions)):
             logging.info('Function : %s' % functions[i])
             f = functions[i]
             question, answer = f()
-            questions.append(question)
-            answers.append(answer)
+            if answer > 0 and answer < 5000:
+                questions.append(question)
+                answers.append(answer)
+                num_problems += 1
+
     html_text = "<h1>{}</h1>\n".format(chapter)
     html_text += today
     html_text += "<h2>Questions: {}</h2>\n".format(str(unique_id)[:8])
