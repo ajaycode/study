@@ -14,7 +14,8 @@ import datetime
 import re
 from factors import is_prime
 from decimals import *
-from fraction import __generate_fraction
+from fraction import __generate_fraction,__generate_mixed_fraction, printable_fraction_from_fraction, printable_mixed_fraction
+from fractions import Fraction
 
 chapter = r'Simplification of Numerical Expressions'
 
@@ -53,9 +54,34 @@ def __generate_operations (num_operations = 4): #num_operations = number of arit
             ops_list.append (operations[random.randint(0, len(operations)-1)])
     return ops_list
 
+def __generate_expression (numbers_list, ops_list):
+    if numbers_list == None or len (numbers_list) == 0 or ops_list == None or len (ops_list) == 0:
+        logging.info ("Invalid parameters passed to function.")
+        return False
+    expression = ""
+    for i in range (0, len (numbers_list)):
+        expression += "{}".format (numbers_list[i])
+        if i <= len (numbers_list) -2:
+            expression += " {} ".format (ops_list[i])
+    return expression
+
 def __printable_expression (expression:str): #replaces "/" and "*" by the appropriate mathematical signs, using unicode
     expression = re.sub ("/", division_sign, expression)
     expression = re.sub ("\*", multiplication_sign, expression)
+    return expression
+
+def __printable_expression_fractions (fraction_list, ops_list):
+    if fraction_list == None or len (fraction_list) == 0 or ops_list == None or len (ops_list) == 0:
+        logging.info ("Invalid parameters passed to function.")
+        return False
+    expression = ""
+    for i in range (0, len (fraction_list)):
+        if fraction_list[i].numerator > fraction_list[i].denominator:
+            expression += "{}".format (printable_mixed_fraction(fraction_list[i]))
+        else:
+            expression += "{}".format (printable_fraction_from_fraction(fraction_list[i]))
+        if i <= len (fraction_list) -2:
+            expression += " {} ".format (ops_list[i])
     return expression
 
 
@@ -71,16 +97,7 @@ def __factors(number=0):
       n += 1
     return (factors[1:-1])  # for unit testing
 
-def __generate_expression (numbers_list, ops_list):
-    if numbers_list == None or len (numbers_list) == 0 or ops_list == None or len (ops_list) == 0:
-        logging.info ("Invalid parameters passed to function.")
-        return False
-    expression = ""
-    for i in range (0, len (numbers_list)):
-        expression += "{}".format (numbers_list[i])
-        if i <= len (numbers_list) -2:
-            expression += " {} ".format (ops_list[i])
-    return expression
+
 
 def bodmas_integers (expression = None, num_operations = 5):
     numbers_list = []
@@ -106,28 +123,6 @@ def bodmas_integers (expression = None, num_operations = 5):
     answer = eval (expression)
     question = __printable_expression(expression)
     return (question, answer)
-
-
-
-def bodmas_fractions (expression = None, num_operations = 4):#TODO: Fix this..  eval does not work.  A parser is required.
-    numbers_list = []
-
-    if expression == None:
-        ops_list = __generate_operations(num_operations)
-        for i in range (0, num_operations + 1):
-            if i == 0:
-                numbers_list.append(__generate_fraction ())
-            else:
-                numbers_list.append(__generate_fraction ())
-        #Both numbers and operators are available.  Construct the mathematical expression
-        expression = __generate_expression (numbers_list, ops_list)
-    answer = eval (expression)
-    question = expression
-    return (question, answer)
-
-
-def bodmas_mixed_fractions (expression = None):
-    pass
 
 def bodmas_decimals (expression = None, num_operations = 4):
     numbers_list = []
@@ -159,15 +154,81 @@ def bodmas_decimals (expression = None, num_operations = 4):
     return (question, answer)
 
 
+def bodmas_fractions (expression = None, num_operations = 4):#TODO: expression passed as input is ignored.  Add support for inputs, passed as strings
+    numbers_list = []
+    if expression == None:
+        ops_list = __generate_operations(num_operations)
+        for i in range (0, num_operations + 1):
+            numbers_list.append(__generate_fraction ())
+        #Both numbers and operators are available.  Construct the mathematical expression
+        expression = __printable_expression(__printable_expression_fractions (numbers_list, ops_list))
+    answer = bodmas_fractions_solver(numbers_list, ops_list)
+    question = expression
+    return (question, answer)
+
+'''This function is similar to the built-in eval, but this provides the answer for fractions
+This function is called by the bodmas_fractions function.
+'''
+def bodmas_fractions_solver (fraction_list, operations_list):
+    if not operations_list or not fraction_list or len (operations_list) == 0 or len (fraction_list) == 0 or \
+        len (operations_list) + 1 != len(fraction_list):
+        return False
+    ans = Fraction ()
+    #pass 1, solve division problems
+    while "/" in operations_list:
+        pos = operations_list.index ("/")
+        ans = fraction_list[pos] / fraction_list[pos+1]
+        fraction_list[pos] = ans
+        operations_list.remove("/")
+        fraction_list.remove(fraction_list[pos+1])
+    while "*" in operations_list: #pass 2, all multiplication operations are done
+        pos = operations_list.index ("*")
+        ans = fraction_list[pos] * fraction_list[pos+1]
+        fraction_list[pos] = ans
+        operations_list.remove("*")
+        fraction_list.remove(fraction_list[pos+1])
+    while "+" in operations_list: #pass 3 for addition operations
+        pos = operations_list.index ("+")
+        ans = fraction_list[pos] + fraction_list[pos+1]
+        fraction_list[pos] = ans
+        operations_list.remove("+")
+        fraction_list.remove(fraction_list[pos+1])
+    while "-" in operations_list: #pass 4 for subtraction
+        pos = operations_list.index ("-")
+        ans = fraction_list[pos] - fraction_list[pos+1]
+        fraction_list[pos] = ans
+        operations_list.remove("-")
+        fraction_list.remove(fraction_list[pos+1])
+    return ans
 
 
-functions = [bodmas_integers, bodmas_decimals] #, bodmas_fractions]
+
+def bodmas_mixed_fractions (num_operations = 4):
+    numbers_list = []
+    expression = None
+    if expression == None:
+        ops_list = __generate_operations(num_operations)
+        for i in range (0, num_operations + 1):
+            numbers_list.append(__generate_mixed_fraction ())
+        #Both numbers and operators are available.  Construct the mathematical expression
+        expression = __printable_expression(__printable_expression_fractions (numbers_list, ops_list))
+    answer = bodmas_fractions_solver(numbers_list, ops_list)
+    question = expression
+    return (question, answer)
+
+
+
+functions = [bodmas_integers, bodmas_decimals, bodmas_fractions, bodmas_mixed_fractions]
 
 
 def main():
     logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y%m%d %I:%M:%S %p',
                         filename='class.log', level=logging.INFO)
     unique_id = uuid.uuid1(1)
+
+    f_list = [Fraction (200, 2),Fraction (1,4),Fraction (2,3),Fraction (1,3),Fraction (2,3)]
+    ops_list = ["/", "*", "+", "-"]
+    bodmas_fractions_solver(f_list, ops_list)
 
     num_problems = 0
     while num_problems < 20:

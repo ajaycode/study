@@ -26,7 +26,7 @@ html_post_content = r'</body></html>'
 '''Generates a fraction ranging from 1...9/1..9'''
 def __generate_fraction ():
     f = Fraction(random.randint(1,9),random.randint(2,9) )
-    while f.denominator == 1: #eliminates fractions with a denominator of 1fr
+    while f.denominator == 1: #eliminates fractions with a denominator of 1frfr
         f = Fraction(random.randint(1,9),random.randint(2,9) )
     return f
 
