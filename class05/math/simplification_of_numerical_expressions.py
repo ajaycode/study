@@ -203,7 +203,7 @@ def bodmas_fractions_solver (fraction_list, operations_list):
 
 
 
-def bodmas_mixed_fractions (num_operations = 4):
+def bodmas_mixed_fractions (num_operations = 3):
     numbers_list = []
     expression = None
     if expression == None:
@@ -231,7 +231,7 @@ def main():
     bodmas_fractions_solver(f_list, ops_list)
 
     num_problems = 0
-    while num_problems < 20:
+    while num_problems < 30:
         for i in range(0, len(functions)):
             logging.info('Function : %s' % functions[i])
             f = functions[i]
