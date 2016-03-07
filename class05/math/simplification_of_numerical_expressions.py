@@ -231,7 +231,7 @@ def main():
     bodmas_fractions_solver(f_list, ops_list)
 
     num_problems = 0
-    while num_problems < 30:
+    while num_problems < 20:
         for i in range(0, len(functions)):
             logging.info('Function : %s' % functions[i])
             f = functions[i]
