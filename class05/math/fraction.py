@@ -197,7 +197,7 @@ def main():
         question, answer = f()
         questions.append(question)
         answers.append(answer)
-    html_text = "<h1>Decimals</h1>\n"
+    html_text = "<h1>Fractions</h1>\n"
     html_text += "<h2>Questions: {}</h2>\n".format(str(unique_id)[:8])
     html_text += r'<ol>'
     for i in range(0, len(questions)):

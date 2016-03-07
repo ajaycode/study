@@ -66,7 +66,7 @@ def main():
                         filename='class.log', level=logging.INFO)
     unique_id = uuid.uuid1(1)
 
-    for i in range (0, 10):
+    for i in range (0, 4):
         for i in range(0, len(functions)):
             logging.info('Function : %s' % functions[i])
             f = functions[i]
