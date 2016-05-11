@@ -189,10 +189,18 @@ def _least_common_multiple(number_list=[]):
             number_list.append(random.randint(11, 50))
     greatest = max(number_list)
     while (True):
-        if (greatest % number_list[0] == 0) and (greatest % number_list[1] == 0) and (greatest % number_list[2] == 0):
+        divisible = True
+        for i in range (0, list_length):
+            if greatest % number_list[i] == 0:
+                divisible = divisible and True
+            else:
+                greatest += 1
+                divisible = False
+                break #out of for loop
+        if divisible == True:
             lcm = greatest
             break
-        greatest += 1
+
     return (number_list, lcm)
 
 

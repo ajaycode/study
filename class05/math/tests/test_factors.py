@@ -1,6 +1,10 @@
+import unittest
 from unittest import TestCase
+import sys
 
 __author__ = 'Ajay'
+
+sys.path.append ('..\\')
 from factors import *
 
 
@@ -26,6 +30,8 @@ class TestFactors(TestCase):
         self.assertEqual(1440, least_common_multiple([45,32,16]))
         self.assertEqual(5208, least_common_multiple([31,24,14]))
         self.assertEqual(46512, least_common_multiple([323,272,153]))
+        self.assertEqual(1260, least_common_multiple([4,5,7,9]))
+        self.assertEqual(26180, least_common_multiple([4,5,7,11,17]))
         self.assertEqual((1530, 34), lcm_and_hcf([306, 170, 170]))
         self.assertEqual((6930, 9), lcm_and_hcf([90, 126, 99]))
         self.assertEqual(12, pole_spacing([60,36,84]))
@@ -39,3 +45,6 @@ class TestFactors(TestCase):
         self.assertEqual((60, [5,4]), students_running_circles([12, 15]))
         self.assertEqual((7, [3,5,7] ),  journey_time_minimum_hours([21, 35, 49]))
         self.assertEqual((2, [3,4,5]),   journey_time_minimum_hours([6, 8, 10]))
+
+if __name__ == '__main__':
+    unittest.main()
