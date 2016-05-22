@@ -80,11 +80,8 @@ def factors(number=0):
     return (factors)  # for unit testing
 
 
-def all_factors(number=0):
+def _all_factors(number=0):
     """Retrieves all the  prime factors of a number, even the duplicate prime factors"""
-    if (number <= 0):
-        number = random.randint(50, 999)
-    input = number
     factor_list = []
     if _is_prime(number):
         factor_list.append(number)
@@ -97,10 +94,16 @@ def all_factors(number=0):
                     number //= n
                     n = 1
             n = n + 1
+    return (factor_list)
+
+def all_factors (number = 0):
+    if (number <= 0):
+        number = random.randint(50, 999)
+    factor_list = _all_factors (number)
     question = "___"
     for i in range(0, len(factor_list) - 1):
         question = "{} X ___ ".format(question)
-    question = "{} = {}, where each number is a prime number".format(question, input)
+    question = "{} = {}, where each number is a prime number".format(question, number)
     print(question)
     answers.append(factor_list)
     return (factor_list)
@@ -260,7 +263,11 @@ def march_past (team_size=[]):
     if len (team_size) != 2 or 0 in team_size:
         people_per_row = random.randint(5,9)
         for i in range (0,2):
-            team_size.append(people_per_row * random.randint(4,8))
+            people = people_per_row * random.randint(4,8)
+            if i == 1: #ensure that both teams do not have the same number of people
+                while (people == team_size[0]):
+                    people = people_per_row * random.randint(4,8)
+            team_size.append(people)
     print ("Two gymnastic teams are marching at an event. There are {} members on one team and {} on the other"\
         .format (team_size[0], team_size[1]), "They are marching in rows of equal size that are as wide as possible.",\
            "How many people are in each row?")
@@ -281,8 +288,8 @@ def building_age (age_this_year=0):
             age_last_year = age_this_year - 1
 
     logging.info ("Age this year = {}".format(age_this_year))
-    factors_age_this_year = all_factors(age_this_year)
-    factors_age_last_year = all_factors (age_last_year)
+    factors_age_this_year = _all_factors(age_this_year)
+    factors_age_last_year = _all_factors (age_last_year)
     logging.info ("Factors: {} {}".format (factors_age_this_year, factors_age_last_year))
     number_list, lcm = _least_common_multiple([age_this_year, age_last_year])
     age_range = random.randint (5, 10)
@@ -383,6 +390,7 @@ def main():
     # random.seed (os.urandom(5))
     for i in range(0, len(functions)):
         logging.info('Function : %s' % functions[i])
+
         print ("{i}) ".format(i=i+1), end="")
         f = functions[i]
         f()
