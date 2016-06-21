@@ -3,9 +3,9 @@ from unittest import TestCase
 import sys
 
 __author__ = 'Ajay'
-
-sys.path.append ('..\\')
-from factors import *
+sys.path.append ('..\\..\\')  #path, if this tests are executed as python tests/test_factors.py
+sys.path.append ('..\\..\\..\\') # path, if these tests are executed from tests directory as python test_factors.py
+from class06.math.factors06 import *
 
 
 class TestFactors(TestCase):
@@ -45,6 +45,8 @@ class TestFactors(TestCase):
         self.assertEqual((60, [5,4]), students_running_circles([12, 15]))
         self.assertEqual((7, [3,5,7] ),  journey_time_minimum_hours([21, 35, 49]))
         self.assertEqual((2, [3,4,5]),   journey_time_minimum_hours([6, 8, 10]))
+        self.assertEqual(2, containers_hcf([38, 1160]))
+        self.assertEqual(16, containers_hcf([144, 176]))
 
 if __name__ == '__main__':
     unittest.main()
