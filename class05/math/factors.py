@@ -38,7 +38,9 @@ def nearest_primes():
     higher_prime = i
     answer = "Lower prime: {}, Higher prime: {}".format(lower_prime, higher_prime)
     answers.append(answer)
-    print("The prime numbers that are just before and after {} are _____ and _____.".format(number))
+    question = "The prime numbers that are just before and after {} are _____ and _____.".format(number)
+    print (question)
+    return (question, answer)
 
 
 def list_primes():
@@ -49,7 +51,9 @@ def list_primes():
         if _is_prime(i) == True:
             answer.append(i)
     answers.append(answer)
-    print("The prime numbers between {} and {} are ________".format(number, number + range_size))
+    question = "The prime numbers between {} and {} are ________".format(number, number + range_size)
+    print (question)
+    return (question, answer)
 
 
 def twin_primes():
@@ -61,7 +65,9 @@ def twin_primes():
     else:
         answer = "The numbers are not twin primes."
     answers.append(answer)
-    print("{} and {} are twin primes.  Yes or No?".format(first_prime, first_prime + 2))
+    question = "{} and {} are twin primes.  Yes or No?".format(first_prime, first_prime + 2)
+    print (question)
+    return (question, answer)
 
 
 def factors(number=0):
