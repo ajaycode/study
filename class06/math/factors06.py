@@ -10,11 +10,10 @@ from fractions import gcd
 import sys
 
 sys.path.append ('..\\..\\')
-from  class05.math.factors import _is_prime, _highest_common_factor, _least_common_multiple, _generate_unique_random_numbers  #all private functions
+from class05.math.factors import _is_prime, _highest_common_factor, _least_common_multiple, _generate_unique_random_numbers, answers  #all private functions
 from class05.math.factors import *  #public functions
 
 
-answers = []
 names = ['Rahul', 'Ganpat', 'Gaurav', 'Gautam','Girish']
 
 
@@ -22,11 +21,12 @@ def containers_hcf (capacity=[]):
     container_list = ["tubs", "tankers", "water tanks", "oil-ships"]
     if (len (capacity) != 2):
         capacity = []
-        capacity.append (random.randint (100,999))
-        capacity.append (random.randint (100,999))
-        _,hcf = _highest_common_factor([capacity[0], capacity[1]])
+        hcf = random.randint (12,29)
+        capacity.append (hcf * random.randint (20, 40))
+        capacity.append (hcf * random.randint (20, 40))
+        #_,hcf = _highest_common_factor([capacity[0], capacity[1]])
         while (capacity[0] == capacity[1] or hcf == 1):
-            capacity[0] = random.randint(100,999)
+            capacity[0] = random.randint(20, 40)
             _,hcf = _highest_common_factor([capacity[0], capacity[1]])
     container = container_list[random.randint(0, len(container_list)-1)]
     print ("Two {} contain {} liters and {} liters of liquid respectively.  Find the maximum capacity of a container which can measure the liquid of both tanks when used".format(container, capacity[0], capacity[1]),\
