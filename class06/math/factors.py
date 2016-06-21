@@ -7,6 +7,10 @@ import logging
 import os
 import uuid
 from fractions import gcd
+import sys
+
+sys.path.append ('..\\..\\class05\math')
+from factors import _highest_common_factor
 
 answers = []
 names = ['Rahul', 'Ganpat', 'Gaurav', 'Gautam','Girish']
@@ -143,33 +147,6 @@ def multiples(number=0, number_of_multiples=0):
     return (multiple_list)
 
 
-def _highest_common_factor(number_list=[]):
-    list_length = len(number_list)
-    if (len(number_list) <= 1):
-        list_length = random.randint(2, 3)
-        logging.info("list_length = {}.".format(list_length))
-        hcf = random.randint(5, 12)
-        for i in range(0, list_length):
-            logging.info("index i : {}".format(i))
-            number_list.append(hcf * random.randint(2, 25))
-        logging.info("Number_list = {}".format(number_list))
-    ordered_list = list(number_list)
-    ordered_list.sort()
-    logging.info("ordered_list = {}".format(ordered_list))
-    numerator, denominator = ordered_list.pop(list_length - 1), ordered_list.pop(list_length - 2)
-    num_iterations = len(number_list) - 1
-
-    while (num_iterations > 0):
-        while (numerator % denominator != 0):
-            numerator, denominator = denominator, numerator % denominator
-            logging.info("numerator = {}, denominator = {}, remainder = {}".format(numerator, denominator,
-                                                                                   numerator % denominator))
-        if (len(ordered_list) > 0):
-            numerator = ordered_list.pop()
-        num_iterations = num_iterations - 1
-    # print ("The HCF of {} is _____.".format (number_list))
-    #answers.append (denominator)
-    return (number_list, denominator)
 
 
 def highest_common_factor(number_list=[]):
@@ -370,10 +347,28 @@ def journey_time_minimum_hours (hours_per_person=[]):
     answers.append ("Hours per day: {}, Days per person : {}".format (hcf, days_per_person))
     return (hcf, days_per_person)
 
+def containers_hcf (capacity=[]):
+    container_list = ["tubs", "tankers", "water tanks", "oil-ships"]
+    if (len (capacity) != 2):
+        capacity = []
+        capacity.append (random.randint (100,999))
+        capacity.append (random.randint (100,999))
+        _,hcf = _highest_common_factor([capacity[0], capacity[1]])
+        while (capacity[0] == capacity[1] or hcf == 1):
+            capacity[0] = random.randint(100,999)
+            _,hcf = _highest_common_factor([capacity[0], capacity[1]])
+    container = container_list[random.randint(0, len(container_list)-1)]
+    print ("Two {} contain {} liters and {} liters of liquid respectively.  Find the maximum capacity of a container which can measure the liquid of both tanks when used".format(container, capacity[0], capacity[1]),\
+    " an exact number of times.")
+    _,answer = _highest_common_factor([capacity[0], capacity[1]])
+    answers.append (answer)
+    return (answer)
+
+
 
 functions = [nearest_primes, list_primes, twin_primes, factors, multiples, all_factors, consecutive_primes, \
              highest_common_factor, least_common_multiple, lcm_and_hcf, pole_spacing, stamp_distribution,\
-             march_past, building_age, chocolate_distribution, students_in_class, students_running_circles, journey_time_minimum_hours]
+             march_past, building_age, chocolate_distribution, students_in_class, students_running_circles, journey_time_minimum_hours, containers_hcf]
 
 
 def squat():
